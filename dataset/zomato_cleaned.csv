@@ -1,0 +1,1281 @@
+Restaurant_Name,City,Area,Cuisines,Restaurant_Type,Online_Order,Book_Table,Rating,Votes,Cost_For_Two,Value_Score,Price_Category
+The Taste of India,Bangalore,Indiranagar,Italian,Casual Dining,Yes,Yes,3.4,1166,1158,0.2936,Premium
+The Cloud Kitchen,Bangalore,Indiranagar,"Cafe, North Indian, Thai",Delivery,Yes,No,3.6,469,212,1.6981,Budget
+Food Hub,Bangalore,HSR Layout,"Italian, Biryani",Fine Dining,Yes,No,3.9,398,3056,0.1276,Luxury
+Restaurant Cloud Kitchen,Bangalore,Whitefield,"Chinese, Thai",Casual Dining,Yes,No,4.5,1232,770,0.5844,Mid-Range
+Hotel Fusion Bites,Bangalore,Indiranagar,Fast Food,Casual Dining,Yes,No,4.5,808,566,0.7951,Affordable
+The Burger Barn,Bangalore,Koramangala,Rajasthani,Delivery,Yes,No,3.8,234,385,0.987,Affordable
+Shree Pizza Palace,Bangalore,Whitefield,"Italian, Chinese",Food Court,Yes,No,4.3,227,261,1.6475,Budget
+Cafe Grill House,Bangalore,HSR Layout,Thai,Cafe,Yes,No,3.8,867,997,0.3811,Mid-Range
+Shree Grill House,Bangalore,Whitefield,Fast Food,Casual Dining,Yes,Yes,4.2,180,1010,0.4158,Premium
+Grill House,Bangalore,Indiranagar,"Fast Food, Thai, Italian",Quick Bites,No,No,3.8,474,180,2.1111,Budget
+Shree Spice Garden,Bangalore,Koramangala,"Street Food, Punjabi, Mughlai",Casual Dining,Yes,No,4.0,1136,1197,0.3342,Premium
+New Cloud Kitchen,Bangalore,Indiranagar,"Continental, South Indian",Food Court,Yes,No,2.7,507,474,0.5696,Affordable
+Sweet Tooth,Bangalore,Whitefield,"Gujarati, Thai, Pizza",Cafe,Yes,No,3.8,1154,616,0.6169,Mid-Range
+The Burger Barn,Bangalore,Koramangala,"Rajasthani, Fast Food, Continental",Bakery,Yes,No,3.7,612,217,1.7051,Budget
+Shree Burger Barn,Bangalore,HSR Layout,"Chinese, Punjabi",Quick Bites,Yes,No,2.9,750,167,1.7365,Budget
+Hotel Food Hub,Bangalore,HSR Layout,Fast Food,Fine Dining,Yes,No,4.3,1969,3412,0.126,Luxury
+Hotel Dhaba Express,Bangalore,BTM Layout,Continental,Food Court,Yes,No,2.8,295,193,1.4508,Budget
+Food Hub,Bangalore,Indiranagar,Thai,Casual Dining,No,No,4.6,390,642,0.7165,Mid-Range
+New Urban Kitchen,Bangalore,HSR Layout,Seafood,Fine Dining,Yes,No,4.3,1626,3232,0.133,Luxury
+New Grill House,Bangalore,Indiranagar,Street Food,Cafe,Yes,Yes,4.3,692,462,0.9307,Affordable
+Royal Taste of India,Bangalore,HSR Layout,"Chinese, Pizza, Cafe",Quick Bites,Yes,No,3.0,593,161,1.8634,Budget
+Hotel Spice Garden,Bangalore,HSR Layout,"Mughlai, Desserts",Food Court,Yes,No,3.8,478,253,1.502,Budget
+New Flavor Town,Bangalore,Whitefield,Thai,Casual Dining,Yes,Yes,4.6,550,470,0.9787,Affordable
+Royal Curry Leaf,Bangalore,Whitefield,"Thai, Street Food, Fast Food",Quick Bites,No,Yes,2.7,770,154,1.7532,Budget
+Cloud Kitchen,Bangalore,Indiranagar,"Italian, Punjabi, Gujarati",Delivery,Yes,No,2.6,443,424,0.6132,Affordable
+Momo Point,Bangalore,BTM Layout,Rajasthani,Dessert Parlour,Yes,No,2.5,717,138,1.8116,Budget
+Hotel Kebab King,Bangalore,BTM Layout,"Biryani, South Indian",Cafe,Yes,No,4.4,782,440,1.0,Affordable
+Urban Kitchen,Bangalore,Indiranagar,"Biryani, Continental, Pizza",Fine Dining,No,No,4.8,567,1601,0.2998,Premium
+Restaurant Burger Barn,Bangalore,Koramangala,Fast Food,Dessert Parlour,Yes,Yes,3.4,481,202,1.6832,Budget
+New The Hungry Tiger,Bangalore,Koramangala,"Desserts, Italian",Delivery,No,No,3.1,531,428,0.7243,Affordable
+Royal Grill House,Bangalore,Koramangala,"Pizza, Mexican",Casual Dining,No,Yes,3.4,757,844,0.4028,Mid-Range
+Restaurant Kebab King,Bangalore,HSR Layout,"Mughlai, Italian, South Indian",Fine Dining,No,Yes,4.8,1606,3705,0.1296,Luxury
+Cafe Curry Leaf,Bangalore,HSR Layout,"Desserts, Cafe, Fast Food",Casual Dining,No,No,3.7,718,818,0.4523,Mid-Range
+Dhaba Express,Bangalore,HSR Layout,"Pizza, Mexican, Street Food",Fine Dining,Yes,No,4.1,1080,2360,0.1737,Luxury
+Royal The Hungry Tiger,Bangalore,Koramangala,"Mughlai, Punjabi, Gujarati",Bakery,No,No,4.0,96,437,0.9153,Affordable
+Royal Curry Leaf,Bangalore,HSR Layout,"Street Food, Continental, Mughlai",Delivery,Yes,Yes,4.5,796,412,1.0922,Affordable
+New Dhaba Express,Bangalore,Koramangala,"Continental, Biryani",Bakery,No,Yes,4.0,119,494,0.8097,Affordable
+Shree Fusion Bites,Bangalore,BTM Layout,Rajasthani,Delivery,Yes,No,3.6,619,386,0.9326,Affordable
+Restaurant Saffron,Bangalore,HSR Layout,"Rajasthani, Pizza, Gujarati",Fine Dining,Yes,No,4.7,1768,2635,0.1784,Luxury
+Restaurant Taste of India,Bangalore,HSR Layout,"Street Food, Continental, Italian",Casual Dining,Yes,No,3.3,523,554,0.5957,Affordable
+Royal Sweet Tooth,Bangalore,HSR Layout,"Thai, Rajasthani",Fine Dining,Yes,Yes,3.8,1624,3892,0.0976,Luxury
+Restaurant Chaat Junction,Bangalore,Indiranagar,"Street Food, Seafood",Quick Bites,No,No,3.3,762,482,0.6846,Affordable
+Royal Tiffin Box,Bangalore,Koramangala,"Gujarati, North Indian",Dessert Parlour,Yes,No,4.1,179,470,0.8723,Affordable
+The Hungry Tiger,Bangalore,HSR Layout,"Mexican, North Indian, Chinese",Fine Dining,Yes,Yes,4.3,732,1705,0.2522,Premium
+The Cloud Kitchen,Bangalore,Koramangala,"Italian, Chinese",Dessert Parlour,Yes,No,2.6,368,587,0.4429,Affordable
+Cloud Kitchen,Bangalore,Whitefield,North Indian,Delivery,Yes,Yes,3.4,587,158,2.1519,Budget
+Flavor Town,Bangalore,Indiranagar,"Cafe, Fast Food, Pizza",Cafe,No,Yes,3.2,1229,719,0.4451,Mid-Range
+Taste of India,Bangalore,BTM Layout,"Continental, Fast Food, Street Food",Casual Dining,No,No,3.4,134,979,0.3473,Mid-Range
+New Classic Dining,Bangalore,Whitefield,Bengali,Food Court,No,Yes,4.4,480,425,1.0353,Affordable
+Shree Momo Point,Bangalore,BTM Layout,"Bengali, Mexican",Bakery,Yes,No,4.2,295,144,2.9167,Budget
+Tiffin Box,Bangalore,Koramangala,"North Indian, Gujarati",Fine Dining,No,Yes,4.0,897,2558,0.1564,Luxury
+The Taste of India,Bangalore,Whitefield,Continental,Delivery,No,No,4.0,497,453,0.883,Affordable
+Flavor Town,Bangalore,HSR Layout,"Continental, Street Food",Delivery,No,No,3.6,445,276,1.3043,Budget
+Shree Saffron,Bangalore,BTM Layout,"Italian, Continental",Dessert Parlour,Yes,Yes,2.7,790,374,0.7219,Affordable
+The Tiffin Box,Bangalore,Whitefield,Mughlai,Dessert Parlour,Yes,No,3.1,556,462,0.671,Affordable
+Hotel Taste of India,Bangalore,HSR Layout,"Gujarati, Fast Food, North Indian",Cafe,Yes,No,3.9,155,588,0.6633,Affordable
+New Cloud Kitchen,Bangalore,HSR Layout,Mexican,Bakery,Yes,Yes,2.8,321,388,0.7216,Affordable
+Hotel Cloud Kitchen,Bangalore,Indiranagar,"Seafood, Rajasthani, Mexican",Delivery,Yes,No,3.4,645,391,0.8696,Affordable
+The Burger Barn,Bangalore,Whitefield,"Chinese, Pizza",Delivery,Yes,No,2.8,471,309,0.9061,Affordable
+Cafe Saffron,Bangalore,Indiranagar,"Rajasthani, Chinese, Continental",Dessert Parlour,No,No,3.8,212,438,0.8676,Affordable
+Saffron,Bangalore,BTM Layout,Pizza,Casual Dining,No,No,4.4,949,695,0.6331,Mid-Range
+Royal Momo Point,Bangalore,Koramangala,"Chinese, South Indian",Bakery,No,No,3.7,103,113,3.2743,Budget
+Hotel Chaat Junction,Bangalore,Whitefield,"South Indian, Pizza, Gujarati",Dessert Parlour,Yes,No,3.1,456,399,0.7769,Affordable
+New Food Hub,Bangalore,HSR Layout,"Desserts, Fast Food",Fine Dining,No,No,4.6,1556,2680,0.1716,Luxury
+The Curry Leaf,Bangalore,BTM Layout,"Italian, Desserts",Casual Dining,Yes,No,4.5,1396,401,1.1222,Affordable
+Royal Burger Barn,Bangalore,Indiranagar,"Gujarati, Rajasthani, South Indian",Food Court,Yes,No,4.4,511,324,1.358,Affordable
+Grill House,Bangalore,Whitefield,"North Indian, Thai, Bengali",Dessert Parlour,Yes,No,4.3,130,336,1.2798,Affordable
+Hotel Saffron,Bangalore,HSR Layout,"Gujarati, Continental",Fine Dining,Yes,Yes,4.0,1240,3955,0.1011,Luxury
+Shree Kebab King,Bangalore,Whitefield,"Italian, North Indian, Street Food",Food Court,No,No,3.7,511,437,0.8467,Affordable
+Sweet Tooth,Bangalore,Indiranagar,"Desserts, Mughlai",Fine Dining,No,Yes,4.2,289,3182,0.132,Luxury
+The Aroma Restaurant,Bangalore,Indiranagar,Biryani,Bakery,Yes,No,4.2,460,547,0.7678,Affordable
+New Sweet Tooth,Bangalore,Whitefield,"Biryani, Chinese, Gujarati",Fine Dining,No,Yes,4.5,1530,3128,0.1439,Luxury
+Hotel Dhaba Express,Bangalore,Indiranagar,"South Indian, Chinese, Continental",Bakery,Yes,No,4.5,102,482,0.9336,Affordable
+Cafe Dosa Corner,Bangalore,Indiranagar,South Indian,Dessert Parlour,Yes,Yes,3.2,159,320,1.0,Affordable
+Shree Masala Twist,Bangalore,BTM Layout,"Seafood, Continental, Gujarati",Casual Dining,No,Yes,3.9,511,660,0.5909,Mid-Range
+Restaurant Sweet Tooth,Bangalore,HSR Layout,Rajasthani,Cafe,No,No,3.6,1463,834,0.4317,Mid-Range
+Spice Garden,Bangalore,BTM Layout,Seafood,Casual Dining,Yes,No,4.7,94,702,0.6695,Mid-Range
+Cafe Classic Dining,Bangalore,Koramangala,"Gujarati, Street Food, Continental",Quick Bites,Yes,No,3.8,266,417,0.9113,Affordable
+Cafe Tiffin Box,Bangalore,Whitefield,"Rajasthani, South Indian",Quick Bites,Yes,No,2.7,344,251,1.0757,Budget
+Shree Taste of India,Bangalore,Indiranagar,Italian,Dessert Parlour,No,No,4.4,774,251,1.753,Budget
+Momo Point,Bangalore,HSR Layout,"Seafood, Thai, Beverages",Delivery,Yes,No,3.0,475,163,1.8405,Budget
+Shree Flavor Town,Bangalore,Whitefield,Continental,Food Court,Yes,No,4.4,634,267,1.6479,Budget
+Dhaba Express,Bangalore,Whitefield,Biryani,Fine Dining,Yes,Yes,4.9,399,1975,0.2481,Premium
+Shree Burger Barn,Bangalore,Whitefield,"Biryani, Bengali, Fast Food",Fine Dining,No,No,4.8,267,2645,0.1815,Luxury
+Royal Spice Garden,Bangalore,Koramangala,"Beverages, Thai, Cafe",Casual Dining,Yes,Yes,4.7,237,865,0.5434,Mid-Range
+Restaurant The Hungry Tiger,Bangalore,Indiranagar,Biryani,Food Court,No,Yes,4.2,222,383,1.0966,Affordable
+Restaurant Momo Point,Bangalore,Whitefield,"Biryani, Cafe",Quick Bites,Yes,No,2.7,36,543,0.4972,Affordable
+New Momo Point,Bangalore,Koramangala,Italian,Quick Bites,Yes,No,3.6,75,481,0.7484,Affordable
+Shree Taste of India,Bangalore,Koramangala,"Continental, South Indian, Punjabi",Bakery,Yes,No,2.6,421,345,0.7536,Affordable
+Shree Grill House,Bangalore,BTM Layout,"Biryani, Chinese, Cafe",Food Court,Yes,No,3.6,400,266,1.3534,Budget
+Dhaba Express,Bangalore,HSR Layout,Fast Food,Fine Dining,No,No,4.6,1080,2380,0.1933,Luxury
+Biryani House,Bangalore,Whitefield,"Fast Food, Desserts, Bengali",Fine Dining,Yes,Yes,4.8,337,3442,0.1395,Luxury
+Fusion Bites,Bangalore,Whitefield,"South Indian, Mexican, Thai",Cafe,Yes,No,3.8,916,1081,0.3515,Premium
+Hotel Cloud Kitchen,Bangalore,Whitefield,Mexican,Food Court,Yes,Yes,3.5,120,533,0.6567,Affordable
+The Hungry Tiger,Bangalore,Whitefield,"Thai, Cafe",Delivery,Yes,No,4.2,39,236,1.7797,Budget
+Noodle Box,Bangalore,HSR Layout,Biryani,Quick Bites,Yes,No,2.8,41,424,0.6604,Affordable
+Royal Food Hub,Bangalore,Koramangala,Beverages,Food Court,Yes,No,4.4,96,405,1.0864,Affordable
+Royal Chaat Junction,Bangalore,BTM Layout,"Bengali, Gujarati",Dessert Parlour,Yes,No,2.9,126,362,0.8011,Affordable
+The Hungry Tiger,Bangalore,Koramangala,Continental,Dessert Parlour,Yes,No,2.5,226,254,0.9843,Budget
+The Noodle Box,Bangalore,Koramangala,"Bengali, Pizza",Quick Bites,Yes,No,3.0,694,386,0.7772,Affordable
+Dosa Corner,Bangalore,BTM Layout,Desserts,Bakery,Yes,No,3.9,511,313,1.246,Affordable
+Burger Barn,Bangalore,Whitefield,"Beverages, Chinese, Bengali",Bakery,No,Yes,3.7,90,368,1.0054,Affordable
+Cafe Burger Barn,Bangalore,Koramangala,Punjabi,Cafe,Yes,No,3.5,765,1194,0.2931,Premium
+Royal Dhaba Express,Bangalore,BTM Layout,"Mughlai, Pizza",Cafe,Yes,No,4.2,1336,581,0.7229,Affordable
+Dhaba Express,Bangalore,HSR Layout,"Desserts, Biryani, Rajasthani",Food Court,Yes,No,3.1,615,240,1.2917,Budget
+Shree Momo Point,Bangalore,BTM Layout,Beverages,Quick Bites,No,Yes,4.2,102,537,0.7821,Affordable
+Flavor Town,Bangalore,Koramangala,"Mexican, Mughlai",Quick Bites,Yes,No,2.8,471,131,2.1374,Budget
+Noodle Box,Bangalore,Whitefield,Continental,Cafe,No,No,4.0,375,1024,0.3906,Premium
+Cafe The Hungry Tiger,Bangalore,Koramangala,"Desserts, Chinese, Cafe",Quick Bites,Yes,No,3.1,682,470,0.6596,Affordable
+Cafe Urban Kitchen,Bangalore,BTM Layout,"Street Food, Seafood",Cafe,Yes,No,3.3,821,972,0.3395,Mid-Range
+Cafe Taste of India,Bangalore,Whitefield,"Bengali, Punjabi, Beverages",Casual Dining,Yes,No,4.6,1045,749,0.6142,Mid-Range
+Royal Dosa Corner,Bangalore,HSR Layout,"Thai, Punjabi, South Indian",Casual Dining,No,No,4.1,821,1011,0.4055,Premium
+Shree Curry Leaf,Bangalore,Whitefield,"Beverages, Continental",Quick Bites,No,No,4.0,469,501,0.7984,Affordable
+Shree Kebab King,Bangalore,BTM Layout,"Street Food, Seafood",Bakery,Yes,No,2.8,629,202,1.3861,Budget
+Restaurant Dhaba Express,Bangalore,Whitefield,"Punjabi, Fast Food, Street Food",Casual Dining,Yes,Yes,3.9,351,925,0.4216,Mid-Range
+Pizza Palace,Bangalore,Indiranagar,"South Indian, Seafood",Quick Bites,Yes,Yes,3.8,239,291,1.3058,Budget
+Cafe Tiffin Box,Bangalore,BTM Layout,"Gujarati, Biryani",Quick Bites,No,No,3.8,91,563,0.675,Affordable
+Royal Tiffin Box,Bangalore,Koramangala,Street Food,Fine Dining,Yes,Yes,4.1,328,3372,0.1216,Luxury
+Taste of India,Bangalore,BTM Layout,"Biryani, Street Food, Bengali",Delivery,Yes,No,3.6,690,195,1.8462,Budget
+Hotel Cloud Kitchen,Bangalore,BTM Layout,"Gujarati, South Indian",Quick Bites,Yes,No,3.0,375,108,2.7778,Budget
+Cafe Pizza Palace,Bangalore,Koramangala,South Indian,Food Court,Yes,No,3.8,711,525,0.7238,Affordable
+New Chaat Junction,Bangalore,Whitefield,Street Food,Bakery,Yes,No,4.3,327,261,1.6475,Budget
+Aroma Restaurant,Bangalore,HSR Layout,"Mughlai, Street Food, Beverages",Quick Bites,No,Yes,3.8,137,239,1.59,Budget
+Fusion Bites,Bangalore,Indiranagar,"Pizza, Gujarati",Fine Dining,No,No,4.7,1840,2592,0.1813,Luxury
+Shree Food Hub,Bangalore,Whitefield,"Fast Food, Chinese",Dessert Parlour,Yes,Yes,3.4,446,467,0.7281,Affordable
+Shree Food Hub,Bangalore,Indiranagar,"South Indian, Chinese",Fine Dining,No,No,4.4,263,2155,0.2042,Luxury
+Shree Cloud Kitchen,Bangalore,Koramangala,Beverages,Casual Dining,Yes,No,3.2,1440,557,0.5745,Affordable
+New Biryani House,Bangalore,Whitefield,"Beverages, Seafood, Desserts",Cafe,Yes,Yes,3.4,431,1153,0.2949,Premium
+Shree Taste of India,Bangalore,Whitefield,"Rajasthani, Mughlai, Street Food",Dessert Parlour,No,No,2.9,85,169,1.716,Budget
+New Burger Barn,Bangalore,Koramangala,"Chinese, Thai, Mexican",Food Court,Yes,Yes,2.8,727,463,0.6048,Affordable
+Royal Taste of India,Bangalore,Koramangala,Continental,Delivery,No,Yes,3.6,488,288,1.25,Budget
+New Kebab King,Bangalore,Indiranagar,"Gujarati, Punjabi",Dessert Parlour,Yes,No,3.6,334,164,2.1951,Budget
+Restaurant Kebab King,Bangalore,BTM Layout,Bengali,Cafe,Yes,No,4.4,363,930,0.4731,Mid-Range
+Cafe Momo Point,Bangalore,BTM Layout,Italian,Dessert Parlour,Yes,No,3.0,320,420,0.7143,Affordable
+The Classic Dining,Bangalore,BTM Layout,Cafe,Cafe,No,No,4.5,511,977,0.4606,Mid-Range
+Restaurant Urban Kitchen,Bangalore,HSR Layout,"Mughlai, Mexican, Bengali",Dessert Parlour,Yes,Yes,4.3,306,379,1.1346,Affordable
+Aroma Restaurant,Bangalore,Whitefield,"Chinese, South Indian",Dessert Parlour,Yes,No,3.4,631,274,1.2409,Budget
+The Masala Twist,Bangalore,HSR Layout,Beverages,Fine Dining,Yes,Yes,4.1,747,2001,0.2049,Luxury
+Shree Chaat Junction,Bangalore,Whitefield,Pizza,Fine Dining,No,No,4.6,1762,2277,0.202,Luxury
+Shree Fusion Bites,Bangalore,HSR Layout,Chinese,Bakery,No,No,4.4,607,210,2.0952,Budget
+New Curry Leaf,Bangalore,Whitefield,"North Indian, Fast Food, Bengali",Dessert Parlour,Yes,Yes,3.8,384,306,1.2418,Affordable
+Hotel Sweet Tooth,Bangalore,Whitefield,Seafood,Dessert Parlour,Yes,No,3.1,706,419,0.7399,Affordable
+New Dhaba Express,Bangalore,Indiranagar,"Beverages, Biryani, Mughlai",Food Court,Yes,No,2.6,150,119,2.1849,Budget
+New Chaat Junction,Bangalore,BTM Layout,"Cafe, Desserts",Cafe,Yes,No,4.3,1265,706,0.6091,Mid-Range
+Royal Chaat Junction,Bangalore,Whitefield,"North Indian, Beverages",Dessert Parlour,Yes,Yes,3.3,752,257,1.284,Budget
+The Momo Point,Bangalore,Koramangala,"South Indian, Mexican, Gujarati",Delivery,Yes,No,3.7,399,530,0.6981,Affordable
+The Flavor Town,Bangalore,Indiranagar,Rajasthani,Delivery,Yes,Yes,3.9,523,310,1.2581,Affordable
+Fusion Bites,Bangalore,HSR Layout,"Desserts, Gujarati, Punjabi",Delivery,Yes,No,3.4,360,372,0.914,Affordable
+Shree The Hungry Tiger,Bangalore,HSR Layout,Italian,Delivery,Yes,Yes,4.4,799,252,1.746,Budget
+Food Hub,Bangalore,Whitefield,"Italian, Street Food, Fast Food",Food Court,Yes,No,4.3,363,302,1.4238,Affordable
+Royal Aroma Restaurant,Bangalore,BTM Layout,"Rajasthani, Italian",Casual Dining,No,Yes,4.4,1201,677,0.6499,Mid-Range
+Hotel Urban Kitchen,Bangalore,Indiranagar,South Indian,Delivery,No,No,3.8,112,126,3.0159,Budget
+Hotel Classic Dining,Bangalore,BTM Layout,"Pizza, Bengali, Gujarati",Quick Bites,Yes,Yes,4.4,302,264,1.6667,Budget
+Food Hub,Bangalore,Koramangala,"South Indian, Pizza, Bengali",Delivery,No,Yes,4.3,416,528,0.8144,Affordable
+Restaurant Biryani House,Bangalore,Whitefield,"Cafe, Fast Food, Desserts",Dessert Parlour,Yes,No,3.6,147,352,1.0227,Affordable
+Noodle Box,Bangalore,BTM Layout,"Rajasthani, Italian, Pizza",Cafe,Yes,No,3.6,445,1090,0.3303,Premium
+Shree Cloud Kitchen,Bangalore,Whitefield,Seafood,Food Court,No,Yes,3.8,264,265,1.434,Budget
+Urban Kitchen,Bangalore,BTM Layout,"Mexican, Cafe",Food Court,Yes,No,3.9,693,131,2.9771,Budget
+Flavor Town,Bangalore,BTM Layout,"Fast Food, Street Food, Beverages",Dessert Parlour,Yes,Yes,2.8,475,178,1.573,Budget
+New Curry Leaf,Bangalore,BTM Layout,"Mughlai, Continental, Chinese",Bakery,Yes,No,3.2,587,569,0.5624,Affordable
+Shree Food Hub,Bangalore,HSR Layout,Desserts,Cafe,No,No,4.2,1244,1134,0.3704,Premium
+Restaurant Momo Point,Bangalore,Koramangala,"Bengali, Rajasthani, South Indian",Cafe,Yes,No,3.7,511,422,0.8768,Affordable
+Cafe Cloud Kitchen,Bangalore,HSR Layout,"Beverages, Chinese",Quick Bites,Yes,Yes,3.8,493,578,0.6574,Affordable
+Cafe Tiffin Box,Bangalore,HSR Layout,"Rajasthani, Seafood",Food Court,Yes,No,3.8,146,376,1.0106,Affordable
+Shree Kebab King,Bangalore,Indiranagar,"Continental, North Indian, Mexican",Cafe,No,No,4.3,1139,834,0.5156,Mid-Range
+Royal Food Hub,Bangalore,HSR Layout,Fast Food,Dessert Parlour,Yes,No,3.7,26,579,0.639,Affordable
+Restaurant Aroma Restaurant,Bangalore,BTM Layout,South Indian,Quick Bites,Yes,Yes,2.9,67,542,0.5351,Affordable
+Royal Aroma Restaurant,Bangalore,Indiranagar,"Cafe, Desserts, Continental",Food Court,Yes,Yes,3.8,433,213,1.784,Budget
+Dosa Corner,Bangalore,BTM Layout,"Gujarati, South Indian, Beverages",Fine Dining,No,No,4.7,1626,2805,0.1676,Luxury
+New Grill House,Bangalore,Indiranagar,Continental,Bakery,Yes,No,4.1,69,568,0.7218,Affordable
+The Saffron,Bangalore,HSR Layout,Italian,Fine Dining,Yes,No,4.8,389,3019,0.159,Luxury
+Spice Garden,Bangalore,Indiranagar,Mughlai,Quick Bites,No,No,3.8,500,211,1.8009,Budget
+Shree Tiffin Box,Bangalore,Whitefield,"Fast Food, Gujarati, Continental",Delivery,No,No,3.3,575,222,1.4865,Budget
+Restaurant Kebab King,Bangalore,Whitefield,"Beverages, Punjabi",Dessert Parlour,No,No,4.1,490,469,0.8742,Affordable
+Cafe Curry Leaf,Bangalore,Whitefield,Mexican,Fine Dining,No,No,3.8,1396,3766,0.1009,Luxury
+Shree Dhaba Express,Bangalore,Indiranagar,"Mexican, Continental",Delivery,Yes,No,3.9,791,231,1.6883,Budget
+Hotel Urban Kitchen,Bangalore,Koramangala,Biryani,Food Court,No,No,4.3,667,377,1.1406,Affordable
+Royal Chaat Junction,Bangalore,HSR Layout,"Biryani, Continental",Quick Bites,Yes,Yes,2.9,392,333,0.8709,Affordable
+Dosa Corner,Bangalore,Koramangala,Thai,Quick Bites,Yes,Yes,3.6,511,240,1.5,Budget
+Royal Burger Barn,Bangalore,Indiranagar,"Biryani, Continental, Mughlai",Casual Dining,Yes,Yes,3.7,211,806,0.4591,Mid-Range
+Classic Dining,Mumbai,Juhu,"Chinese, South Indian, Cafe",Dessert Parlour,Yes,No,3.5,19,426,0.8216,Affordable
+Tiffin Box,Mumbai,Colaba,"South Indian, Continental, Mughlai",Casual Dining,No,No,4.1,145,677,0.6056,Mid-Range
+Dosa Corner,Mumbai,Colaba,Desserts,Quick Bites,Yes,Yes,2.8,739,520,0.5385,Affordable
+Food Hub,Mumbai,Bandra,"Seafood, Thai, Desserts",Delivery,Yes,No,4.1,751,452,0.9071,Affordable
+Shree Chaat Junction,Mumbai,Andheri,Chinese,Fine Dining,Yes,No,4.9,1784,3124,0.1569,Luxury
+Hotel Saffron,Mumbai,Andheri,"Seafood, Bengali, Pizza",Food Court,No,No,2.7,312,416,0.649,Affordable
+Hotel Dosa Corner,Mumbai,Powai,"Biryani, Seafood, Desserts",Fine Dining,Yes,Yes,4.8,937,3321,0.1445,Luxury
+The Masala Twist,Mumbai,Powai,"Thai, Punjabi, Bengali",Bakery,Yes,Yes,3.6,622,405,0.8889,Affordable
+Saffron,Mumbai,Powai,Thai,Fine Dining,No,No,4.4,1603,2194,0.2005,Luxury
+Shree Fusion Bites,Mumbai,Colaba,Pizza,Cafe,Yes,No,3.9,789,478,0.8159,Affordable
+Noodle Box,Mumbai,Colaba,"Fast Food, Biryani",Delivery,Yes,No,3.2,399,417,0.7674,Affordable
+Royal Burger Barn,Mumbai,Juhu,"Desserts, Mughlai",Cafe,Yes,Yes,3.8,646,726,0.5234,Mid-Range
+Shree Flavor Town,Mumbai,Andheri,"Seafood, Beverages",Fine Dining,Yes,No,4.5,568,3734,0.1205,Luxury
+Taste of India,Mumbai,Powai,"Chinese, Bengali",Bakery,No,Yes,3.1,684,229,1.3537,Budget
+Royal Classic Dining,Mumbai,Bandra,"Seafood, Thai, Punjabi",Bakery,No,No,3.3,378,118,2.7966,Budget
+Noodle Box,Mumbai,Bandra,Beverages,Casual Dining,Yes,No,4.0,1437,1060,0.3774,Premium
+Shree Cloud Kitchen,Mumbai,Colaba,Italian,Quick Bites,Yes,No,3.6,599,452,0.7965,Affordable
+Restaurant Grill House,Mumbai,Powai,"North Indian, Gujarati",Cafe,Yes,No,4.6,340,518,0.888,Affordable
+Hotel Urban Kitchen,Mumbai,Andheri,"Fast Food, Rajasthani",Food Court,No,No,2.6,737,122,2.1311,Budget
+Sweet Tooth,Mumbai,Bandra,"Pizza, Thai, Cafe",Delivery,Yes,No,3.4,424,508,0.6693,Affordable
+Hotel Tiffin Box,Mumbai,Andheri,"Mexican, Bengali",Delivery,Yes,No,2.9,730,485,0.5979,Affordable
+Momo Point,Mumbai,Bandra,"Mughlai, Rajasthani",Food Court,Yes,No,3.5,664,594,0.5892,Affordable
+Hotel Burger Barn,Mumbai,Juhu,"Rajasthani, Pizza",Food Court,No,No,3.1,614,414,0.7488,Affordable
+New Flavor Town,Mumbai,Andheri,Beverages,Casual Dining,No,No,3.8,1227,541,0.7024,Affordable
+Tiffin Box,Mumbai,Colaba,"Street Food, Biryani",Cafe,Yes,No,4.1,69,767,0.5346,Mid-Range
+The Saffron,Mumbai,Andheri,"Gujarati, Bengali",Bakery,No,No,2.8,41,389,0.7198,Affordable
+New Kebab King,Mumbai,Colaba,Rajasthani,Dessert Parlour,Yes,No,3.5,125,361,0.9695,Affordable
+Shree Saffron,Mumbai,Juhu,"Rajasthani, Thai, Mughlai",Quick Bites,No,Yes,4.2,263,484,0.8678,Affordable
+Cafe Curry Leaf,Mumbai,Andheri,"Fast Food, Continental",Casual Dining,Yes,No,4.2,1299,1127,0.3727,Premium
+New Urban Kitchen,Mumbai,Bandra,"Beverages, Thai, Italian",Quick Bites,Yes,Yes,4.5,306,249,1.8072,Budget
+Chaat Junction,Mumbai,Andheri,"South Indian, Italian",Cafe,No,Yes,4.5,349,655,0.687,Mid-Range
+Dhaba Express,Mumbai,Powai,"Bengali, Seafood, Rajasthani",Dessert Parlour,Yes,No,4.0,537,306,1.3072,Affordable
+Restaurant Chaat Junction,Mumbai,Juhu,"North Indian, Chinese, Rajasthani",Food Court,Yes,No,4.2,557,507,0.8284,Affordable
+Shree Spice Garden,Mumbai,Bandra,"Desserts, Thai",Food Court,Yes,No,3.5,708,275,1.2727,Budget
+Taste of India,Mumbai,Juhu,"Rajasthani, North Indian",Cafe,No,No,4.7,1381,535,0.8785,Affordable
+Classic Dining,Mumbai,Bandra,Beverages,Dessert Parlour,No,No,2.6,322,420,0.619,Affordable
+Hotel Noodle Box,Mumbai,Andheri,Mughlai,Casual Dining,Yes,Yes,3.8,961,1096,0.3467,Premium
+Cafe Classic Dining,Mumbai,Andheri,Continental,Bakery,Yes,No,2.7,386,260,1.0385,Budget
+Restaurant Taste of India,Mumbai,Bandra,"Mexican, North Indian, Pizza",Casual Dining,Yes,No,4.1,893,555,0.7387,Affordable
+New Fusion Bites,Mumbai,Colaba,Mexican,Cafe,No,No,3.8,557,543,0.6998,Affordable
+Restaurant Chaat Junction,Mumbai,Powai,"North Indian, Street Food, Mughlai",Dessert Parlour,Yes,No,4.0,671,251,1.5936,Budget
+Royal Noodle Box,Mumbai,Juhu,Gujarati,Casual Dining,Yes,Yes,4.5,789,412,1.0922,Affordable
+New Cloud Kitchen,Mumbai,Powai,"Chinese, North Indian",Cafe,Yes,Yes,3.5,865,461,0.7592,Affordable
+Cafe Tiffin Box,Mumbai,Juhu,"Seafood, Chinese, Thai",Fine Dining,Yes,Yes,3.9,1247,1823,0.2139,Premium
+The Masala Twist,Mumbai,Andheri,"Chinese, Street Food, Bengali",Fine Dining,No,No,3.9,1089,1853,0.2105,Premium
+Cafe Kebab King,Mumbai,Andheri,Biryani,Casual Dining,No,Yes,4.6,1109,935,0.492,Mid-Range
+New Kebab King,Mumbai,Bandra,"Fast Food, North Indian, Desserts",Dessert Parlour,No,Yes,2.6,600,464,0.5603,Affordable
+The Spice Garden,Mumbai,Andheri,"Pizza, Beverages, Cafe",Bakery,Yes,Yes,3.6,128,470,0.766,Affordable
+Burger Barn,Mumbai,Juhu,"Beverages, Seafood",Quick Bites,No,Yes,4.4,576,118,3.7288,Budget
+The Sweet Tooth,Mumbai,Bandra,"Desserts, Italian",Delivery,No,No,2.7,63,444,0.6081,Affordable
+Restaurant Dhaba Express,Mumbai,Juhu,"Street Food, Desserts",Bakery,Yes,No,3.2,587,249,1.2851,Budget
+The The Hungry Tiger,Mumbai,Bandra,Thai,Bakery,No,Yes,2.5,34,309,0.8091,Affordable
+Restaurant Grill House,Mumbai,Powai,"Street Food, Fast Food, Mughlai",Fine Dining,Yes,Yes,4.3,491,1745,0.2464,Premium
+Cafe Burger Barn,Mumbai,Juhu,"Chinese, Mexican",Food Court,Yes,Yes,4.1,616,138,2.971,Budget
+Cafe Biryani House,Mumbai,Andheri,"Seafood, Desserts",Dessert Parlour,Yes,Yes,2.6,149,203,1.2808,Budget
+Hotel Dosa Corner,Mumbai,Juhu,"Desserts, Bengali",Bakery,Yes,No,4.0,325,331,1.2085,Affordable
+Cafe Spice Garden,Mumbai,Powai,Desserts,Quick Bites,Yes,No,3.8,535,302,1.2583,Affordable
+Cafe Curry Leaf,Mumbai,Powai,"Thai, Continental, Fast Food",Bakery,Yes,No,2.8,73,106,2.6415,Budget
+Biryani House,Mumbai,Bandra,"Chinese, Mexican, Italian",Food Court,No,Yes,4.5,671,201,2.2388,Budget
+Curry Leaf,Mumbai,Andheri,Pizza,Bakery,No,No,3.9,40,354,1.1017,Affordable
+The Taste of India,Mumbai,Juhu,"Rajasthani, Biryani",Dessert Parlour,Yes,No,3.0,520,251,1.1952,Budget
+Chaat Junction,Mumbai,Colaba,Bengali,Fine Dining,Yes,No,3.8,1827,3726,0.102,Luxury
+Food Hub,Mumbai,Powai,"Mexican, Punjabi",Bakery,Yes,Yes,3.8,234,405,0.9383,Affordable
+Restaurant Momo Point,Mumbai,Powai,"Continental, Pizza, Fast Food",Food Court,Yes,Yes,3.6,764,505,0.7129,Affordable
+Royal Momo Point,Mumbai,Andheri,Pizza,Food Court,Yes,No,3.8,615,283,1.3428,Budget
+Fusion Bites,Mumbai,Andheri,"Thai, Street Food",Delivery,Yes,Yes,3.8,234,408,0.9314,Affordable
+Hotel Kebab King,Mumbai,Powai,"Pizza, Desserts",Cafe,Yes,Yes,4.3,277,545,0.789,Affordable
+New Flavor Town,Mumbai,Colaba,"Street Food, Desserts",Casual Dining,Yes,Yes,4.6,1047,1054,0.4364,Premium
+Royal Sweet Tooth,Mumbai,Colaba,Mexican,Food Court,No,No,4.0,511,250,1.6,Budget
+Aroma Restaurant,Mumbai,Bandra,Cafe,Quick Bites,Yes,No,3.7,589,427,0.8665,Affordable
+The Saffron,Mumbai,Andheri,"Desserts, Pizza",Delivery,Yes,No,4.1,664,443,0.9255,Affordable
+Chaat Junction,Mumbai,Powai,"Chinese, Beverages, Italian",Delivery,No,No,2.6,760,324,0.8025,Affordable
+The Masala Twist,Mumbai,Bandra,"Seafood, Fast Food, Gujarati",Food Court,No,No,4.0,176,215,1.8605,Budget
+Fusion Bites,Mumbai,Colaba,"Fast Food, Chinese",Food Court,Yes,No,2.8,570,138,2.029,Budget
+New Aroma Restaurant,Mumbai,Colaba,"North Indian, Bengali, Pizza",Bakery,Yes,No,2.6,220,269,0.9665,Budget
+Hotel Masala Twist,Mumbai,Colaba,"Street Food, Cafe, Continental",Dessert Parlour,Yes,No,3.6,511,351,1.0256,Affordable
+Chaat Junction,Mumbai,Powai,Fast Food,Bakery,Yes,Yes,3.1,494,141,2.1986,Budget
+Burger Barn,Mumbai,Juhu,Thai,Dessert Parlour,Yes,No,3.8,466,195,1.9487,Budget
+Grill House,Mumbai,Powai,Fast Food,Quick Bites,Yes,No,3.6,784,597,0.603,Affordable
+Royal Pizza Palace,Mumbai,Bandra,"Continental, Gujarati, Street Food",Bakery,Yes,No,3.9,594,357,1.0924,Affordable
+Cafe Fusion Bites,Mumbai,Juhu,Pizza,Bakery,No,No,2.8,90,316,0.8861,Affordable
+Royal Momo Point,Mumbai,Colaba,"Chinese, Cafe, Seafood",Food Court,Yes,No,4.2,511,366,1.1475,Affordable
+Tiffin Box,Mumbai,Juhu,Bengali,Fine Dining,Yes,No,4.4,416,1910,0.2304,Premium
+Food Hub,Mumbai,Powai,"Seafood, Gujarati",Fine Dining,Yes,No,4.0,494,3150,0.127,Luxury
+Hotel Burger Barn,Mumbai,Andheri,"Continental, South Indian, Gujarati",Food Court,No,No,2.5,320,518,0.4826,Affordable
+Shree Cloud Kitchen,Mumbai,Colaba,"Rajasthani, Desserts, Italian",Dessert Parlour,No,No,2.7,226,326,0.8282,Affordable
+Royal Spice Garden,Mumbai,Andheri,Punjabi,Food Court,No,Yes,3.9,148,306,1.2745,Affordable
+New Sweet Tooth,Mumbai,Bandra,South Indian,Delivery,Yes,No,4.3,213,460,0.9348,Affordable
+Aroma Restaurant,Mumbai,Bandra,Beverages,Quick Bites,Yes,No,4.4,610,342,1.2865,Affordable
+Classic Dining,Mumbai,Powai,Seafood,Dessert Parlour,Yes,No,4.1,236,209,1.9617,Budget
+Noodle Box,Mumbai,Powai,"North Indian, Gujarati, Biryani",Quick Bites,Yes,No,2.5,632,229,1.0917,Budget
+Tiffin Box,Mumbai,Colaba,"Italian, Mughlai",Food Court,Yes,No,4.1,608,303,1.3531,Affordable
+Curry Leaf,Mumbai,Andheri,"Fast Food, Gujarati",Dessert Parlour,Yes,No,3.8,293,541,0.7024,Affordable
+Sweet Tooth,Mumbai,Powai,Cafe,Delivery,Yes,No,2.8,681,113,2.4779,Budget
+New Masala Twist,Mumbai,Andheri,"Mexican, Mughlai, Desserts",Quick Bites,No,Yes,3.6,497,501,0.7186,Affordable
+Hotel Burger Barn,Mumbai,Juhu,"Fast Food, Gujarati",Cafe,Yes,Yes,4.4,424,1181,0.3726,Premium
+Royal Fusion Bites,Mumbai,Bandra,"Street Food, Bengali, Desserts",Delivery,Yes,No,3.4,491,160,2.125,Budget
+Restaurant The Hungry Tiger,Mumbai,Powai,Punjabi,Bakery,Yes,No,3.6,65,311,1.1576,Affordable
+The Spice Garden,Mumbai,Powai,Desserts,Bakery,No,Yes,2.7,656,270,1.0,Budget
+Sweet Tooth,Mumbai,Powai,Pizza,Dessert Parlour,Yes,Yes,4.1,100,499,0.8216,Affordable
+The Urban Kitchen,Mumbai,Bandra,"North Indian, South Indian",Bakery,Yes,No,4.4,339,556,0.7914,Affordable
+Dhaba Express,Mumbai,Colaba,Beverages,Delivery,Yes,Yes,3.5,181,256,1.3672,Budget
+Cafe Curry Leaf,Mumbai,Bandra,"Biryani, Desserts",Food Court,No,No,3.8,423,184,2.0652,Budget
+Royal Food Hub,Mumbai,Bandra,Beverages,Cafe,No,No,3.8,573,1055,0.3602,Premium
+The Masala Twist,Mumbai,Powai,Fast Food,Quick Bites,Yes,No,3.6,728,342,1.0526,Affordable
+Shree Curry Leaf,Mumbai,Colaba,"Punjabi, Italian, Biryani",Casual Dining,Yes,No,4.0,291,1032,0.3876,Premium
+Shree The Hungry Tiger,Mumbai,Andheri,"Punjabi, Mughlai",Delivery,Yes,No,2.8,518,380,0.7368,Affordable
+Hotel Saffron,Mumbai,Andheri,Chinese,Quick Bites,No,No,3.8,102,176,2.1591,Budget
+Aroma Restaurant,Mumbai,Bandra,"Italian, Rajasthani",Bakery,Yes,No,4.2,307,536,0.7836,Affordable
+Hotel Kebab King,Mumbai,Juhu,North Indian,Casual Dining,No,No,3.5,946,766,0.4569,Mid-Range
+Cafe Biryani House,Mumbai,Andheri,Seafood,Cafe,Yes,No,4.5,1029,1106,0.4069,Premium
+Fusion Bites,Mumbai,Bandra,Fast Food,Quick Bites,Yes,No,4.1,458,447,0.9172,Affordable
+New Cloud Kitchen,Mumbai,Colaba,"Gujarati, Fast Food",Cafe,No,No,3.8,693,1070,0.3551,Premium
+Pizza Palace,Mumbai,Colaba,"Desserts, Punjabi, Mexican",Delivery,No,No,3.4,264,472,0.7203,Affordable
+Saffron,Mumbai,Bandra,Pizza,Quick Bites,Yes,No,3.5,86,184,1.9022,Budget
+Shree Aroma Restaurant,Mumbai,Bandra,"Seafood, Cafe, Continental",Delivery,Yes,No,3.6,520,145,2.4828,Budget
+New Curry Leaf,Mumbai,Powai,"Bengali, South Indian",Casual Dining,Yes,Yes,3.3,1317,1018,0.3242,Premium
+Shree Biryani House,Mumbai,Bandra,"South Indian, Continental",Food Court,No,No,4.0,494,407,0.9828,Affordable
+Cafe Chaat Junction,Mumbai,Andheri,Desserts,Delivery,Yes,No,4.1,544,380,1.0789,Affordable
+Biryani House,Mumbai,Powai,Italian,Fine Dining,Yes,Yes,4.8,641,3109,0.1544,Luxury
+New Noodle Box,Mumbai,Colaba,"Mexican, Fast Food, Rajasthani",Quick Bites,Yes,No,3.8,520,593,0.6408,Affordable
+Noodle Box,Mumbai,Colaba,"Pizza, Mexican, Cafe",Bakery,No,Yes,3.3,630,407,0.8108,Affordable
+Flavor Town,Mumbai,Colaba,"Seafood, Desserts",Delivery,No,No,2.8,626,311,0.9003,Affordable
+Cafe Grill House,Mumbai,Colaba,"Thai, Mughlai, Mexican",Food Court,Yes,No,3.9,698,571,0.683,Affordable
+Noodle Box,Mumbai,Bandra,"Fast Food, Beverages, Thai",Food Court,Yes,No,3.8,700,313,1.2141,Affordable
+Cafe Food Hub,Mumbai,Juhu,Seafood,Casual Dining,Yes,No,3.5,379,1168,0.2997,Premium
+Restaurant Grill House,Mumbai,Juhu,"South Indian, Beverages, Rajasthani",Delivery,Yes,No,4.0,239,542,0.738,Affordable
+Royal Cloud Kitchen,Mumbai,Powai,"Seafood, Bengali",Quick Bites,No,No,3.8,65,382,0.9948,Affordable
+Hotel Dosa Corner,Mumbai,Andheri,"Beverages, Mexican, Thai",Delivery,No,Yes,3.9,311,199,1.9598,Budget
+Cafe Food Hub,Mumbai,Andheri,"South Indian, Bengali",Casual Dining,Yes,Yes,3.4,61,661,0.5144,Mid-Range
+New Taste of India,Mumbai,Colaba,"South Indian, Street Food, Gujarati",Food Court,No,No,2.6,335,462,0.5628,Affordable
+Royal Grill House,Mumbai,Powai,"Thai, Cafe",Cafe,Yes,No,4.5,729,1079,0.4171,Premium
+Sweet Tooth,Mumbai,Bandra,Beverages,Quick Bites,Yes,No,3.7,259,418,0.8852,Affordable
+Classic Dining,Mumbai,Andheri,"Thai, Street Food",Fine Dining,Yes,No,4.6,1844,3606,0.1276,Luxury
+Restaurant Urban Kitchen,Mumbai,Powai,"Chinese, Fast Food, Pizza",Food Court,No,No,3.6,77,420,0.8571,Affordable
+Cafe Spice Garden,Mumbai,Powai,Thai,Casual Dining,No,No,4.3,1374,845,0.5089,Mid-Range
+Sweet Tooth,Mumbai,Powai,Chinese,Food Court,Yes,Yes,3.0,598,136,2.2059,Budget
+Hotel Kebab King,Mumbai,Colaba,"Desserts, North Indian",Fine Dining,Yes,Yes,3.8,1748,1759,0.216,Premium
+Cafe Aroma Restaurant,Mumbai,Powai,"Street Food, Chinese",Casual Dining,Yes,No,3.8,113,1076,0.3532,Premium
+Tiffin Box,Mumbai,Colaba,"Biryani, Street Food, Beverages",Dessert Parlour,No,Yes,3.8,136,172,2.2093,Budget
+Curry Leaf,Mumbai,Bandra,"Mughlai, Beverages",Casual Dining,Yes,No,4.5,379,545,0.8257,Affordable
+Shree The Hungry Tiger,Mumbai,Juhu,"Mexican, South Indian, Thai",Cafe,Yes,No,3.6,563,468,0.7692,Affordable
+Royal Pizza Palace,Mumbai,Colaba,"Continental, Fast Food, Street Food",Cafe,Yes,No,3.7,722,861,0.4297,Mid-Range
+Cafe Urban Kitchen,Mumbai,Juhu,"Bengali, Pizza",Food Court,Yes,Yes,2.9,666,478,0.6067,Affordable
+Cafe Tiffin Box,Mumbai,Andheri,"Rajasthani, Beverages",Bakery,No,No,2.7,631,430,0.6279,Affordable
+The Tiffin Box,Mumbai,Juhu,"Chinese, Cafe, North Indian",Dessert Parlour,No,No,4.1,424,396,1.0354,Affordable
+Kebab King,Mumbai,Colaba,"Biryani, Beverages, Seafood",Bakery,Yes,No,4.0,147,248,1.6129,Budget
+Shree Kebab King,Mumbai,Bandra,"Continental, Pizza, Punjabi",Quick Bites,Yes,Yes,3.6,685,389,0.9254,Affordable
+The Food Hub,Mumbai,Juhu,"Continental, Chinese",Delivery,Yes,Yes,3.8,379,365,1.0411,Affordable
+Hotel Grill House,Mumbai,Juhu,"Punjabi, Italian, Mexican",Casual Dining,Yes,No,3.8,798,787,0.4828,Mid-Range
+Shree Dosa Corner,Mumbai,Andheri,Punjabi,Fine Dining,Yes,No,3.8,1437,3474,0.1094,Luxury
+Hotel Chaat Junction,Mumbai,Powai,"Italian, Mughlai, Biryani",Casual Dining,Yes,No,4.3,1403,521,0.8253,Affordable
+New Food Hub,Mumbai,Colaba,Mexican,Bakery,Yes,No,2.5,140,122,2.0492,Budget
+Taste of India,Mumbai,Andheri,Pizza,Cafe,Yes,Yes,4.6,1204,1013,0.4541,Premium
+Dosa Corner,Mumbai,Juhu,"Gujarati, Cafe, Pizza",Bakery,Yes,No,2.8,795,398,0.7035,Affordable
+Royal Biryani House,Mumbai,Andheri,"Mexican, Chinese, Continental",Bakery,Yes,Yes,2.5,526,367,0.6812,Affordable
+Grill House,Mumbai,Powai,"Cafe, South Indian, Thai",Bakery,Yes,Yes,3.5,511,166,2.1084,Budget
+Royal Biryani House,Mumbai,Powai,Punjabi,Food Court,Yes,No,3.5,400,493,0.7099,Affordable
+The Momo Point,Mumbai,Colaba,"Gujarati, Continental",Cafe,No,Yes,4.1,511,956,0.4289,Mid-Range
+New Noodle Box,Mumbai,Colaba,"North Indian, Seafood, Mughlai",Casual Dining,No,No,3.7,922,558,0.6631,Affordable
+Momo Point,Delhi,Karol Bagh,"Italian, Seafood, Mughlai",Food Court,Yes,No,3.5,582,289,1.2111,Budget
+New Fusion Bites,Delhi,Connaught Place,"Biryani, Fast Food, Continental",Fine Dining,Yes,No,4.0,1241,2378,0.1682,Luxury
+Royal Food Hub,Delhi,Saket,"North Indian, Chinese",Cafe,No,No,4.1,181,490,0.8367,Affordable
+New Masala Twist,Delhi,Lajpat Nagar,"Punjabi, Street Food, South Indian",Fine Dining,No,No,4.5,221,3298,0.1364,Luxury
+Cloud Kitchen,Delhi,Saket,"Punjabi, Cafe, Continental",Quick Bites,Yes,No,3.2,10,435,0.7356,Affordable
+Royal Kebab King,Delhi,Karol Bagh,"Seafood, Cafe, Mughlai",Food Court,Yes,No,2.6,572,146,1.7808,Budget
+New Taste of India,Delhi,Dwarka,Cafe,Dessert Parlour,No,No,3.3,277,102,3.2353,Budget
+Royal Chaat Junction,Delhi,Lajpat Nagar,"Fast Food, Punjabi",Dessert Parlour,No,No,4.1,266,394,1.0406,Affordable
+Restaurant The Hungry Tiger,Delhi,Saket,"Rajasthani, Mexican",Food Court,No,No,3.0,658,295,1.0169,Budget
+Shree The Hungry Tiger,Delhi,Karol Bagh,"Thai, North Indian, Italian",Food Court,Yes,Yes,3.8,360,520,0.7308,Affordable
+Restaurant Fusion Bites,Delhi,Karol Bagh,"Italian, Pizza, Mughlai",Delivery,Yes,Yes,4.0,281,546,0.7326,Affordable
+The Chaat Junction,Delhi,Karol Bagh,Fast Food,Cafe,No,No,4.2,63,1028,0.4086,Premium
+The Grill House,Delhi,Saket,"Mexican, Italian",Food Court,Yes,No,4.3,417,243,1.7695,Budget
+The Spice Garden,Delhi,Lajpat Nagar,"South Indian, Punjabi, Beverages",Bakery,Yes,No,2.8,133,599,0.4674,Affordable
+Dosa Corner,Delhi,Saket,"Fast Food, Desserts, Beverages",Fine Dining,Yes,Yes,4.4,751,2471,0.1781,Luxury
+Royal Urban Kitchen,Delhi,Lajpat Nagar,Bengali,Fine Dining,No,No,4.7,1123,2645,0.1777,Luxury
+Chaat Junction,Delhi,Lajpat Nagar,"Italian, Continental, Thai",Casual Dining,Yes,No,3.4,511,1156,0.2941,Premium
+Shree Classic Dining,Delhi,Connaught Place,"Street Food, Italian",Food Court,Yes,No,3.3,177,453,0.7285,Affordable
+Royal Curry Leaf,Delhi,Dwarka,"Desserts, Italian, Beverages",Bakery,Yes,No,4.1,30,276,1.4855,Budget
+Cafe Dosa Corner,Delhi,Karol Bagh,"Beverages, Desserts",Cafe,No,No,4.3,830,480,0.8958,Affordable
+Fusion Bites,Delhi,Saket,"Cafe, Mexican, Seafood",Fine Dining,No,Yes,4.0,842,2434,0.1643,Luxury
+Aroma Restaurant,Delhi,Connaught Place,"Beverages, Mexican",Dessert Parlour,Yes,No,2.8,33,537,0.5214,Affordable
+Hotel Biryani House,Delhi,Karol Bagh,Seafood,Delivery,Yes,Yes,3.8,65,380,1.0,Affordable
+The Food Hub,Delhi,Karol Bagh,Seafood,Cafe,Yes,Yes,3.6,308,1041,0.3458,Premium
+Shree Classic Dining,Delhi,Dwarka,"Rajasthani, Thai",Food Court,No,No,2.8,724,585,0.4786,Affordable
+The Spice Garden,Delhi,Dwarka,"Thai, Street Food, Beverages",Fine Dining,Yes,Yes,3.9,949,2761,0.1413,Luxury
+Fusion Bites,Delhi,Lajpat Nagar,"Street Food, Gujarati",Cafe,Yes,No,3.9,1027,1173,0.3325,Premium
+Restaurant Saffron,Delhi,Connaught Place,"Beverages, Mughlai, Bengali",Quick Bites,No,No,3.0,764,466,0.6438,Affordable
+Biryani House,Delhi,Saket,"Continental, Punjabi, Italian",Fine Dining,Yes,No,4.7,585,3191,0.1473,Luxury
+Pizza Palace,Delhi,Saket,"Cafe, Gujarati",Bakery,Yes,Yes,2.6,32,373,0.6971,Affordable
+The The Hungry Tiger,Delhi,Connaught Place,Chinese,Quick Bites,Yes,No,3.2,520,259,1.2355,Budget
+Hotel Cloud Kitchen,Delhi,Lajpat Nagar,Italian,Cafe,No,Yes,3.9,562,596,0.6544,Affordable
+Dosa Corner,Delhi,Connaught Place,"Continental, South Indian",Fine Dining,Yes,No,3.9,1168,2353,0.1657,Luxury
+The Dosa Corner,Delhi,Karol Bagh,"Gujarati, Street Food",Casual Dining,Yes,No,4.5,281,623,0.7223,Mid-Range
+Restaurant Dosa Corner,Delhi,Saket,"Continental, North Indian",Casual Dining,No,No,4.2,1271,1104,0.3804,Premium
+New Classic Dining,Delhi,Karol Bagh,"Cafe, Desserts, South Indian",Casual Dining,Yes,No,4.3,307,509,0.8448,Affordable
+Shree Curry Leaf,Delhi,Dwarka,"Mughlai, North Indian, Seafood",Bakery,Yes,Yes,4.3,733,348,1.2356,Affordable
+Saffron,Delhi,Dwarka,"Beverages, Desserts, Rajasthani",Cafe,Yes,No,4.6,378,967,0.4757,Mid-Range
+Hotel Urban Kitchen,Delhi,Dwarka,"North Indian, Punjabi",Food Court,Yes,Yes,2.5,382,538,0.4647,Affordable
+Hotel Grill House,Delhi,Connaught Place,Punjabi,Fine Dining,No,No,4.0,860,2659,0.1504,Luxury
+Shree Grill House,Delhi,Dwarka,Pizza,Quick Bites,No,Yes,3.5,42,150,2.3333,Budget
+Hotel Dhaba Express,Delhi,Connaught Place,Beverages,Dessert Parlour,Yes,No,2.5,223,571,0.4378,Affordable
+New Biryani House,Delhi,Connaught Place,"Bengali, Beverages, South Indian",Food Court,No,Yes,2.6,321,136,1.9118,Budget
+Hotel Cloud Kitchen,Delhi,Dwarka,"Seafood, Mughlai, Mexican",Delivery,Yes,Yes,3.8,581,191,1.9895,Budget
+Shree Kebab King,Delhi,Karol Bagh,"Rajasthani, Bengali, Fast Food",Food Court,Yes,Yes,3.3,683,272,1.2132,Budget
+Kebab King,Delhi,Saket,"Bengali, Cafe",Food Court,No,No,3.0,229,379,0.7916,Affordable
+Restaurant The Hungry Tiger,Delhi,Connaught Place,"North Indian, South Indian",Bakery,No,No,3.8,319,555,0.6847,Affordable
+Masala Twist,Delhi,Connaught Place,"Punjabi, Thai, Biryani",Dessert Parlour,Yes,No,2.8,385,235,1.1915,Budget
+Food Hub,Delhi,Dwarka,"Mughlai, Chinese, Desserts",Fine Dining,No,Yes,4.7,1878,3860,0.1218,Luxury
+Restaurant Aroma Restaurant,Delhi,Dwarka,South Indian,Fine Dining,No,No,4.8,1053,3278,0.1464,Luxury
+Dhaba Express,Delhi,Dwarka,"Seafood, South Indian, Street Food",Quick Bites,Yes,No,3.6,524,267,1.3483,Budget
+Saffron,Delhi,Connaught Place,Bengali,Casual Dining,Yes,No,3.4,1024,484,0.7025,Affordable
+New Burger Barn,Delhi,Lajpat Nagar,"Bengali, Biryani, Mexican",Fine Dining,Yes,Yes,4.2,601,3840,0.1094,Luxury
+Fusion Bites,Delhi,Connaught Place,"Bengali, Desserts",Casual Dining,No,No,3.4,917,823,0.4131,Mid-Range
+Restaurant Urban Kitchen,Delhi,Karol Bagh,Beverages,Dessert Parlour,Yes,No,3.8,461,174,2.1839,Budget
+Dhaba Express,Delhi,Saket,"Chinese, Fast Food, South Indian",Cafe,Yes,No,3.4,78,694,0.4899,Mid-Range
+The Sweet Tooth,Delhi,Dwarka,"Mughlai, Thai",Quick Bites,Yes,No,4.0,504,380,1.0526,Affordable
+Urban Kitchen,Delhi,Karol Bagh,"Pizza, South Indian",Quick Bites,Yes,No,3.7,511,127,2.9134,Budget
+Chaat Junction,Delhi,Dwarka,North Indian,Food Court,Yes,No,3.3,530,294,1.1224,Budget
+Chaat Junction,Delhi,Saket,Mughlai,Casual Dining,Yes,No,4.6,131,422,1.09,Affordable
+Spice Garden,Delhi,Dwarka,Beverages,Cafe,No,No,3.7,614,913,0.4053,Mid-Range
+Restaurant Noodle Box,Delhi,Lajpat Nagar,Biryani,Dessert Parlour,Yes,No,2.8,401,473,0.592,Affordable
+Cafe Masala Twist,Delhi,Dwarka,"Street Food, Desserts",Cafe,Yes,Yes,4.2,1158,994,0.4225,Mid-Range
+Cafe Aroma Restaurant,Delhi,Connaught Place,"Biryani, Mexican",Cafe,No,No,4.0,292,1136,0.3521,Premium
+Hotel Pizza Palace,Delhi,Lajpat Nagar,"Bengali, Street Food",Food Court,Yes,No,4.3,766,577,0.7452,Affordable
+Royal Chaat Junction,Delhi,Karol Bagh,"Cafe, Italian, Continental",Quick Bites,Yes,Yes,2.6,714,140,1.8571,Budget
+Restaurant Aroma Restaurant,Delhi,Lajpat Nagar,"Gujarati, Cafe",Cafe,Yes,Yes,3.2,80,1182,0.2707,Premium
+Restaurant Noodle Box,Delhi,Saket,Pizza,Delivery,No,No,4.2,714,350,1.2,Affordable
+New Biryani House,Delhi,Saket,"Seafood, Desserts, Cafe",Quick Bites,Yes,No,3.7,666,368,1.0054,Affordable
+The Curry Leaf,Delhi,Karol Bagh,Continental,Bakery,Yes,No,4.0,406,385,1.039,Affordable
+Shree Taste of India,Delhi,Dwarka,"Street Food, Cafe",Bakery,Yes,No,3.7,716,127,2.9134,Budget
+Royal Flavor Town,Delhi,Lajpat Nagar,Mexican,Casual Dining,No,No,3.4,712,823,0.4131,Mid-Range
+Shree Classic Dining,Delhi,Karol Bagh,Italian,Bakery,Yes,No,3.9,745,183,2.1311,Budget
+Cafe Pizza Palace,Delhi,Lajpat Nagar,"Seafood, Punjabi, Pizza",Casual Dining,Yes,No,4.4,1208,743,0.5922,Mid-Range
+The Fusion Bites,Delhi,Karol Bagh,"Street Food, Cafe",Quick Bites,No,No,3.1,130,192,1.6146,Budget
+Dhaba Express,Delhi,Connaught Place,"Gujarati, Cafe",Quick Bites,Yes,Yes,4.3,232,221,1.9457,Budget
+Food Hub,Delhi,Lajpat Nagar,Thai,Quick Bites,Yes,No,4.1,60,206,1.9903,Budget
+Royal Momo Point,Delhi,Dwarka,"Mexican, Street Food, Desserts",Quick Bites,No,Yes,3.3,175,191,1.7277,Budget
+New Taste of India,Delhi,Karol Bagh,"Mexican, Beverages",Cafe,No,Yes,3.6,826,777,0.4633,Mid-Range
+Hotel Momo Point,Delhi,Dwarka,Fast Food,Bakery,No,Yes,3.6,224,368,0.9783,Affordable
+Royal Chaat Junction,Delhi,Dwarka,"Cafe, Street Food",Casual Dining,Yes,No,3.6,1326,988,0.3644,Mid-Range
+Restaurant Fusion Bites,Delhi,Saket,"Pizza, Continental",Bakery,No,No,2.5,486,112,2.2321,Budget
+Masala Twist,Delhi,Dwarka,Desserts,Fine Dining,Yes,No,4.0,1613,2324,0.1721,Luxury
+Urban Kitchen,Delhi,Saket,Fast Food,Food Court,No,No,3.9,39,415,0.9398,Affordable
+The Grill House,Delhi,Karol Bagh,Biryani,Bakery,Yes,No,4.3,353,374,1.1497,Affordable
+The The Hungry Tiger,Delhi,Saket,"Thai, North Indian, Mughlai",Food Court,Yes,No,4.3,372,507,0.8481,Affordable
+Hotel Chaat Junction,Delhi,Lajpat Nagar,"Cafe, Seafood, Pizza",Cafe,Yes,No,4.3,694,1122,0.3832,Premium
+The Chaat Junction,Delhi,Dwarka,"Street Food, Mughlai",Food Court,Yes,Yes,3.2,216,119,2.6891,Budget
+New Urban Kitchen,Delhi,Lajpat Nagar,Desserts,Cafe,No,No,4.0,720,1194,0.335,Premium
+Hotel The Hungry Tiger,Delhi,Saket,"South Indian, Rajasthani, Seafood",Delivery,No,No,2.5,55,577,0.4333,Affordable
+Restaurant Curry Leaf,Delhi,Karol Bagh,Punjabi,Quick Bites,No,No,2.5,329,488,0.5123,Affordable
+New Kebab King,Delhi,Dwarka,"Desserts, Rajasthani, Fast Food",Dessert Parlour,Yes,Yes,2.7,647,590,0.4576,Affordable
+The Chaat Junction,Delhi,Connaught Place,"Biryani, Street Food",Food Court,Yes,Yes,3.1,356,556,0.5576,Affordable
+Royal Kebab King,Delhi,Karol Bagh,"South Indian, Chinese",Casual Dining,Yes,Yes,4.1,1339,1006,0.4076,Premium
+Shree Biryani House,Delhi,Saket,Thai,Food Court,Yes,No,4.0,144,390,1.0256,Affordable
+The Hungry Tiger,Delhi,Saket,"Rajasthani, Gujarati, Continental",Dessert Parlour,No,Yes,4.3,382,232,1.8534,Budget
+Cafe Grill House,Delhi,Connaught Place,Chinese,Bakery,Yes,No,3.4,299,187,1.8182,Budget
+New Dosa Corner,Delhi,Saket,"Fast Food, Desserts, Thai",Fine Dining,Yes,No,4.4,1409,3141,0.1401,Luxury
+Restaurant Dosa Corner,Delhi,Connaught Place,Desserts,Fine Dining,Yes,No,4.3,1361,3283,0.131,Luxury
+Royal Biryani House,Delhi,Dwarka,Mexican,Bakery,Yes,No,2.7,190,327,0.8257,Affordable
+New Masala Twist,Delhi,Saket,"Gujarati, South Indian",Fine Dining,Yes,No,4.8,1750,1500,0.32,Premium
+Flavor Town,Delhi,Karol Bagh,Mughlai,Bakery,No,No,3.6,705,567,0.6349,Affordable
+Biryani House,Delhi,Karol Bagh,"North Indian, Punjabi, Seafood",Casual Dining,No,No,3.8,158,962,0.395,Mid-Range
+Cafe Chaat Junction,Delhi,Lajpat Nagar,Bengali,Quick Bites,No,No,3.1,425,295,1.0508,Budget
+Shree Urban Kitchen,Delhi,Saket,"Seafood, Beverages, Bengali",Delivery,Yes,No,3.8,511,168,2.2619,Budget
+Shree Grill House,Delhi,Saket,Biryani,Cafe,Yes,No,3.9,1287,1112,0.3507,Premium
+Tiffin Box,Delhi,Dwarka,"Beverages, Continental",Bakery,Yes,No,3.7,758,533,0.6942,Affordable
+New Cloud Kitchen,Delhi,Karol Bagh,South Indian,Food Court,Yes,No,2.7,717,346,0.7803,Affordable
+Royal Masala Twist,Delhi,Dwarka,"Chinese, Punjabi, Cafe",Bakery,Yes,No,3.8,89,442,0.8597,Affordable
+Masala Twist,Delhi,Lajpat Nagar,"Thai, North Indian",Quick Bites,Yes,No,3.4,349,475,0.7158,Affordable
+Royal Spice Garden,Delhi,Karol Bagh,"Cafe, Street Food, Italian",Quick Bites,Yes,No,2.8,682,126,2.2222,Budget
+The Aroma Restaurant,Delhi,Connaught Place,Biryani,Bakery,Yes,No,3.1,640,167,1.8563,Budget
+Taste of India,Delhi,Lajpat Nagar,"Biryani, Rajasthani, Beverages",Cafe,No,Yes,4.3,420,896,0.4799,Mid-Range
+Cloud Kitchen,Delhi,Connaught Place,"Bengali, Seafood",Cafe,Yes,No,4.2,1233,615,0.6829,Mid-Range
+Chaat Junction,Delhi,Karol Bagh,Rajasthani,Quick Bites,Yes,No,4.0,555,485,0.8247,Affordable
+New Classic Dining,Delhi,Karol Bagh,"Bengali, North Indian, Street Food",Cafe,No,No,4.2,1448,942,0.4459,Mid-Range
+Royal Cloud Kitchen,Delhi,Lajpat Nagar,"Italian, Desserts, Cafe",Fine Dining,Yes,Yes,4.5,1144,3102,0.1451,Luxury
+Burger Barn,Delhi,Karol Bagh,"Pizza, Desserts, Thai",Food Court,Yes,Yes,2.6,110,310,0.8387,Affordable
+Hotel Taste of India,Delhi,Dwarka,South Indian,Dessert Parlour,Yes,Yes,4.4,232,436,1.0092,Affordable
+Cloud Kitchen,Delhi,Saket,"Mexican, Pizza",Cafe,No,No,3.6,1402,878,0.41,Mid-Range
+Shree Taste of India,Delhi,Saket,"Pizza, Chinese",Food Court,Yes,Yes,3.3,274,130,2.5385,Budget
+Biryani House,Delhi,Connaught Place,"Seafood, Pizza, Gujarati",Delivery,Yes,No,3.4,668,414,0.8213,Affordable
+The Urban Kitchen,Delhi,Saket,Mexican,Casual Dining,No,No,3.2,511,909,0.352,Mid-Range
+Hotel Tiffin Box,Delhi,Lajpat Nagar,Desserts,Dessert Parlour,No,No,3.5,799,581,0.6024,Affordable
+Hotel Kebab King,Delhi,Dwarka,"Gujarati, Fast Food",Quick Bites,Yes,No,3.2,320,449,0.7127,Affordable
+Flavor Town,Delhi,Saket,Rajasthani,Food Court,No,Yes,2.9,50,383,0.7572,Affordable
+Restaurant Chaat Junction,Delhi,Saket,"Beverages, Gujarati, Chinese",Casual Dining,No,No,3.8,445,436,0.8716,Affordable
+The Sweet Tooth,Delhi,Connaught Place,"Street Food, Gujarati, Thai",Casual Dining,No,No,4.6,125,416,1.1058,Affordable
+Shree Fusion Bites,Delhi,Connaught Place,"Punjabi, Rajasthani, Thai",Delivery,Yes,No,4.3,763,118,3.6441,Budget
+Hotel Biryani House,Delhi,Connaught Place,"Biryani, North Indian, Pizza",Delivery,Yes,No,4.1,477,149,2.7517,Budget
+Royal Tiffin Box,Delhi,Lajpat Nagar,"Cafe, Continental, Chinese",Bakery,No,No,4.1,704,477,0.8595,Affordable
+New Dosa Corner,Delhi,Saket,South Indian,Food Court,Yes,No,2.7,785,172,1.5698,Budget
+The Dosa Corner,Delhi,Connaught Place,"South Indian, Biryani, Fast Food",Delivery,No,No,3.3,26,180,1.8333,Budget
+The Fusion Bites,Delhi,Lajpat Nagar,"Gujarati, Biryani",Dessert Parlour,Yes,No,3.5,254,310,1.129,Affordable
+New Grill House,Delhi,Lajpat Nagar,"Chinese, Street Food, Beverages",Bakery,Yes,No,2.9,107,371,0.7817,Affordable
+The Food Hub,Delhi,Karol Bagh,"Mughlai, Italian, South Indian",Bakery,Yes,No,3.9,495,595,0.6555,Affordable
+New Dosa Corner,Delhi,Lajpat Nagar,Bengali,Dessert Parlour,Yes,No,4.3,54,332,1.2952,Affordable
+Burger Barn,Delhi,Connaught Place,"Punjabi, Fast Food",Quick Bites,Yes,Yes,3.4,343,396,0.8586,Affordable
+The Noodle Box,Delhi,Lajpat Nagar,Fast Food,Food Court,Yes,No,2.9,235,556,0.5216,Affordable
+Royal Food Hub,Delhi,Karol Bagh,"Rajasthani, Pizza, Seafood",Delivery,Yes,No,2.9,286,283,1.0247,Budget
+Royal Dosa Corner,Delhi,Dwarka,Rajasthani,Cafe,Yes,Yes,3.7,1286,702,0.5271,Mid-Range
+Aroma Restaurant,Delhi,Lajpat Nagar,Bengali,Delivery,No,No,4.5,494,402,1.1194,Affordable
+The Food Hub,Delhi,Saket,"Bengali, Mexican",Delivery,Yes,No,4.4,597,567,0.776,Affordable
+The Flavor Town,Delhi,Saket,"Punjabi, Seafood",Quick Bites,Yes,No,4.1,517,331,1.2387,Affordable
+Royal Aroma Restaurant,Delhi,Dwarka,Beverages,Delivery,Yes,No,2.7,695,345,0.7826,Affordable
+Hotel Sweet Tooth,Delhi,Karol Bagh,"Rajasthani, Biryani",Quick Bites,No,No,4.1,651,289,1.4187,Budget
+The Grill House,Delhi,Karol Bagh,"Bengali, Italian",Quick Bites,No,No,3.7,711,206,1.7961,Budget
+Restaurant Pizza Palace,Delhi,Karol Bagh,Seafood,Quick Bites,Yes,No,3.2,673,189,1.6931,Budget
+The Taste of India,Delhi,Karol Bagh,"Fast Food, Gujarati, Mughlai",Delivery,No,No,3.1,283,559,0.5546,Affordable
+Urban Kitchen,Delhi,Connaught Place,"Gujarati, Punjabi",Food Court,Yes,Yes,3.9,555,447,0.8725,Affordable
+Cafe Chaat Junction,Hyderabad,Jubilee Hills,"Chinese, Cafe",Delivery,Yes,Yes,4.4,121,139,3.1655,Budget
+Curry Leaf,Hyderabad,Banjara Hills,"North Indian, Street Food, Bengali",Delivery,No,No,2.8,440,277,1.0108,Budget
+New Tiffin Box,Hyderabad,Gachibowli,Punjabi,Quick Bites,Yes,No,3.2,344,430,0.7442,Affordable
+The Pizza Palace,Hyderabad,Hitech City,"Mexican, Biryani",Bakery,No,No,4.1,505,216,1.8981,Budget
+Cafe Dosa Corner,Hyderabad,Jubilee Hills,"Pizza, Cafe",Dessert Parlour,No,Yes,4.4,735,529,0.8318,Affordable
+Pizza Palace,Hyderabad,Hitech City,Desserts,Casual Dining,Yes,No,3.8,1201,610,0.623,Mid-Range
+Cafe Spice Garden,Hyderabad,Hitech City,"Pizza, Thai, Street Food",Bakery,Yes,Yes,4.4,158,493,0.8925,Affordable
+Shree Food Hub,Hyderabad,Jubilee Hills,"Street Food, Mexican",Dessert Parlour,No,No,4.0,462,572,0.6993,Affordable
+New Burger Barn,Hyderabad,Hitech City,"North Indian, Seafood",Casual Dining,Yes,Yes,3.7,162,734,0.5041,Mid-Range
+Royal Fusion Bites,Hyderabad,Banjara Hills,Chinese,Delivery,Yes,No,3.8,534,144,2.6389,Budget
+Hotel Curry Leaf,Hyderabad,Gachibowli,"Biryani, Bengali",Food Court,Yes,No,3.1,325,279,1.1111,Budget
+Cafe Curry Leaf,Hyderabad,Hitech City,"Street Food, Pizza",Fine Dining,No,No,4.3,485,3196,0.1345,Luxury
+Cafe Curry Leaf,Hyderabad,Jubilee Hills,"Desserts, Chinese, Seafood",Bakery,Yes,No,4.3,189,312,1.3782,Affordable
+The Spice Garden,Hyderabad,Jubilee Hills,"Thai, Gujarati",Fine Dining,Yes,No,4.7,1211,2744,0.1713,Luxury
+Chaat Junction,Hyderabad,Banjara Hills,"Gujarati, Fast Food",Dessert Parlour,No,No,3.3,511,351,0.9402,Affordable
+The Saffron,Hyderabad,Jubilee Hills,"Gujarati, Mexican, Bengali",Food Court,No,No,3.5,132,455,0.7692,Affordable
+Food Hub,Hyderabad,Hitech City,Desserts,Quick Bites,Yes,No,3.2,289,127,2.5197,Budget
+Saffron,Hyderabad,Hitech City,"Chinese, Punjabi, Mughlai",Dessert Parlour,No,Yes,2.7,181,485,0.5567,Affordable
+Hotel Curry Leaf,Hyderabad,Jubilee Hills,"Mexican, Beverages, Biryani",Casual Dining,Yes,No,3.8,893,896,0.4241,Mid-Range
+Hotel Noodle Box,Hyderabad,Gachibowli,Thai,Delivery,Yes,No,3.6,739,372,0.9677,Affordable
+Royal Grill House,Hyderabad,Hitech City,Biryani,Casual Dining,No,No,3.7,334,771,0.4799,Mid-Range
+Hotel Noodle Box,Hyderabad,Banjara Hills,"Street Food, North Indian, Fast Food",Cafe,Yes,No,3.4,679,632,0.538,Mid-Range
+Food Hub,Hyderabad,Banjara Hills,Gujarati,Casual Dining,No,Yes,3.4,1101,1075,0.3163,Premium
+Momo Point,Hyderabad,Hitech City,"North Indian, Fast Food, Mexican",Dessert Parlour,No,Yes,4.3,696,194,2.2165,Budget
+New Curry Leaf,Hyderabad,Jubilee Hills,Punjabi,Food Court,No,No,3.5,111,134,2.6119,Budget
+Royal Dosa Corner,Hyderabad,Gachibowli,Thai,Dessert Parlour,Yes,No,4.3,526,571,0.7531,Affordable
+Shree Biryani House,Hyderabad,Jubilee Hills,Beverages,Casual Dining,No,No,4.0,281,817,0.4896,Mid-Range
+Shree Burger Barn,Hyderabad,Gachibowli,"Street Food, Thai",Bakery,No,Yes,3.5,300,297,1.1785,Budget
+Hotel Sweet Tooth,Hyderabad,Gachibowli,"Mughlai, Chinese",Dessert Parlour,No,No,3.8,193,288,1.3194,Budget
+Curry Leaf,Hyderabad,Gachibowli,Biryani,Casual Dining,Yes,No,4.7,395,1159,0.4055,Premium
+Kebab King,Hyderabad,Gachibowli,Bengali,Casual Dining,No,Yes,4.3,1265,995,0.4322,Mid-Range
+The Biryani House,Hyderabad,Banjara Hills,"Punjabi, Italian",Fine Dining,Yes,No,3.9,1218,3504,0.1113,Luxury
+New Cloud Kitchen,Hyderabad,Gachibowli,"North Indian, Pizza",Casual Dining,Yes,No,3.4,1326,1036,0.3282,Premium
+The Noodle Box,Hyderabad,Banjara Hills,Street Food,Bakery,No,No,3.0,563,275,1.0909,Budget
+Flavor Town,Hyderabad,Gachibowli,"Desserts, Seafood",Fine Dining,Yes,Yes,4.0,1646,2741,0.1459,Luxury
+New Food Hub,Hyderabad,Gachibowli,Mexican,Bakery,No,No,3.9,491,392,0.9949,Affordable
+Kebab King,Hyderabad,Banjara Hills,"Mexican, Seafood",Dessert Parlour,Yes,No,3.8,72,264,1.4394,Budget
+Royal Taste of India,Hyderabad,Banjara Hills,"Fast Food, Bengali",Food Court,Yes,No,3.2,260,438,0.7306,Affordable
+Spice Garden,Hyderabad,Gachibowli,Desserts,Dessert Parlour,Yes,No,2.6,442,436,0.5963,Affordable
+New Cloud Kitchen,Hyderabad,Hitech City,"Seafood, Mexican",Quick Bites,Yes,No,4.1,717,151,2.7152,Budget
+Momo Point,Hyderabad,Gachibowli,"Street Food, Beverages, Bengali",Cafe,Yes,No,4.7,1147,477,0.9853,Affordable
+Hotel Classic Dining,Hyderabad,Hitech City,"Chinese, Mexican, Fast Food",Delivery,Yes,Yes,3.6,496,371,0.9704,Affordable
+The Classic Dining,Hyderabad,Jubilee Hills,"Thai, Desserts",Dessert Parlour,Yes,No,3.7,697,332,1.1145,Affordable
+The Grill House,Hyderabad,Jubilee Hills,Rajasthani,Bakery,Yes,No,4.1,797,536,0.7649,Affordable
+Hotel Classic Dining,Hyderabad,Jubilee Hills,"Biryani, Continental",Food Court,Yes,No,3.1,430,322,0.9627,Affordable
+Dhaba Express,Hyderabad,Gachibowli,"Street Food, Pizza",Fine Dining,Yes,No,4.2,507,1965,0.2137,Premium
+The Aroma Restaurant,Hyderabad,Gachibowli,"South Indian, Mughlai",Fine Dining,Yes,Yes,4.1,1548,2637,0.1555,Luxury
+Hotel Sweet Tooth,Hyderabad,Jubilee Hills,Chinese,Quick Bites,Yes,Yes,2.6,426,589,0.4414,Affordable
+Chaat Junction,Hyderabad,Banjara Hills,Mexican,Delivery,No,No,3.5,604,524,0.6679,Affordable
+Hotel Dosa Corner,Hyderabad,Jubilee Hills,"Fast Food, Desserts, Mexican",Delivery,No,No,4.1,251,480,0.8542,Affordable
+Restaurant Saffron,Hyderabad,Jubilee Hills,"Bengali, Italian",Dessert Parlour,No,Yes,3.6,125,458,0.786,Affordable
+Restaurant Saffron,Hyderabad,Gachibowli,"Beverages, Street Food",Food Court,Yes,No,3.7,767,530,0.6981,Affordable
+Taste of India,Hyderabad,Jubilee Hills,"Beverages, Fast Food, Thai",Dessert Parlour,No,No,3.3,412,565,0.5841,Affordable
+Hotel Cloud Kitchen,Hyderabad,Gachibowli,Pizza,Dessert Parlour,No,No,4.3,669,492,0.874,Affordable
+Royal Aroma Restaurant,Hyderabad,Hitech City,"Bengali, Desserts, Cafe",Bakery,No,No,4.1,277,457,0.8972,Affordable
+Hotel Biryani House,Hyderabad,Jubilee Hills,"North Indian, South Indian, Pizza",Bakery,Yes,No,2.8,214,305,0.918,Affordable
+Curry Leaf,Hyderabad,Banjara Hills,"Biryani, Bengali, Desserts",Delivery,Yes,No,2.8,713,188,1.4894,Budget
+Royal Classic Dining,Hyderabad,Jubilee Hills,"Pizza, Seafood",Fine Dining,No,No,4.8,242,2419,0.1984,Luxury
+Dosa Corner,Hyderabad,Banjara Hills,"Mughlai, Italian",Casual Dining,No,Yes,3.8,1279,839,0.4529,Mid-Range
+Masala Twist,Hyderabad,Gachibowli,"Punjabi, Bengali, Rajasthani",Quick Bites,No,No,2.9,205,204,1.4216,Budget
+Pizza Palace,Hyderabad,Banjara Hills,Bengali,Fine Dining,No,No,4.9,1688,2659,0.1843,Luxury
+Flavor Town,Hyderabad,Gachibowli,"Continental, Rajasthani",Dessert Parlour,No,No,3.8,97,334,1.1377,Affordable
+Royal Urban Kitchen,Hyderabad,Banjara Hills,"Seafood, Bengali, Italian",Delivery,Yes,No,2.6,250,576,0.4514,Affordable
+Cafe Grill House,Hyderabad,Gachibowli,"Punjabi, Seafood",Quick Bites,Yes,No,3.8,582,595,0.6387,Affordable
+Aroma Restaurant,Hyderabad,Hitech City,"Biryani, Chinese",Food Court,Yes,No,3.8,330,159,2.3899,Budget
+Shree Food Hub,Hyderabad,Jubilee Hills,"Italian, Cafe",Fine Dining,Yes,No,4.0,1764,3512,0.1139,Luxury
+Shree Food Hub,Hyderabad,Gachibowli,Continental,Cafe,Yes,No,3.4,943,878,0.3872,Mid-Range
+Cafe Dosa Corner,Hyderabad,Hitech City,"Thai, Gujarati, Rajasthani",Food Court,Yes,No,4.2,367,163,2.5767,Budget
+Hotel Sweet Tooth,Hyderabad,Hitech City,"North Indian, Punjabi, Pizza",Delivery,Yes,Yes,4.0,511,446,0.8969,Affordable
+The The Hungry Tiger,Hyderabad,Banjara Hills,"Biryani, North Indian",Casual Dining,Yes,No,4.2,1336,864,0.4861,Mid-Range
+Royal Sweet Tooth,Hyderabad,Banjara Hills,"Mexican, Biryani",Bakery,Yes,Yes,3.8,66,265,1.434,Budget
+Cafe Biryani House,Hyderabad,Hitech City,"Pizza, Continental",Fine Dining,No,No,3.9,533,2352,0.1658,Luxury
+Momo Point,Hyderabad,Gachibowli,"Street Food, Biryani",Bakery,Yes,Yes,3.2,511,202,1.5842,Budget
+Cafe Chaat Junction,Hyderabad,Banjara Hills,"Beverages, Pizza",Casual Dining,Yes,No,3.3,999,749,0.4406,Mid-Range
+New Noodle Box,Hyderabad,Hitech City,"Bengali, Chinese",Dessert Parlour,No,No,2.8,710,165,1.697,Budget
+Momo Point,Hyderabad,Banjara Hills,"Chinese, South Indian, Punjabi",Quick Bites,Yes,No,2.7,747,438,0.6164,Affordable
+Royal Aroma Restaurant,Hyderabad,Gachibowli,Rajasthani,Quick Bites,Yes,Yes,3.3,436,142,2.3239,Budget
+The Sweet Tooth,Hyderabad,Banjara Hills,"Italian, Desserts, Pizza",Bakery,Yes,Yes,4.5,699,232,1.9397,Budget
+Royal Kebab King,Hyderabad,Gachibowli,Gujarati,Quick Bites,Yes,No,3.8,626,481,0.79,Affordable
+Cafe Classic Dining,Hyderabad,Jubilee Hills,Biryani,Dessert Parlour,Yes,Yes,4.1,202,456,0.8991,Affordable
+Shree Chaat Junction,Hyderabad,Gachibowli,"Thai, Mughlai, Chinese",Fine Dining,Yes,No,4.3,438,1589,0.2706,Premium
+Noodle Box,Hyderabad,Gachibowli,"Mexican, Continental",Quick Bites,Yes,No,3.8,351,126,3.0159,Budget
+Restaurant Flavor Town,Hyderabad,Banjara Hills,Gujarati,Dessert Parlour,Yes,No,3.9,704,578,0.6747,Affordable
+Dhaba Express,Hyderabad,Gachibowli,"Mexican, Desserts",Quick Bites,Yes,Yes,3.8,494,555,0.6847,Affordable
+Royal Flavor Town,Hyderabad,Gachibowli,Street Food,Quick Bites,No,No,3.4,234,359,0.9471,Affordable
+Hotel Urban Kitchen,Hyderabad,Gachibowli,"Seafood, Bengali",Cafe,No,No,4.3,381,883,0.487,Mid-Range
+The Kebab King,Hyderabad,Hitech City,Mughlai,Cafe,Yes,No,4.4,671,905,0.4862,Mid-Range
+The Hungry Tiger,Hyderabad,Hitech City,"Pizza, Cafe, Punjabi",Food Court,Yes,Yes,3.4,242,416,0.8173,Affordable
+Hotel Biryani House,Hyderabad,Banjara Hills,"Italian, Biryani, Punjabi",Quick Bites,Yes,Yes,2.6,458,584,0.4452,Affordable
+Hotel Pizza Palace,Hyderabad,Hitech City,"Fast Food, Pizza, Cafe",Quick Bites,No,No,2.8,735,249,1.1245,Budget
+Masala Twist,Hyderabad,Jubilee Hills,Fast Food,Food Court,No,No,3.3,16,493,0.6694,Affordable
+Noodle Box,Hyderabad,Gachibowli,"Beverages, Bengali",Casual Dining,Yes,No,3.4,1134,1171,0.2904,Premium
+Cafe Noodle Box,Hyderabad,Banjara Hills,"Beverages, North Indian, Rajasthani",Bakery,Yes,Yes,4.1,81,583,0.7033,Affordable
+New Masala Twist,Hyderabad,Hitech City,Biryani,Fine Dining,No,Yes,4.5,805,3629,0.124,Luxury
+Royal Fusion Bites,Hyderabad,Gachibowli,Italian,Food Court,No,No,2.8,466,306,0.915,Affordable
+New Masala Twist,Hyderabad,Jubilee Hills,"Seafood, Mughlai, Street Food",Food Court,Yes,No,3.3,767,468,0.7051,Affordable
+Aroma Restaurant,Hyderabad,Gachibowli,"Thai, Street Food, Punjabi",Casual Dining,Yes,No,3.2,1263,952,0.3361,Mid-Range
+The Dhaba Express,Hyderabad,Hitech City,"South Indian, Beverages, Italian",Casual Dining,Yes,No,3.3,305,1066,0.3096,Premium
+Grill House,Hyderabad,Jubilee Hills,"Mexican, Cafe, Thai",Delivery,No,Yes,3.1,742,441,0.7029,Affordable
+The Noodle Box,Hyderabad,Jubilee Hills,"Punjabi, Mexican",Casual Dining,Yes,No,3.9,921,550,0.7091,Affordable
+Royal Chaat Junction,Hyderabad,Gachibowli,Rajasthani,Bakery,Yes,No,3.3,541,386,0.8549,Affordable
+Restaurant Dhaba Express,Hyderabad,Gachibowli,"Gujarati, Bengali, Pizza",Bakery,Yes,Yes,3.9,731,166,2.3494,Budget
+New Pizza Palace,Hyderabad,Banjara Hills,"Pizza, Thai, Beverages",Quick Bites,No,Yes,4.2,133,156,2.6923,Budget
+Masala Twist,Hyderabad,Jubilee Hills,"Beverages, Street Food",Food Court,Yes,Yes,2.8,613,501,0.5589,Affordable
+Sweet Tooth,Hyderabad,Gachibowli,"Gujarati, North Indian, Fast Food",Cafe,Yes,Yes,3.3,1223,892,0.37,Mid-Range
+Royal Noodle Box,Hyderabad,Gachibowli,Punjabi,Cafe,Yes,No,4.2,716,552,0.7609,Affordable
+The Momo Point,Hyderabad,Hitech City,"Desserts, Thai",Delivery,Yes,No,3.4,671,242,1.405,Budget
+The Biryani House,Hyderabad,Jubilee Hills,"Thai, Chinese, Mughlai",Casual Dining,No,No,4.3,1118,983,0.4374,Mid-Range
+The Chaat Junction,Hyderabad,Banjara Hills,"Mughlai, Continental",Quick Bites,No,No,3.7,556,143,2.5874,Budget
+Pizza Palace,Hyderabad,Jubilee Hills,"Pizza, Bengali",Food Court,Yes,No,3.3,127,146,2.2603,Budget
+Sweet Tooth,Hyderabad,Banjara Hills,Biryani,Dessert Parlour,Yes,No,2.8,343,414,0.6763,Affordable
+Royal Momo Point,Hyderabad,Jubilee Hills,Bengali,Food Court,No,Yes,4.4,133,560,0.7857,Affordable
+The Saffron,Hyderabad,Banjara Hills,"Punjabi, Seafood, Fast Food",Bakery,Yes,No,3.8,505,133,2.8571,Budget
+Restaurant Tiffin Box,Hyderabad,Gachibowli,"Biryani, Street Food, Bengali",Delivery,Yes,No,3.5,155,500,0.7,Affordable
+Shree Saffron,Hyderabad,Hitech City,North Indian,Bakery,No,No,3.8,181,434,0.8756,Affordable
+Hotel Pizza Palace,Hyderabad,Hitech City,"Mughlai, Mexican",Fine Dining,No,Yes,4.0,1353,3687,0.1085,Luxury
+Shree Saffron,Hyderabad,Jubilee Hills,Cafe,Fine Dining,Yes,No,4.8,1500,2903,0.1653,Luxury
+The Spice Garden,Hyderabad,Jubilee Hills,"Mughlai, Rajasthani",Food Court,No,No,4.3,671,168,2.5595,Budget
+Shree Urban Kitchen,Hyderabad,Banjara Hills,"Gujarati, Seafood, Thai",Fine Dining,Yes,No,4.5,263,3706,0.1214,Luxury
+Shree Spice Garden,Hyderabad,Jubilee Hills,"Cafe, Beverages",Food Court,Yes,No,4.1,137,104,3.9423,Budget
+Food Hub,Chennai,Velachery,"Beverages, Mughlai",Quick Bites,Yes,No,3.1,236,467,0.6638,Affordable
+New Curry Leaf,Chennai,OMR,"Cafe, Mughlai, North Indian",Bakery,Yes,No,3.3,294,545,0.6055,Affordable
+Curry Leaf,Chennai,Anna Nagar,Mexican,Cafe,Yes,Yes,3.6,516,983,0.3662,Mid-Range
+Biryani House,Chennai,OMR,"Thai, Rajasthani, North Indian",Dessert Parlour,No,No,4.4,340,126,3.4921,Budget
+Curry Leaf,Chennai,Velachery,"Beverages, Punjabi",Bakery,No,No,2.9,440,242,1.1983,Budget
+The Chaat Junction,Chennai,Adyar,"North Indian, Continental, Bengali",Casual Dining,No,No,3.5,686,737,0.4749,Mid-Range
+Hotel Cloud Kitchen,Chennai,OMR,"Desserts, Italian, Continental",Quick Bites,Yes,Yes,3.2,351,127,2.5197,Budget
+Hotel Pizza Palace,Chennai,Anna Nagar,Rajasthani,Bakery,Yes,Yes,2.6,396,117,2.2222,Budget
+Biryani House,Chennai,OMR,Street Food,Bakery,Yes,No,2.7,582,128,2.1094,Budget
+Hotel The Hungry Tiger,Chennai,Anna Nagar,Cafe,Fine Dining,No,No,4.3,1828,3401,0.1264,Luxury
+New Saffron,Chennai,Velachery,"Desserts, Mexican, Mughlai",Bakery,Yes,Yes,3.9,208,403,0.9677,Affordable
+Masala Twist,Chennai,OMR,"Cafe, Rajasthani",Fine Dining,Yes,Yes,3.8,838,2022,0.1879,Luxury
+The Burger Barn,Chennai,OMR,Gujarati,Cafe,Yes,No,3.8,1110,408,0.9314,Affordable
+Shree Fusion Bites,Chennai,Velachery,"Beverages, Mughlai",Quick Bites,No,No,2.9,359,135,2.1481,Budget
+Restaurant Flavor Town,Chennai,T Nagar,"Street Food, Bengali, Desserts",Food Court,Yes,No,4.1,511,121,3.3884,Budget
+The Kebab King,Chennai,Anna Nagar,"Mughlai, Continental, Gujarati",Bakery,No,No,3.2,394,478,0.6695,Affordable
+Restaurant Masala Twist,Chennai,T Nagar,"North Indian, Thai",Casual Dining,Yes,Yes,3.8,511,999,0.3804,Mid-Range
+Cafe Sweet Tooth,Chennai,Anna Nagar,"Pizza, Desserts",Delivery,No,Yes,2.9,511,190,1.5263,Budget
+Flavor Town,Chennai,Anna Nagar,Street Food,Food Court,Yes,No,3.2,549,187,1.7112,Budget
+Restaurant Food Hub,Chennai,OMR,Biryani,Casual Dining,No,Yes,3.8,701,783,0.4853,Mid-Range
+Restaurant Aroma Restaurant,Chennai,Anna Nagar,"Street Food, Biryani, Desserts",Delivery,Yes,No,3.1,530,164,1.8902,Budget
+Flavor Town,Chennai,Velachery,"Cafe, Chinese, Pizza",Bakery,Yes,No,3.8,393,360,1.0556,Affordable
+Shree Burger Barn,Chennai,Adyar,"Gujarati, Cafe, Italian",Bakery,Yes,No,4.1,47,432,0.9491,Affordable
+Shree Grill House,Chennai,Velachery,"Bengali, Seafood",Delivery,Yes,No,3.2,96,381,0.8399,Affordable
+Spice Garden,Chennai,T Nagar,"South Indian, Rajasthani, Punjabi",Delivery,Yes,No,3.4,386,309,1.1003,Affordable
+Burger Barn,Chennai,Anna Nagar,Italian,Bakery,Yes,No,2.7,523,531,0.5085,Affordable
+Curry Leaf,Chennai,OMR,Beverages,Casual Dining,Yes,Yes,3.5,562,737,0.4749,Mid-Range
+The Chaat Junction,Chennai,OMR,"Thai, Italian, North Indian",Cafe,No,Yes,3.7,880,813,0.4551,Mid-Range
+Shree The Hungry Tiger,Chennai,Anna Nagar,"Continental, Cafe",Cafe,No,Yes,3.6,1181,1001,0.3596,Premium
+Cafe Masala Twist,Chennai,Anna Nagar,Bengali,Food Court,No,No,3.8,581,330,1.1515,Affordable
+The Momo Point,Chennai,Anna Nagar,"Beverages, Desserts, Continental",Bakery,Yes,No,3.3,717,498,0.6627,Affordable
+Taste of India,Chennai,OMR,Desserts,Cafe,Yes,No,4.6,850,987,0.4661,Mid-Range
+Cafe Food Hub,Chennai,OMR,Gujarati,Fine Dining,Yes,No,4.3,390,2747,0.1565,Luxury
+Shree Food Hub,Chennai,Velachery,Pizza,Bakery,Yes,No,3.3,248,205,1.6098,Budget
+Hotel Sweet Tooth,Chennai,T Nagar,Desserts,Quick Bites,No,No,2.8,142,156,1.7949,Budget
+New Flavor Town,Chennai,Adyar,Street Food,Cafe,Yes,No,3.9,1227,1018,0.3831,Premium
+Shree Dhaba Express,Chennai,Adyar,North Indian,Dessert Parlour,No,No,4.1,262,409,1.0024,Affordable
+Burger Barn,Chennai,T Nagar,"Chinese, Street Food, Rajasthani",Quick Bites,Yes,No,4.1,637,300,1.3667,Budget
+New Masala Twist,Chennai,Anna Nagar,"Seafood, Pizza",Fine Dining,No,Yes,4.6,690,1678,0.2741,Premium
+Cafe Saffron,Chennai,T Nagar,"Bengali, Thai",Delivery,Yes,No,4.0,794,358,1.1173,Affordable
+The Spice Garden,Chennai,Velachery,"North Indian, Chinese",Quick Bites,Yes,No,3.4,773,275,1.2364,Budget
+Cafe Dosa Corner,Chennai,Anna Nagar,"Biryani, Desserts, Rajasthani",Casual Dining,Yes,Yes,4.0,946,648,0.6173,Mid-Range
+Dosa Corner,Chennai,T Nagar,Street Food,Casual Dining,Yes,No,3.5,72,1087,0.322,Premium
+Flavor Town,Chennai,Velachery,"Thai, Mughlai, Rajasthani",Quick Bites,No,No,4.1,688,428,0.9579,Affordable
+Hotel Spice Garden,Chennai,Adyar,Cafe,Bakery,Yes,No,4.0,265,575,0.6957,Affordable
+Cafe Aroma Restaurant,Chennai,T Nagar,Desserts,Quick Bites,No,No,2.6,108,590,0.4407,Affordable
+Biryani House,Chennai,T Nagar,"Punjabi, Fast Food",Quick Bites,No,No,3.8,222,419,0.9069,Affordable
+Classic Dining,Chennai,OMR,Beverages,Delivery,Yes,Yes,3.8,408,106,3.5849,Budget
+Royal Dosa Corner,Chennai,Velachery,Chinese,Food Court,No,No,4.0,114,355,1.1268,Affordable
+Royal Momo Point,Chennai,Adyar,"Desserts, Seafood, Biryani",Casual Dining,Yes,No,4.5,1414,725,0.6207,Mid-Range
+Royal Taste of India,Chennai,Anna Nagar,"Continental, Punjabi, North Indian",Fine Dining,Yes,No,4.8,684,2765,0.1736,Luxury
+Pizza Palace,Chennai,Velachery,"Gujarati, Street Food",Cafe,Yes,No,4.2,1274,643,0.6532,Mid-Range
+New Food Hub,Chennai,T Nagar,"South Indian, Punjabi, Bengali",Food Court,Yes,Yes,2.5,760,533,0.469,Affordable
+Cafe Curry Leaf,Chennai,T Nagar,"Seafood, Punjabi, Desserts",Delivery,Yes,No,2.6,81,351,0.7407,Affordable
+Cafe Aroma Restaurant,Chennai,T Nagar,Mexican,Casual Dining,Yes,No,3.5,210,919,0.3808,Mid-Range
+Sweet Tooth,Chennai,Adyar,"Pizza, Continental",Delivery,Yes,No,4.4,288,203,2.1675,Budget
+Hotel Cloud Kitchen,Chennai,Velachery,"Rajasthani, Bengali",Cafe,Yes,No,4.3,90,893,0.4815,Mid-Range
+Shree Curry Leaf,Chennai,T Nagar,"Pizza, Italian, Seafood",Cafe,Yes,No,3.8,1034,1020,0.3725,Premium
+Sweet Tooth,Chennai,Adyar,North Indian,Delivery,No,No,3.2,435,307,1.0423,Affordable
+Cloud Kitchen,Chennai,Velachery,"Mexican, Chinese, Bengali",Dessert Parlour,No,No,2.7,589,577,0.4679,Affordable
+Cafe Saffron,Chennai,OMR,"Beverages, South Indian, Seafood",Bakery,No,No,3.0,380,117,2.5641,Budget
+Sweet Tooth,Chennai,OMR,"Biryani, Italian, Continental",Bakery,Yes,No,4.2,129,106,3.9623,Budget
+Cloud Kitchen,Chennai,Anna Nagar,"Mughlai, Bengali, Pizza",Casual Dining,No,Yes,3.7,1398,945,0.3915,Mid-Range
+Shree Spice Garden,Chennai,Anna Nagar,"Mexican, Beverages, Biryani",Casual Dining,Yes,Yes,3.8,680,1115,0.3408,Premium
+Cafe Grill House,Chennai,Anna Nagar,"Bengali, Punjabi, Cafe",Casual Dining,No,No,3.5,431,783,0.447,Mid-Range
+Hotel Classic Dining,Chennai,T Nagar,"Mughlai, Pizza, Cafe",Bakery,Yes,Yes,4.0,428,232,1.7241,Budget
+The Food Hub,Chennai,Velachery,"Chinese, Seafood",Casual Dining,Yes,Yes,3.2,1028,640,0.5,Mid-Range
+Fusion Bites,Chennai,Adyar,"Mexican, South Indian, Fast Food",Quick Bites,Yes,No,3.3,789,366,0.9016,Affordable
+Biryani House,Chennai,Anna Nagar,"Desserts, Cafe",Food Court,No,No,3.8,635,293,1.2969,Budget
+Royal Urban Kitchen,Chennai,Adyar,"Seafood, Biryani, North Indian",Bakery,Yes,No,3.1,779,458,0.6769,Affordable
+Aroma Restaurant,Chennai,OMR,"Mughlai, North Indian, Desserts",Fine Dining,Yes,No,3.9,1588,2833,0.1377,Luxury
+Cafe Grill House,Chennai,OMR,"Bengali, Gujarati",Casual Dining,No,No,4.6,838,1151,0.3997,Premium
+Hotel Chaat Junction,Chennai,OMR,Gujarati,Quick Bites,No,No,3.8,488,380,1.0,Affordable
+Sweet Tooth,Chennai,Velachery,Mughlai,Delivery,Yes,No,3.9,511,154,2.5325,Budget
+Restaurant Momo Point,Chennai,OMR,"Italian, Gujarati, Fast Food",Delivery,No,No,3.8,102,351,1.0826,Affordable
+Hotel Biryani House,Chennai,Anna Nagar,"Desserts, Seafood, Mexican",Casual Dining,No,No,4.6,527,847,0.5431,Mid-Range
+Royal Tiffin Box,Chennai,T Nagar,"Mexican, Mughlai, Fast Food",Food Court,Yes,Yes,3.1,600,294,1.0544,Budget
+New Dhaba Express,Chennai,Velachery,"Desserts, Beverages",Fine Dining,No,No,3.9,1409,3964,0.0984,Luxury
+The Fusion Bites,Chennai,Velachery,"Continental, Gujarati",Cafe,No,Yes,3.6,1412,1164,0.3093,Premium
+Cafe Flavor Town,Chennai,T Nagar,"Fast Food, Italian, Gujarati",Dessert Parlour,Yes,Yes,3.1,395,594,0.5219,Affordable
+Noodle Box,Chennai,Adyar,"South Indian, Pizza, Gujarati",Delivery,No,Yes,4.1,173,567,0.7231,Affordable
+Cafe The Hungry Tiger,Chennai,OMR,"Seafood, Chinese",Food Court,Yes,Yes,3.9,727,199,1.9598,Budget
+Restaurant Aroma Restaurant,Chennai,Anna Nagar,"Street Food, Rajasthani, Pizza",Quick Bites,Yes,No,3.5,158,559,0.6261,Affordable
+Cafe Food Hub,Chennai,Anna Nagar,"Mexican, Fast Food, Biryani",Food Court,Yes,No,3.9,67,186,2.0968,Budget
+Cloud Kitchen,Chennai,Anna Nagar,"Bengali, Biryani, Seafood",Food Court,Yes,Yes,3.3,714,254,1.2992,Budget
+The Momo Point,Chennai,OMR,"Seafood, Italian, Rajasthani",Bakery,Yes,Yes,2.7,666,350,0.7714,Affordable
+Hotel Flavor Town,Chennai,OMR,"Fast Food, Mexican",Bakery,Yes,No,3.8,315,322,1.1801,Affordable
+Hotel Cloud Kitchen,Chennai,T Nagar,"North Indian, Seafood",Cafe,Yes,No,4.4,180,900,0.4889,Mid-Range
+Cafe Taste of India,Chennai,OMR,Cafe,Casual Dining,No,Yes,3.8,301,721,0.527,Mid-Range
+The Burger Barn,Chennai,Velachery,Chinese,Dessert Parlour,No,No,3.2,185,378,0.8466,Affordable
+Hotel Urban Kitchen,Chennai,Anna Nagar,"Street Food, Thai, Rajasthani",Quick Bites,Yes,No,3.1,370,566,0.5477,Affordable
+Pizza Palace,Chennai,OMR,Mughlai,Delivery,Yes,No,2.9,626,168,1.7262,Budget
+Flavor Town,Chennai,T Nagar,Thai,Fine Dining,Yes,No,4.8,1134,3138,0.153,Luxury
+Royal Dosa Corner,Chennai,Adyar,Italian,Delivery,No,No,2.9,587,290,1.0,Budget
+Hotel The Hungry Tiger,Chennai,Anna Nagar,"Bengali, Seafood",Cafe,Yes,No,3.3,1138,527,0.6262,Affordable
+Hotel Dosa Corner,Chennai,OMR,"Italian, Biryani",Food Court,No,Yes,2.5,237,293,0.8532,Budget
+Cloud Kitchen,Chennai,Adyar,"Gujarati, Fast Food, Punjabi",Dessert Parlour,Yes,No,3.1,632,238,1.3025,Budget
+Cafe Urban Kitchen,Chennai,T Nagar,"Thai, Cafe",Cafe,Yes,No,3.8,580,530,0.717,Affordable
+Shree Dosa Corner,Chennai,Adyar,"Mexican, Italian",Cafe,Yes,No,4.7,560,1124,0.4181,Premium
+Noodle Box,Chennai,Velachery,"Punjabi, Street Food",Food Court,Yes,No,4.4,244,551,0.7985,Affordable
+The Noodle Box,Chennai,OMR,"Chinese, Cafe, Continental",Casual Dining,No,Yes,3.3,635,1161,0.2842,Premium
+The Flavor Town,Chennai,Adyar,"Gujarati, Punjabi",Cafe,No,No,3.8,880,527,0.7211,Affordable
+Restaurant Dosa Corner,Chennai,Anna Nagar,Punjabi,Food Court,No,Yes,3.4,700,186,1.828,Budget
+Restaurant Tiffin Box,Chennai,Anna Nagar,Punjabi,Food Court,Yes,Yes,3.5,392,187,1.8717,Budget
+New Food Hub,Chennai,Adyar,"Gujarati, Street Food",Dessert Parlour,Yes,Yes,3.8,232,301,1.2625,Affordable
+Kebab King,Chennai,Anna Nagar,Beverages,Bakery,Yes,No,3.1,15,154,2.013,Budget
+Burger Barn,Chennai,Adyar,"Gujarati, Mughlai",Casual Dining,Yes,No,3.8,1048,526,0.7224,Affordable
+Cafe Kebab King,Chennai,Adyar,"Street Food, Beverages",Fine Dining,Yes,Yes,4.7,1098,1945,0.2416,Premium
+Restaurant Chaat Junction,Chennai,Velachery,"Mughlai, Fast Food",Quick Bites,Yes,Yes,3.3,349,480,0.6875,Affordable
+Pizza Palace,Chennai,Anna Nagar,"Gujarati, Thai",Casual Dining,Yes,No,3.4,868,1169,0.2908,Premium
+Royal Aroma Restaurant,Pune,Koregaon Park,Biryani,Casual Dining,Yes,No,4.4,156,642,0.6854,Mid-Range
+Hotel Saffron,Pune,Baner,"Street Food, Cafe",Fine Dining,Yes,No,4.1,1693,2124,0.193,Luxury
+Royal Classic Dining,Pune,Baner,Gujarati,Fine Dining,No,No,4.6,1451,3557,0.1293,Luxury
+The Sweet Tooth,Pune,Kothrud,Biryani,Delivery,Yes,Yes,3.8,446,174,2.1839,Budget
+Flavor Town,Pune,Kothrud,"Continental, Cafe, Desserts",Dessert Parlour,Yes,Yes,3.4,321,126,2.6984,Budget
+Hotel Noodle Box,Pune,Baner,"South Indian, Pizza",Delivery,Yes,Yes,4.0,302,208,1.9231,Budget
+Aroma Restaurant,Pune,Hinjewadi,"Beverages, Desserts",Dessert Parlour,Yes,Yes,2.5,798,382,0.6545,Affordable
+Restaurant Curry Leaf,Pune,Kothrud,"Italian, Mughlai, Seafood",Delivery,Yes,Yes,3.8,133,408,0.9314,Affordable
+Cafe Curry Leaf,Pune,Kothrud,Thai,Casual Dining,Yes,No,3.9,463,1179,0.3308,Premium
+The Dosa Corner,Pune,Hinjewadi,"Beverages, Cafe, Rajasthani",Dessert Parlour,Yes,Yes,3.4,439,347,0.9798,Affordable
+Hotel Dosa Corner,Pune,Kothrud,"South Indian, Mexican",Cafe,Yes,No,3.5,1063,807,0.4337,Mid-Range
+New Dhaba Express,Pune,Hinjewadi,"Seafood, Cafe, Italian",Fine Dining,Yes,Yes,3.8,1626,3925,0.0968,Luxury
+Cafe Saffron,Pune,Baner,Street Food,Dessert Parlour,No,No,2.8,556,123,2.2764,Budget
+Taste of India,Pune,Hinjewadi,Continental,Dessert Parlour,No,Yes,2.7,365,432,0.625,Affordable
+Spice Garden,Pune,Koregaon Park,"Cafe, Street Food",Cafe,Yes,Yes,4.4,499,764,0.5759,Mid-Range
+Cafe Dhaba Express,Pune,Baner,"Italian, Thai, Mughlai",Fine Dining,No,Yes,4.1,1489,3882,0.1056,Luxury
+Cafe Classic Dining,Pune,Hinjewadi,"Biryani, Gujarati",Fine Dining,Yes,Yes,4.0,586,2221,0.1801,Luxury
+Biryani House,Pune,Baner,"Pizza, Cafe",Quick Bites,No,No,2.9,83,173,1.6763,Budget
+Pizza Palace,Pune,Koregaon Park,"Fast Food, Seafood, Mexican",Quick Bites,Yes,No,4.0,54,429,0.9324,Affordable
+Shree Dosa Corner,Pune,Hinjewadi,Thai,Quick Bites,No,No,3.9,152,203,1.9212,Budget
+Biryani House,Pune,Kothrud,"Biryani, Continental",Food Court,Yes,No,3.8,31,163,2.3313,Budget
+Urban Kitchen,Pune,Koregaon Park,Continental,Cafe,Yes,No,3.4,637,1071,0.3175,Premium
+Hotel Food Hub,Pune,Baner,Fast Food,Bakery,Yes,No,3.1,640,139,2.2302,Budget
+Biryani House,Pune,Hinjewadi,"Punjabi, Desserts",Cafe,Yes,No,3.4,1457,1083,0.3139,Premium
+Shree Aroma Restaurant,Pune,Kothrud,"Beverages, Italian, Chinese",Bakery,No,No,4.5,681,498,0.9036,Affordable
+Chaat Junction,Pune,Kothrud,Mexican,Casual Dining,Yes,No,3.4,311,730,0.4658,Mid-Range
+New Tiffin Box,Pune,Baner,"Bengali, Desserts, Biryani",Bakery,No,No,3.0,572,314,0.9554,Affordable
+Restaurant Spice Garden,Pune,Hinjewadi,Mexican,Fine Dining,No,No,4.7,1639,2398,0.196,Luxury
+New Noodle Box,Pune,Baner,Fast Food,Bakery,Yes,No,4.2,152,543,0.7735,Affordable
+Kebab King,Pune,Koregaon Park,South Indian,Delivery,No,Yes,3.9,396,173,2.2543,Budget
+Royal Noodle Box,Pune,Baner,"Mexican, Chinese, Gujarati",Casual Dining,No,No,3.2,339,774,0.4134,Mid-Range
+Biryani House,Pune,Baner,"Biryani, Punjabi",Cafe,No,Yes,3.8,959,745,0.5101,Mid-Range
+Royal Grill House,Pune,Hinjewadi,"South Indian, Pizza, Punjabi",Quick Bites,Yes,No,3.3,475,585,0.5641,Affordable
+Restaurant Sweet Tooth,Pune,Baner,"Pizza, Italian",Delivery,No,No,4.5,770,164,2.7439,Budget
+Hotel Biryani House,Pune,Koregaon Park,"Rajasthani, Gujarati, Desserts",Casual Dining,No,No,3.8,810,455,0.8352,Affordable
+New Curry Leaf,Pune,Koregaon Park,"Desserts, North Indian, Continental",Food Court,Yes,No,2.6,21,405,0.642,Affordable
+The Kebab King,Pune,Hinjewadi,"Chinese, Mexican",Delivery,Yes,No,4.1,59,123,3.3333,Budget
+Hotel Grill House,Pune,Baner,"Mughlai, Desserts, Seafood",Fine Dining,No,No,4.6,878,1898,0.2424,Premium
+Restaurant Urban Kitchen,Pune,Baner,"Seafood, Gujarati, South Indian",Quick Bites,Yes,Yes,3.4,650,553,0.6148,Affordable
+Burger Barn,Pune,Baner,"Punjabi, Cafe, Desserts",Cafe,Yes,Yes,3.8,932,1038,0.3661,Premium
+Hotel Chaat Junction,Pune,Koregaon Park,Mexican,Casual Dining,Yes,No,4.4,683,546,0.8059,Affordable
+Chaat Junction,Pune,Hinjewadi,"Pizza, Street Food",Bakery,Yes,Yes,3.2,82,145,2.2069,Budget
+Grill House,Pune,Hinjewadi,"Biryani, Fast Food, Gujarati",Bakery,Yes,No,3.3,644,538,0.6134,Affordable
+Restaurant Flavor Town,Pune,Koregaon Park,Bengali,Food Court,Yes,Yes,4.3,53,449,0.9577,Affordable
+Dhaba Express,Pune,Kothrud,Street Food,Cafe,Yes,No,4.5,845,628,0.7166,Mid-Range
+Hotel The Hungry Tiger,Pune,Hinjewadi,Chinese,Bakery,Yes,Yes,4.4,796,303,1.4521,Affordable
+Royal Food Hub,Pune,Kothrud,Gujarati,Bakery,Yes,No,3.6,491,585,0.6154,Affordable
+Cafe Taste of India,Pune,Baner,"Bengali, Gujarati",Quick Bites,Yes,Yes,2.5,710,488,0.5123,Affordable
+The Taste of India,Pune,Kothrud,"Seafood, Chinese",Casual Dining,Yes,No,4.5,488,937,0.4803,Mid-Range
+Royal Sweet Tooth,Pune,Koregaon Park,"Pizza, Mughlai",Food Court,Yes,No,3.5,174,452,0.7743,Affordable
+Spice Garden,Pune,Baner,Mexican,Delivery,Yes,No,4.5,761,580,0.7759,Affordable
+Shree Pizza Palace,Pune,Kothrud,Gujarati,Bakery,No,Yes,4.4,511,308,1.4286,Affordable
+Restaurant Curry Leaf,Pune,Koregaon Park,Mughlai,Casual Dining,No,Yes,4.2,390,1192,0.3523,Premium
+Kebab King,Pune,Hinjewadi,"North Indian, Street Food",Food Court,No,No,4.2,521,458,0.917,Affordable
+Classic Dining,Pune,Hinjewadi,"Desserts, Fast Food, Pizza",Fine Dining,Yes,No,4.4,1311,2166,0.2031,Luxury
+New Biryani House,Pune,Kothrud,Fast Food,Casual Dining,Yes,Yes,4.6,1066,506,0.9091,Affordable
+Shree Noodle Box,Pune,Kothrud,"Street Food, Bengali, Mughlai",Quick Bites,Yes,No,3.3,490,200,1.65,Budget
+Food Hub,Pune,Koregaon Park,"Continental, Punjabi",Quick Bites,Yes,No,3.0,511,529,0.5671,Affordable
+Burger Barn,Pune,Kothrud,Beverages,Quick Bites,No,No,4.0,353,262,1.5267,Budget
+Burger Barn,Pune,Koregaon Park,"Seafood, South Indian, Bengali",Delivery,Yes,No,4.5,422,188,2.3936,Budget
+Hotel Spice Garden,Pune,Kothrud,"Fast Food, Mexican, Seafood",Cafe,No,No,3.6,375,966,0.3727,Mid-Range
+Shree Classic Dining,Pune,Hinjewadi,"Mexican, Biryani, North Indian",Quick Bites,Yes,No,3.8,401,392,0.9694,Affordable
+Taste of India,Pune,Baner,Continental,Cafe,Yes,No,3.6,824,1198,0.3005,Premium
+Shree Kebab King,Pune,Baner,"Mexican, Fast Food, Cafe",Quick Bites,Yes,No,2.7,278,244,1.1066,Budget
+Classic Dining,Pune,Kothrud,Gujarati,Fine Dining,No,No,4.3,630,1812,0.2373,Premium
+Chaat Junction,Pune,Koregaon Park,Street Food,Cafe,Yes,Yes,4.1,114,1021,0.4016,Premium
+Restaurant Spice Garden,Pune,Hinjewadi,"Italian, Fast Food, Mughlai",Cafe,Yes,No,4.0,362,1179,0.3393,Premium
+New Classic Dining,Pune,Hinjewadi,Chinese,Cafe,No,No,3.6,458,893,0.4031,Mid-Range
+Biryani House,Pune,Hinjewadi,"Gujarati, Bengali, Punjabi",Bakery,No,No,3.0,713,201,1.4925,Budget
+Curry Leaf,Pune,Hinjewadi,Gujarati,Cafe,Yes,No,4.1,702,678,0.6047,Mid-Range
+New Kebab King,Pune,Kothrud,"Chinese, Rajasthani, Pizza",Food Court,No,No,3.0,310,309,0.9709,Affordable
+Cafe Cloud Kitchen,Pune,Hinjewadi,Pizza,Quick Bites,No,No,2.9,84,225,1.2889,Budget
+Masala Twist,Pune,Baner,Desserts,Casual Dining,No,No,3.5,708,981,0.3568,Mid-Range
+Urban Kitchen,Pune,Kothrud,Thai,Delivery,Yes,No,4.3,697,540,0.7963,Affordable
+Royal The Hungry Tiger,Pune,Kothrud,"Mughlai, Cafe",Food Court,Yes,No,2.6,441,240,1.0833,Budget
+Food Hub,Pune,Koregaon Park,"North Indian, Street Food, Cafe",Delivery,Yes,No,4.5,482,566,0.7951,Affordable
+New Cloud Kitchen,Pune,Hinjewadi,"North Indian, Chinese, Gujarati",Food Court,Yes,No,3.9,334,240,1.625,Budget
+Hotel Spice Garden,Pune,Baner,"South Indian, Seafood, Street Food",Bakery,No,No,4.2,134,595,0.7059,Affordable
+Tiffin Box,Pune,Koregaon Park,Biryani,Quick Bites,Yes,No,3.9,241,323,1.2074,Affordable
+Cafe Pizza Palace,Pune,Kothrud,"South Indian, Fast Food",Quick Bites,Yes,No,3.0,637,452,0.6637,Affordable
+New Burger Barn,Pune,Kothrud,Desserts,Casual Dining,No,No,4.5,1354,823,0.5468,Mid-Range
+Restaurant Flavor Town,Pune,Koregaon Park,"Desserts, Gujarati",Bakery,Yes,Yes,3.1,371,142,2.1831,Budget
+Royal Cloud Kitchen,Pune,Hinjewadi,"South Indian, Mughlai",Casual Dining,Yes,Yes,4.4,1048,592,0.7432,Affordable
+Curry Leaf,Pune,Koregaon Park,"Rajasthani, Biryani, Punjabi",Dessert Parlour,Yes,Yes,4.3,473,297,1.4478,Budget
+Shree Dosa Corner,Pune,Hinjewadi,"Pizza, Street Food",Dessert Parlour,No,No,2.7,119,336,0.8036,Affordable
+Grill House,Pune,Hinjewadi,"Punjabi, Rajasthani",Quick Bites,Yes,Yes,3.6,451,281,1.2811,Budget
+Royal Saffron,Pune,Kothrud,"Italian, Beverages",Quick Bites,Yes,No,4.0,208,316,1.2658,Affordable
+New Biryani House,Pune,Hinjewadi,South Indian,Fine Dining,Yes,No,4.0,273,1717,0.233,Premium
+Classic Dining,Pune,Hinjewadi,"Seafood, Cafe, Mexican",Delivery,Yes,No,4.3,517,237,1.8143,Budget
+Hotel Dosa Corner,Pune,Baner,"North Indian, Fast Food, Pizza",Dessert Parlour,Yes,No,3.5,714,256,1.3672,Budget
+The Fusion Bites,Pune,Hinjewadi,"Biryani, North Indian",Food Court,No,No,2.5,280,598,0.4181,Affordable
+Cafe Cloud Kitchen,Pune,Baner,"North Indian, Gujarati, Continental",Bakery,Yes,Yes,2.5,307,448,0.558,Affordable
+Dhaba Express,Pune,Koregaon Park,Street Food,Casual Dining,No,No,3.9,1167,759,0.5138,Mid-Range
+The Pizza Palace,Pune,Kothrud,"Desserts, Punjabi",Food Court,No,No,4.3,505,405,1.0617,Affordable
+Classic Dining,Pune,Koregaon Park,"Biryani, Beverages, Gujarati",Delivery,Yes,No,3.9,378,320,1.2188,Affordable
+Masala Twist,Pune,Baner,"Thai, Rajasthani, Punjabi",Dessert Parlour,Yes,No,3.2,410,269,1.1896,Budget
+Shree Urban Kitchen,Pune,Baner,"Punjabi, Desserts, Fast Food",Quick Bites,Yes,No,4.4,365,505,0.8713,Affordable
+The Curry Leaf,Pune,Hinjewadi,"Biryani, Punjabi, Street Food",Bakery,Yes,No,3.1,511,247,1.2551,Budget
+Grill House,Pune,Baner,Gujarati,Casual Dining,Yes,No,4.2,152,400,1.05,Affordable
+Noodle Box,Pune,Kothrud,"Italian, Biryani, Mughlai",Casual Dining,Yes,No,3.6,1019,432,0.8333,Affordable
+Cafe Noodle Box,Kolkata,Salt Lake,"Street Food, Cafe",Casual Dining,Yes,No,4.5,335,992,0.4536,Mid-Range
+Grill House,Kolkata,New Town,"Chinese, Street Food",Dessert Parlour,Yes,No,3.6,457,292,1.2329,Budget
+Cafe Fusion Bites,Kolkata,New Town,"Bengali, Rajasthani",Bakery,Yes,No,2.6,37,386,0.6736,Affordable
+The Dhaba Express,Kolkata,Gariahat,"Punjabi, Beverages, Biryani",Delivery,Yes,No,4.3,783,127,3.3858,Budget
+Food Hub,Kolkata,Park Street,South Indian,Quick Bites,Yes,No,2.7,109,404,0.6683,Affordable
+Aroma Restaurant,Kolkata,Park Street,"Mughlai, Punjabi, Biryani",Quick Bites,Yes,No,2.8,701,558,0.5018,Affordable
+New Dhaba Express,Kolkata,Gariahat,"Mughlai, Fast Food, Chinese",Bakery,Yes,No,2.7,263,149,1.8121,Budget
+Shree Urban Kitchen,Kolkata,Park Street,Street Food,Quick Bites,Yes,No,4.1,569,530,0.7736,Affordable
+Shree Chaat Junction,Kolkata,New Town,North Indian,Fine Dining,Yes,No,4.5,1247,2199,0.2046,Luxury
+Cafe Spice Garden,Kolkata,New Town,"Fast Food, Mexican, Gujarati",Dessert Parlour,Yes,Yes,3.3,119,509,0.6483,Affordable
+Pizza Palace,Kolkata,Gariahat,Mexican,Bakery,Yes,No,2.6,682,433,0.6005,Affordable
+Cafe Classic Dining,Kolkata,Salt Lake,"North Indian, Pizza",Bakery,Yes,No,3.5,733,278,1.259,Budget
+Shree Sweet Tooth,Kolkata,Gariahat,"Mexican, Desserts, Rajasthani",Food Court,No,No,3.1,684,490,0.6327,Affordable
+The Spice Garden,Kolkata,Salt Lake,"Punjabi, Cafe, Italian",Cafe,Yes,No,4.6,1247,756,0.6085,Mid-Range
+Restaurant Biryani House,Kolkata,Salt Lake,Fast Food,Delivery,Yes,No,3.1,800,218,1.422,Budget
+The Dosa Corner,Kolkata,New Town,"Chinese, South Indian",Fine Dining,Yes,Yes,4.7,1104,1798,0.2614,Premium
+Restaurant Aroma Restaurant,Kolkata,Salt Lake,"Rajasthani, Seafood, Biryani",Casual Dining,No,No,3.5,1055,658,0.5319,Mid-Range
+New Taste of India,Kolkata,New Town,"Mughlai, Chinese, North Indian",Fine Dining,Yes,No,4.0,210,2075,0.1928,Luxury
+Cafe Taste of India,Kolkata,Gariahat,"Punjabi, Gujarati, Mughlai",Cafe,No,No,3.9,780,760,0.5132,Mid-Range
+The Burger Barn,Kolkata,New Town,"Seafood, Chinese, Mexican",Fine Dining,Yes,No,3.9,672,3542,0.1101,Luxury
+Royal Grill House,Kolkata,New Town,"Beverages, Chinese",Dessert Parlour,No,Yes,3.1,599,373,0.8311,Affordable
+Cloud Kitchen,Kolkata,Park Street,"South Indian, Thai, Fast Food",Fine Dining,Yes,No,4.9,266,1622,0.3021,Premium
+Royal Fusion Bites,Kolkata,Park Street,Thai,Cafe,No,No,4.3,532,463,0.9287,Affordable
+The Biryani House,Kolkata,Park Street,Bengali,Food Court,Yes,No,2.7,500,382,0.7068,Affordable
+Restaurant Tiffin Box,Kolkata,Gariahat,"Continental, Beverages, Bengali",Bakery,Yes,No,4.3,511,216,1.9907,Budget
+Royal Kebab King,Kolkata,New Town,"Gujarati, South Indian, Seafood",Quick Bites,No,No,3.4,572,318,1.0692,Affordable
+New Momo Point,Kolkata,Park Street,"Bengali, South Indian",Delivery,Yes,Yes,2.5,775,311,0.8039,Affordable
+Pizza Palace,Kolkata,Gariahat,"Continental, South Indian, Chinese",Quick Bites,Yes,No,3.1,368,260,1.1923,Budget
+Shree Flavor Town,Kolkata,New Town,"Fast Food, Chinese, Mexican",Bakery,Yes,No,3.5,375,476,0.7353,Affordable
+Royal Chaat Junction,Kolkata,New Town,"Street Food, Continental, Punjabi",Food Court,No,No,3.6,65,153,2.3529,Budget
+Cafe Food Hub,Kolkata,Salt Lake,Biryani,Casual Dining,No,No,3.7,481,966,0.383,Mid-Range
+Fusion Bites,Kolkata,Gariahat,"Rajasthani, Fast Food, North Indian",Bakery,Yes,Yes,3.1,317,296,1.0473,Budget
+Food Hub,Kolkata,New Town,Seafood,Bakery,Yes,Yes,2.9,685,194,1.4948,Budget
+The Biryani House,Kolkata,Gariahat,"Desserts, Italian, Mughlai",Quick Bites,No,No,4.2,447,322,1.3043,Affordable
+Taste of India,Kolkata,Salt Lake,"Rajasthani, Bengali, Punjabi",Dessert Parlour,Yes,No,3.4,511,573,0.5934,Affordable
+Hotel Masala Twist,Kolkata,New Town,"Mexican, Seafood",Dessert Parlour,Yes,Yes,3.0,678,228,1.3158,Budget
+Restaurant Noodle Box,Kolkata,Park Street,Rajasthani,Dessert Parlour,Yes,No,3.4,377,594,0.5724,Affordable
+Restaurant Classic Dining,Kolkata,Salt Lake,"Cafe, Thai",Casual Dining,Yes,Yes,3.5,615,1184,0.2956,Premium
+Restaurant Food Hub,Kolkata,New Town,"South Indian, Continental, Fast Food",Cafe,No,Yes,4.0,1237,850,0.4706,Mid-Range
+Hotel Burger Barn,Kolkata,Salt Lake,Beverages,Dessert Parlour,Yes,Yes,3.0,89,155,1.9355,Budget
+Classic Dining,Kolkata,New Town,"Beverages, Bengali, Chinese",Food Court,Yes,No,2.8,631,267,1.0487,Budget
+Grill House,Kolkata,New Town,"Cafe, North Indian",Bakery,Yes,Yes,3.8,615,566,0.6714,Affordable
+Restaurant Momo Point,Kolkata,Gariahat,"Mexican, South Indian",Delivery,No,Yes,4.0,90,432,0.9259,Affordable
+Burger Barn,Kolkata,Gariahat,"South Indian, Gujarati, Punjabi",Casual Dining,Yes,No,3.5,650,989,0.3539,Mid-Range
+Shree Fusion Bites,Kolkata,Salt Lake,"Fast Food, Continental, Rajasthani",Food Court,No,No,3.2,583,280,1.1429,Budget
+Royal Saffron,Kolkata,New Town,"Continental, Mexican",Bakery,No,No,4.4,427,225,1.9556,Budget
+Cafe Dhaba Express,Kolkata,Park Street,"Fast Food, Chinese",Food Court,Yes,No,2.8,657,353,0.7932,Affordable
+Spice Garden,Kolkata,Salt Lake,Bengali,Cafe,Yes,No,4.6,256,1160,0.3966,Premium
+Biryani House,Kolkata,New Town,Punjabi,Casual Dining,No,No,4.6,311,762,0.6037,Mid-Range
+Masala Twist,Kolkata,Gariahat,"Cafe, Fast Food, South Indian",Food Court,Yes,No,4.4,428,566,0.7774,Affordable
+Shree Dosa Corner,Kolkata,New Town,"Pizza, Mexican, Punjabi",Cafe,Yes,No,4.1,1430,778,0.527,Mid-Range
+The Hungry Tiger,Kolkata,Gariahat,Street Food,Casual Dining,Yes,Yes,4.0,1237,937,0.4269,Mid-Range
+Royal The Hungry Tiger,Kolkata,Park Street,Biryani,Food Court,Yes,No,4.3,225,474,0.9072,Affordable
+Royal Cloud Kitchen,Kolkata,Park Street,"Pizza, Fast Food",Food Court,Yes,No,2.9,305,186,1.5591,Budget
+New Tiffin Box,Kolkata,Salt Lake,"Italian, Biryani, Fast Food",Delivery,Yes,No,4.0,622,114,3.5088,Budget
+Biryani House,Kolkata,Park Street,"North Indian, Beverages",Quick Bites,Yes,No,3.6,465,474,0.7595,Affordable
+Restaurant Aroma Restaurant,Kolkata,Park Street,"Gujarati, Italian",Bakery,Yes,Yes,3.1,129,442,0.7014,Affordable
+The Noodle Box,Kolkata,Park Street,Punjabi,Food Court,Yes,No,4.0,85,444,0.9009,Affordable
+Burger Barn,Kolkata,Salt Lake,Thai,Food Court,No,No,3.8,652,424,0.8962,Affordable
+Restaurant Spice Garden,Kolkata,Gariahat,"Biryani, Gujarati",Dessert Parlour,No,No,3.1,660,201,1.5423,Budget
+Chaat Junction,Kolkata,Salt Lake,"Thai, Mughlai",Casual Dining,No,Yes,4.2,828,1028,0.4086,Premium
+Restaurant Biryani House,Kolkata,New Town,Street Food,Dessert Parlour,No,No,3.8,375,406,0.936,Affordable
+Cafe Cloud Kitchen,Kolkata,Gariahat,"Desserts, Continental",Fine Dining,No,Yes,4.3,1552,2806,0.1532,Luxury
+Urban Kitchen,Kolkata,New Town,"Bengali, Continental, North Indian",Bakery,Yes,No,4.3,428,500,0.86,Affordable
+Shree Noodle Box,Kolkata,Salt Lake,"Rajasthani, Bengali",Fine Dining,Yes,No,4.1,895,2396,0.1711,Luxury
+Cloud Kitchen,Kolkata,Park Street,"Mughlai, Fast Food, Desserts",Cafe,Yes,No,4.6,826,421,1.0926,Affordable
+The Hungry Tiger,Kolkata,Gariahat,"Mughlai, Beverages, Thai",Quick Bites,Yes,Yes,3.6,745,540,0.6667,Affordable
+Masala Twist,Kolkata,Park Street,"Continental, North Indian, South Indian",Delivery,No,No,3.6,417,356,1.0112,Affordable
+Hotel Taste of India,Kolkata,Park Street,"Continental, South Indian, Italian",Delivery,No,No,3.3,144,305,1.082,Affordable
+Royal Masala Twist,Kolkata,New Town,North Indian,Fine Dining,No,No,4.8,1707,1891,0.2538,Premium
+Restaurant Noodle Box,Kolkata,New Town,"North Indian, Street Food, Italian",Fine Dining,Yes,Yes,4.9,1165,3860,0.1269,Luxury
+Shree Burger Barn,Kolkata,Park Street,"Thai, Punjabi",Bakery,Yes,Yes,3.5,391,301,1.1628,Affordable
+Hotel Tiffin Box,Kolkata,Salt Lake,Rajasthani,Fine Dining,Yes,No,4.5,494,2861,0.1573,Luxury
+The Cloud Kitchen,Kolkata,Gariahat,"Mexican, Continental",Delivery,Yes,No,4.2,750,367,1.1444,Affordable
+Restaurant Cloud Kitchen,Kolkata,Gariahat,"Street Food, Desserts",Dessert Parlour,No,Yes,3.9,426,406,0.9606,Affordable
+Hotel Sweet Tooth,Kolkata,Salt Lake,"Continental, Desserts",Bakery,Yes,No,3.6,760,478,0.7531,Affordable
+Cafe Classic Dining,Kolkata,Gariahat,Punjabi,Quick Bites,No,Yes,3.8,126,597,0.6365,Affordable
+Momo Point,Kolkata,Salt Lake,"Thai, Bengali, Seafood",Cafe,Yes,Yes,4.7,1435,1137,0.4134,Premium
+Aroma Restaurant,Kolkata,Salt Lake,"Punjabi, Mughlai",Cafe,No,No,3.8,564,1019,0.3729,Premium
+Hotel Tiffin Box,Kolkata,Gariahat,"Gujarati, North Indian, Desserts",Cafe,Yes,Yes,3.3,688,405,0.8148,Affordable
+The Curry Leaf,Kolkata,New Town,South Indian,Food Court,Yes,No,2.6,582,425,0.6118,Affordable
+Royal Pizza Palace,Kolkata,Park Street,"Mexican, Street Food",Dessert Parlour,Yes,No,4.4,564,387,1.137,Affordable
+Royal Fusion Bites,Kolkata,New Town,"Pizza, Italian",Delivery,Yes,Yes,3.5,794,430,0.814,Affordable
+The The Hungry Tiger,Kolkata,Park Street,Pizza,Bakery,Yes,Yes,2.9,639,575,0.5043,Affordable
+Sweet Tooth,Kolkata,Gariahat,Punjabi,Quick Bites,No,No,3.4,522,254,1.3386,Budget
+Cafe Noodle Box,Kolkata,Gariahat,"Street Food, Punjabi",Bakery,Yes,Yes,3.7,180,209,1.7703,Budget
+Aroma Restaurant,Kolkata,Gariahat,"Italian, Fast Food, Thai",Bakery,No,No,2.9,384,543,0.5341,Affordable
+Royal Masala Twist,Kolkata,New Town,"Thai, Mughlai, Seafood",Delivery,Yes,No,4.5,462,200,2.25,Budget
+Saffron,Kolkata,Park Street,"Italian, Punjabi",Casual Dining,No,No,3.3,1364,681,0.4846,Mid-Range
+Cafe Flavor Town,Kolkata,Salt Lake,"Gujarati, Rajasthani, Cafe",Quick Bites,Yes,No,3.8,511,379,1.0026,Affordable
+Curry Leaf,Ahmedabad,Navrangpura,Bengali,Cafe,No,Yes,3.9,177,1127,0.3461,Premium
+The Taste of India,Ahmedabad,SG Highway,"Desserts, Pizza",Quick Bites,No,No,4.4,24,364,1.2088,Affordable
+The Masala Twist,Ahmedabad,CG Road,"Italian, Chinese, Pizza",Cafe,Yes,Yes,3.5,888,917,0.3817,Mid-Range
+Cafe Aroma Restaurant,Ahmedabad,SG Highway,Desserts,Food Court,Yes,No,2.7,484,576,0.4688,Affordable
+Restaurant Masala Twist,Ahmedabad,Navrangpura,"Mexican, North Indian",Cafe,No,No,3.5,992,783,0.447,Mid-Range
+Curry Leaf,Ahmedabad,SG Highway,"Biryani, Street Food, South Indian",Delivery,Yes,Yes,3.1,333,389,0.7969,Affordable
+Cafe Food Hub,Ahmedabad,Navrangpura,"Rajasthani, Italian",Dessert Parlour,Yes,No,3.2,667,495,0.6465,Affordable
+New Aroma Restaurant,Ahmedabad,CG Road,Thai,Fine Dining,Yes,No,4.3,624,2682,0.1603,Luxury
+Royal The Hungry Tiger,Ahmedabad,CG Road,"Mughlai, Italian, Cafe",Casual Dining,Yes,Yes,3.4,1342,1074,0.3166,Premium
+Hotel Dosa Corner,Ahmedabad,CG Road,"Mexican, South Indian, Desserts",Fine Dining,No,No,4.8,525,1532,0.3133,Premium
+Chaat Junction,Ahmedabad,SG Highway,Rajasthani,Dessert Parlour,Yes,No,3.4,477,415,0.8193,Affordable
+New Biryani House,Ahmedabad,CG Road,"Beverages, Desserts, Gujarati",Dessert Parlour,No,No,4.4,249,549,0.8015,Affordable
+Restaurant Momo Point,Ahmedabad,SG Highway,"Mexican, Seafood",Fine Dining,Yes,Yes,4.0,1422,2731,0.1465,Luxury
+Cafe Curry Leaf,Ahmedabad,SG Highway,"Desserts, South Indian, Chinese",Cafe,Yes,No,4.4,511,869,0.5063,Mid-Range
+Spice Garden,Ahmedabad,CG Road,"Chinese, Pizza",Dessert Parlour,Yes,Yes,2.7,167,225,1.2,Budget
+Restaurant Cloud Kitchen,Ahmedabad,SG Highway,"Fast Food, Gujarati",Cafe,Yes,No,3.5,1418,883,0.3964,Mid-Range
+Royal Sweet Tooth,Ahmedabad,Navrangpura,Desserts,Fine Dining,No,Yes,4.7,1878,2659,0.1768,Luxury
+The Fusion Bites,Ahmedabad,Navrangpura,"Gujarati, Mexican",Casual Dining,Yes,No,3.5,805,640,0.5469,Mid-Range
+Pizza Palace,Ahmedabad,CG Road,Continental,Fine Dining,Yes,Yes,4.0,390,3283,0.1218,Luxury
+Hotel Kebab King,Ahmedabad,Navrangpura,"Gujarati, South Indian",Dessert Parlour,Yes,No,2.9,708,303,0.9571,Affordable
+Noodle Box,Ahmedabad,SG Highway,"Seafood, North Indian, Pizza",Casual Dining,Yes,No,3.8,73,865,0.4393,Mid-Range
+Biryani House,Ahmedabad,SG Highway,"Italian, Fast Food",Dessert Parlour,Yes,No,3.4,494,290,1.1724,Budget
+Shree Noodle Box,Ahmedabad,SG Highway,"Seafood, Chinese, Biryani",Fine Dining,Yes,No,4.6,604,2556,0.18,Luxury
+Cloud Kitchen,Ahmedabad,SG Highway,"South Indian, Fast Food",Bakery,No,No,2.6,712,406,0.6404,Affordable
+The Tiffin Box,Ahmedabad,Navrangpura,Street Food,Dessert Parlour,Yes,Yes,3.1,46,425,0.7294,Affordable
+Shree Flavor Town,Ahmedabad,Navrangpura,Pizza,Fine Dining,Yes,Yes,4.6,1082,3521,0.1306,Luxury
+Grill House,Ahmedabad,Navrangpura,"Punjabi, Mexican, Rajasthani",Delivery,Yes,No,2.6,751,411,0.6326,Affordable
+Biryani House,Ahmedabad,SG Highway,"Street Food, Bengali",Casual Dining,Yes,Yes,4.3,1387,1138,0.3779,Premium
+Saffron,Ahmedabad,Navrangpura,"Cafe, Punjabi",Dessert Parlour,Yes,No,3.9,393,125,3.12,Budget
+Urban Kitchen,Ahmedabad,SG Highway,"Punjabi, South Indian",Cafe,Yes,No,4.2,511,679,0.6186,Mid-Range
+Royal Dhaba Express,Ahmedabad,Navrangpura,"Rajasthani, Desserts",Dessert Parlour,Yes,Yes,3.9,75,213,1.831,Budget
+Shree Aroma Restaurant,Ahmedabad,CG Road,"Cafe, Desserts, Thai",Fine Dining,Yes,No,3.8,854,2895,0.1313,Luxury
+Hotel Curry Leaf,Ahmedabad,Navrangpura,"Pizza, Seafood, Italian",Delivery,Yes,No,3.6,656,140,2.5714,Budget
+Cloud Kitchen,Ahmedabad,SG Highway,"Street Food, Desserts",Food Court,Yes,No,2.8,180,399,0.7018,Affordable
+Hotel Momo Point,Ahmedabad,CG Road,"Gujarati, Continental, Seafood",Dessert Parlour,No,Yes,3.7,136,535,0.6916,Affordable
+Hotel Urban Kitchen,Ahmedabad,Navrangpura,Seafood,Cafe,Yes,No,3.5,621,1013,0.3455,Premium
+Masala Twist,Ahmedabad,SG Highway,"Thai, Cafe, Seafood",Food Court,Yes,No,4.0,470,246,1.626,Budget
+Cafe Fusion Bites,Ahmedabad,Navrangpura,"Pizza, Fast Food",Food Court,Yes,No,4.4,203,310,1.4194,Affordable
+Royal Classic Dining,Ahmedabad,CG Road,"Mexican, Bengali, North Indian",Casual Dining,Yes,Yes,4.1,1451,883,0.4643,Mid-Range
+Taste of India,Ahmedabad,SG Highway,Rajasthani,Delivery,Yes,No,2.9,739,579,0.5009,Affordable
+Royal The Hungry Tiger,Ahmedabad,SG Highway,"Rajasthani, Cafe, Continental",Delivery,No,No,3.0,482,190,1.5789,Budget
+Saffron,Ahmedabad,Navrangpura,"Chinese, North Indian",Delivery,No,No,3.3,491,366,0.9016,Affordable
+New Classic Dining,Ahmedabad,Navrangpura,"Cafe, Thai, North Indian",Casual Dining,Yes,No,3.3,131,807,0.4089,Mid-Range
+Pizza Palace,Ahmedabad,SG Highway,"Fast Food, Cafe",Bakery,Yes,Yes,4.2,124,485,0.866,Affordable
+The Hungry Tiger,Ahmedabad,CG Road,Italian,Bakery,Yes,No,2.6,736,560,0.4643,Affordable
+Momo Point,Ahmedabad,CG Road,"Rajasthani, Italian",Bakery,Yes,No,4.0,544,175,2.2857,Budget
+Cafe Fusion Bites,Ahmedabad,CG Road,"Pizza, Mexican",Dessert Parlour,Yes,No,3.4,168,250,1.36,Budget
+New Sweet Tooth,Ahmedabad,CG Road,"Continental, North Indian",Fine Dining,No,No,4.0,731,1549,0.2582,Premium
+Cafe Chaat Junction,Ahmedabad,CG Road,"Biryani, Mexican",Cafe,No,No,3.8,1377,896,0.4241,Mid-Range
+Chaat Junction,Ahmedabad,CG Road,"Chinese, Desserts, Continental",Quick Bites,Yes,Yes,3.1,756,498,0.6225,Affordable
+New Aroma Restaurant,Ahmedabad,Navrangpura,"Punjabi, Continental, Mughlai",Quick Bites,Yes,Yes,3.8,347,587,0.6474,Affordable
+Restaurant Burger Barn,Ahmedabad,Navrangpura,Rajasthani,Casual Dining,Yes,Yes,3.6,424,1157,0.3111,Premium
+Cafe Grill House,Ahmedabad,CG Road,South Indian,Bakery,No,Yes,3.1,204,480,0.6458,Affordable
+Hotel Curry Leaf,Ahmedabad,CG Road,Continental,Quick Bites,Yes,No,3.5,559,150,2.3333,Budget
+Hotel Aroma Restaurant,Ahmedabad,CG Road,"Chinese, Gujarati",Casual Dining,Yes,No,3.5,664,898,0.3898,Mid-Range
+Classic Dining,Ahmedabad,CG Road,"Cafe, Rajasthani, North Indian",Delivery,Yes,No,3.0,190,423,0.7092,Affordable
+Grill House,Ahmedabad,CG Road,"Continental, Desserts, Italian",Dessert Parlour,No,No,3.8,784,157,2.4204,Budget
+Cafe Curry Leaf,Ahmedabad,SG Highway,Pizza,Bakery,Yes,No,3.1,463,573,0.541,Affordable
+Royal Urban Kitchen,Ahmedabad,SG Highway,Street Food,Delivery,Yes,No,3.6,711,152,2.3684,Budget
+Shree Classic Dining,Ahmedabad,Navrangpura,Mughlai,Food Court,No,No,4.2,688,412,1.0194,Affordable
+Dhaba Express,Ahmedabad,CG Road,"Italian, Continental, Cafe",Fine Dining,Yes,No,4.1,827,2093,0.1959,Luxury
+Spice Garden,Ahmedabad,Navrangpura,"Seafood, Bengali, North Indian",Fine Dining,No,No,4.9,1522,2948,0.1662,Luxury
+Restaurant Curry Leaf,Ahmedabad,Navrangpura,Italian,Delivery,Yes,No,3.1,401,504,0.6151,Affordable
+The Cloud Kitchen,Ahmedabad,Navrangpura,"Fast Food, Chinese",Bakery,Yes,No,3.5,617,469,0.7463,Affordable
+Shree Masala Twist,Ahmedabad,SG Highway,"Gujarati, Continental, Italian",Fine Dining,No,No,3.9,1509,1729,0.2256,Premium
+New Taste of India,Ahmedabad,CG Road,Chinese,Bakery,Yes,No,3.3,164,177,1.8644,Budget
+Hotel Flavor Town,Ahmedabad,Navrangpura,"Mexican, Thai",Delivery,No,Yes,3.8,716,249,1.5261,Budget
+Fusion Bites,Ahmedabad,Navrangpura,"Rajasthani, Mughlai",Food Court,Yes,No,3.4,213,270,1.2593,Budget
+New Kebab King,Ahmedabad,SG Highway,Fast Food,Quick Bites,Yes,No,4.1,59,508,0.8071,Affordable
+Hotel Momo Point,Ahmedabad,SG Highway,Punjabi,Fine Dining,No,No,4.4,1377,2657,0.1656,Luxury
+Dhaba Express,Jaipur,Vaishali Nagar,"Pizza, Punjabi, Chinese",Casual Dining,Yes,No,4.2,199,595,0.7059,Affordable
+Spice Garden,Jaipur,C Scheme,"Desserts, Chinese, Pizza",Cafe,Yes,No,4.0,935,1109,0.3607,Premium
+Shree Classic Dining,Jaipur,C Scheme,North Indian,Fine Dining,Yes,No,4.1,1396,2412,0.17,Luxury
+The Cloud Kitchen,Jaipur,MI Road,"Beverages, Mexican, Biryani",Delivery,Yes,Yes,3.1,36,151,2.053,Budget
+Restaurant Curry Leaf,Jaipur,Vaishali Nagar,Desserts,Food Court,No,No,3.8,320,203,1.8719,Budget
+The Dhaba Express,Jaipur,Vaishali Nagar,Rajasthani,Quick Bites,Yes,No,2.6,771,544,0.4779,Affordable
+Hotel Dosa Corner,Jaipur,MI Road,Mughlai,Fine Dining,No,No,3.9,1237,2217,0.1759,Luxury
+Hotel Dhaba Express,Jaipur,MI Road,"Cafe, Beverages",Casual Dining,No,No,3.5,1088,492,0.7114,Affordable
+Burger Barn,Jaipur,C Scheme,"Bengali, Seafood",Quick Bites,No,Yes,3.2,76,258,1.2403,Budget
+Royal Spice Garden,Jaipur,MI Road,"Seafood, Gujarati, North Indian",Casual Dining,No,Yes,4.2,142,731,0.5746,Mid-Range
+Cafe Noodle Box,Jaipur,MI Road,Gujarati,Cafe,No,Yes,4.4,1403,1157,0.3803,Premium
+Fusion Bites,Jaipur,Vaishali Nagar,"Biryani, Pizza, Beverages",Cafe,No,Yes,3.4,467,909,0.374,Mid-Range
+Royal Aroma Restaurant,Jaipur,C Scheme,Desserts,Quick Bites,Yes,No,3.8,427,173,2.1965,Budget
+Tiffin Box,Jaipur,Vaishali Nagar,Fast Food,Cafe,Yes,No,3.3,280,467,0.7066,Affordable
+Hotel Chaat Junction,Jaipur,Vaishali Nagar,"North Indian, Street Food, Gujarati",Cafe,Yes,No,3.4,1155,1072,0.3172,Premium
+Fusion Bites,Jaipur,MI Road,Continental,Delivery,Yes,No,2.8,94,437,0.6407,Affordable
+Royal Saffron,Jaipur,MI Road,Italian,Delivery,Yes,No,3.2,483,598,0.5351,Affordable
+Cafe Spice Garden,Jaipur,MI Road,"Beverages, Biryani",Food Court,Yes,No,2.6,404,563,0.4618,Affordable
+Royal Sweet Tooth,Jaipur,Vaishali Nagar,Pizza,Quick Bites,Yes,Yes,3.5,362,539,0.6494,Affordable
+Cafe Saffron,Jaipur,Vaishali Nagar,"Cafe, Italian",Delivery,Yes,Yes,3.1,536,493,0.6288,Affordable
+Hotel Burger Barn,Jaipur,Vaishali Nagar,"Rajasthani, Fast Food, Desserts",Bakery,No,Yes,3.8,667,318,1.195,Affordable
+New Dosa Corner,Jaipur,Vaishali Nagar,Thai,Casual Dining,No,Yes,3.7,943,863,0.4287,Mid-Range
+New Grill House,Jaipur,MI Road,Continental,Delivery,No,Yes,4.0,625,369,1.084,Affordable
+Cafe Tiffin Box,Jaipur,C Scheme,"Continental, Punjabi, Pizza",Food Court,Yes,Yes,2.8,643,424,0.6604,Affordable
+Shree The Hungry Tiger,Jaipur,MI Road,Italian,Fine Dining,Yes,No,4.2,1268,3096,0.1357,Luxury
+The Cloud Kitchen,Jaipur,Vaishali Nagar,Chinese,Dessert Parlour,Yes,No,3.1,761,572,0.542,Affordable
+Momo Point,Jaipur,MI Road,Gujarati,Cafe,No,No,4.4,851,648,0.679,Mid-Range
+Cafe Curry Leaf,Jaipur,Vaishali Nagar,"Chinese, Continental",Delivery,No,Yes,4.3,753,163,2.638,Budget
+Shree Masala Twist,Jaipur,MI Road,"Italian, Desserts, North Indian",Cafe,Yes,No,4.0,1337,1190,0.3361,Premium
+Biryani House,Jaipur,C Scheme,Chinese,Bakery,No,No,3.9,288,548,0.7117,Affordable
+Royal Fusion Bites,Jaipur,Vaishali Nagar,"Mexican, Pizza",Bakery,No,No,4.1,308,488,0.8402,Affordable
+New The Hungry Tiger,Jaipur,Vaishali Nagar,"Gujarati, Bengali, Mexican",Delivery,Yes,Yes,4.0,751,531,0.7533,Affordable
+Hotel Cloud Kitchen,Jaipur,C Scheme,"Chinese, North Indian",Dessert Parlour,Yes,No,3.0,236,353,0.8499,Affordable
+Hotel Momo Point,Jaipur,MI Road,"Cafe, Mexican, Seafood",Bakery,Yes,No,3.8,626,121,3.1405,Budget
+Shree Momo Point,Jaipur,C Scheme,Beverages,Casual Dining,Yes,No,4.1,131,803,0.5106,Mid-Range
+The Aroma Restaurant,Jaipur,Vaishali Nagar,"Bengali, North Indian",Quick Bites,Yes,Yes,3.8,111,268,1.4179,Budget
+Cloud Kitchen,Jaipur,MI Road,"Beverages, Cafe",Dessert Parlour,No,Yes,3.4,342,124,2.7419,Budget
+Restaurant The Hungry Tiger,Jaipur,Vaishali Nagar,"Thai, Desserts, Seafood",Delivery,No,No,2.8,101,355,0.7887,Affordable
+Dhaba Express,Jaipur,Vaishali Nagar,"Chinese, Seafood, Desserts",Casual Dining,Yes,No,4.3,592,607,0.7084,Mid-Range
+New Tiffin Box,Jaipur,MI Road,Desserts,Cafe,Yes,Yes,3.7,1484,918,0.4031,Mid-Range
+New Kebab King,Jaipur,Vaishali Nagar,"Chinese, Mughlai, Cafe",Fine Dining,Yes,No,4.8,1945,3157,0.152,Luxury
+Cafe Urban Kitchen,Jaipur,Vaishali Nagar,"Fast Food, Street Food",Cafe,Yes,No,3.7,956,630,0.5873,Mid-Range
+The Fusion Bites,Jaipur,Vaishali Nagar,"Continental, Cafe",Quick Bites,Yes,Yes,3.8,158,210,1.8095,Budget
+Aroma Restaurant,Jaipur,Vaishali Nagar,"Thai, Cafe",Bakery,No,Yes,2.9,604,365,0.7945,Affordable
+Flavor Town,Jaipur,MI Road,"Bengali, Beverages",Food Court,Yes,No,3.0,375,376,0.7979,Affordable
+New Burger Barn,Jaipur,Vaishali Nagar,Punjabi,Cafe,No,No,3.4,516,1018,0.334,Premium
+The Kebab King,Jaipur,Vaishali Nagar,"South Indian, Rajasthani, Mexican",Dessert Parlour,Yes,No,4.4,32,187,2.3529,Budget
+Cafe Sweet Tooth,Jaipur,MI Road,Beverages,Cafe,Yes,No,4.1,106,1145,0.3581,Premium
+Royal The Hungry Tiger,Jaipur,MI Road,"Thai, Street Food",Bakery,Yes,No,4.3,426,584,0.7363,Affordable
+Royal Cloud Kitchen,Jaipur,MI Road,"Beverages, Mexican, Fast Food",Quick Bites,No,Yes,2.6,757,311,0.836,Affordable
+Sweet Tooth,Jaipur,C Scheme,Gujarati,Cafe,No,No,3.3,1225,813,0.4059,Mid-Range
+Curry Leaf,Jaipur,MI Road,Desserts,Bakery,Yes,No,2.9,268,320,0.9062,Affordable
+Biryani House,Jaipur,MI Road,"Chinese, Desserts, Rajasthani",Food Court,No,No,2.5,72,410,0.6098,Affordable
+Restaurant Classic Dining,Jaipur,C Scheme,"North Indian, Cafe, Desserts",Quick Bites,Yes,Yes,4.3,393,388,1.1082,Affordable
+Shree Flavor Town,Jaipur,MI Road,Thai,Bakery,Yes,No,4.2,168,567,0.7407,Affordable
+Cafe Momo Point,Jaipur,C Scheme,"North Indian, South Indian",Cafe,No,No,4.4,688,523,0.8413,Affordable
+Dhaba Express,Jaipur,MI Road,Gujarati,Cafe,Yes,Yes,4.1,981,745,0.5503,Mid-Range
+Shree Urban Kitchen,Jaipur,C Scheme,"Continental, Beverages",Casual Dining,Yes,No,3.9,135,813,0.4797,Mid-Range
+Cafe Dhaba Express,Jaipur,MI Road,"Chinese, Desserts, Punjabi",Casual Dining,Yes,No,4.0,1168,1175,0.3404,Premium
+Shree Cloud Kitchen,Jaipur,Vaishali Nagar,"Bengali, Seafood, Cafe",Dessert Parlour,Yes,No,3.5,584,264,1.3258,Budget
+New Spice Garden,Surat,Adajan,"South Indian, Mughlai, Chinese",Quick Bites,Yes,No,4.3,187,377,1.1406,Affordable
+Cafe Grill House,Surat,Vesu,"Mughlai, Beverages",Dessert Parlour,No,Yes,4.2,454,547,0.7678,Affordable
+Royal Classic Dining,Surat,Athwa,Fast Food,Quick Bites,Yes,Yes,2.9,84,263,1.1027,Budget
+Dosa Corner,Surat,Vesu,Seafood,Quick Bites,Yes,No,4.3,256,102,4.2157,Budget
+Curry Leaf,Surat,Athwa,"Seafood, South Indian",Delivery,Yes,No,3.7,442,232,1.5948,Budget
+Food Hub,Surat,Athwa,"North Indian, Bengali",Dessert Parlour,No,No,4.2,511,197,2.132,Budget
+Cafe Aroma Restaurant,Surat,Vesu,Continental,Bakery,Yes,Yes,2.8,510,505,0.5545,Affordable
+Hotel Tiffin Box,Surat,Vesu,"Thai, Street Food",Fine Dining,Yes,No,3.9,1008,1989,0.1961,Premium
+Hotel Burger Barn,Surat,Vesu,Punjabi,Delivery,No,No,2.7,48,217,1.2442,Budget
+The Momo Point,Surat,Adajan,"Biryani, Rajasthani",Food Court,Yes,Yes,4.4,203,492,0.8943,Affordable
+Hotel Burger Barn,Surat,Adajan,"Italian, Pizza",Cafe,Yes,Yes,4.2,828,800,0.525,Mid-Range
+Food Hub,Surat,Adajan,"Rajasthani, North Indian",Delivery,No,Yes,3.0,304,370,0.8108,Affordable
+Restaurant Spice Garden,Surat,Vesu,"Punjabi, Thai",Casual Dining,Yes,No,3.8,808,729,0.5213,Mid-Range
+Shree Momo Point,Surat,Athwa,"South Indian, Seafood, Fast Food",Quick Bites,No,No,3.8,85,379,1.0026,Affordable
+Shree Pizza Palace,Surat,Vesu,"Cafe, Seafood",Fine Dining,Yes,No,4.6,906,2524,0.1823,Luxury
+The Noodle Box,Surat,Vesu,Biryani,Food Court,Yes,No,4.4,273,298,1.4765,Budget
+Noodle Box,Surat,Vesu,Rajasthani,Cafe,Yes,No,4.5,306,811,0.5549,Mid-Range
+Restaurant Momo Point,Surat,Adajan,"Rajasthani, Cafe, Seafood",Bakery,Yes,No,3.8,750,168,2.2619,Budget
+Royal Noodle Box,Surat,Adajan,"Thai, Bengali",Food Court,Yes,No,3.3,121,340,0.9706,Affordable
+Restaurant Sweet Tooth,Surat,Athwa,Desserts,Delivery,Yes,Yes,3.3,452,364,0.9066,Affordable
+Cafe Cloud Kitchen,Surat,Vesu,"Mexican, Biryani",Cafe,Yes,No,4.4,892,554,0.7942,Affordable
+Curry Leaf,Surat,Athwa,"Cafe, Punjabi, South Indian",Food Court,No,No,2.7,64,104,2.5962,Budget
+Masala Twist,Surat,Adajan,Street Food,Cafe,No,No,4.6,964,997,0.4614,Mid-Range
+Flavor Town,Surat,Adajan,Pizza,Cafe,Yes,No,4.1,1200,562,0.7295,Affordable
+Dhaba Express,Surat,Athwa,"Biryani, Rajasthani, Fast Food",Casual Dining,No,Yes,3.8,511,788,0.4822,Mid-Range
+Urban Kitchen,Surat,Vesu,"North Indian, Gujarati",Cafe,No,No,4.5,807,487,0.924,Affordable
+The Fusion Bites,Surat,Athwa,Mughlai,Cafe,No,No,4.3,776,485,0.8866,Affordable
+The Classic Dining,Surat,Adajan,Beverages,Fine Dining,No,Yes,4.1,248,3631,0.1129,Luxury
+The Pizza Palace,Surat,Athwa,"Rajasthani, Bengali",Dessert Parlour,Yes,Yes,4.5,479,436,1.0321,Affordable
+Kebab King,Surat,Athwa,"Mexican, North Indian, Street Food",Quick Bites,Yes,No,3.3,721,118,2.7966,Budget
+Hotel Urban Kitchen,Surat,Vesu,"Desserts, Biryani",Fine Dining,No,No,4.4,776,3502,0.1256,Luxury
+Hotel Taste of India,Surat,Adajan,Biryani,Casual Dining,No,Yes,3.3,183,782,0.422,Mid-Range
+Hotel Food Hub,Surat,Athwa,"Desserts, Chinese, Biryani",Quick Bites,Yes,No,4.4,348,423,1.0402,Affordable
+Hotel Sweet Tooth,Surat,Vesu,Chinese,Cafe,Yes,No,3.3,1454,843,0.3915,Mid-Range
+Cafe Grill House,Surat,Adajan,"Mughlai, Gujarati",Delivery,Yes,Yes,3.1,616,446,0.6951,Affordable
+Restaurant Dosa Corner,Surat,Vesu,Mughlai,Casual Dining,Yes,No,4.1,1483,593,0.6914,Affordable
+Aroma Restaurant,Surat,Adajan,Seafood,Delivery,Yes,No,3.7,665,359,1.0306,Affordable
+Hotel Urban Kitchen,Surat,Athwa,"Italian, Street Food, Pizza",Quick Bites,Yes,Yes,3.2,71,475,0.6737,Affordable
+Royal Saffron,Surat,Athwa,Chinese,Bakery,Yes,No,4.3,707,457,0.9409,Affordable
+The Flavor Town,Surat,Vesu,"Beverages, Gujarati",Food Court,Yes,No,3.5,772,379,0.9235,Affordable
+Cafe Aroma Restaurant,Surat,Vesu,"Rajasthani, Desserts",Fine Dining,No,No,4.9,1979,3399,0.1442,Luxury
+Cafe Pizza Palace,Surat,Athwa,Biryani,Fine Dining,No,No,4.8,1018,2111,0.2274,Luxury
+New Saffron,Surat,Adajan,Fast Food,Cafe,Yes,No,3.6,94,602,0.598,Mid-Range
+Hotel The Hungry Tiger,Surat,Athwa,"Cafe, Gujarati",Delivery,Yes,No,2.8,691,596,0.4698,Affordable
+Classic Dining,Surat,Vesu,"Street Food, Biryani, Continental",Bakery,Yes,No,2.9,23,351,0.8262,Affordable
+The Dhaba Express,Surat,Vesu,"Fast Food, Biryani, Punjabi",Fine Dining,Yes,No,4.7,956,2024,0.2322,Luxury
+Tiffin Box,Surat,Vesu,Mughlai,Fine Dining,No,No,4.8,1498,2780,0.1727,Luxury
+Restaurant Chaat Junction,Surat,Athwa,"Mughlai, Biryani, Desserts",Food Court,No,No,4.3,617,462,0.9307,Affordable
+Royal Aroma Restaurant,Surat,Vesu,Desserts,Bakery,Yes,Yes,4.0,339,419,0.9547,Affordable
+The The Hungry Tiger,Surat,Vesu,"Seafood, Mughlai",Casual Dining,No,Yes,3.4,170,1196,0.2843,Premium
+Royal Biryani House,Lucknow,Gomti Nagar,"Biryani, Italian, Desserts",Bakery,Yes,No,4.3,671,202,2.1287,Budget
+Spice Garden,Lucknow,Hazratganj,"Mughlai, Punjabi, Mexican",Quick Bites,Yes,No,3.3,21,519,0.6358,Affordable
+Biryani House,Lucknow,Gomti Nagar,Beverages,Fine Dining,Yes,No,4.0,1337,3064,0.1305,Luxury
+Shree Kebab King,Lucknow,Hazratganj,"Mughlai, Rajasthani",Bakery,Yes,No,3.1,136,108,2.8704,Budget
+The Hungry Tiger,Lucknow,Aliganj,"Seafood, Thai, North Indian",Food Court,Yes,No,3.3,637,267,1.236,Budget
+Kebab King,Lucknow,Gomti Nagar,"South Indian, Biryani, Gujarati",Quick Bites,Yes,Yes,2.8,177,367,0.7629,Affordable
+Hotel Curry Leaf,Lucknow,Gomti Nagar,"Desserts, Chinese",Casual Dining,Yes,No,4.0,860,1057,0.3784,Premium
+Shree Food Hub,Lucknow,Hazratganj,Italian,Cafe,Yes,Yes,4.2,157,424,0.9906,Affordable
+New Cloud Kitchen,Lucknow,Gomti Nagar,Biryani,Delivery,No,Yes,3.1,784,298,1.0403,Budget
+Hotel Momo Point,Lucknow,Gomti Nagar,Bengali,Bakery,Yes,Yes,3.7,511,206,1.7961,Budget
+Cafe Curry Leaf,Lucknow,Aliganj,"Mughlai, Biryani",Cafe,Yes,No,4.3,594,688,0.625,Mid-Range
+New Cloud Kitchen,Lucknow,Gomti Nagar,"Mughlai, Desserts",Dessert Parlour,No,No,3.8,39,331,1.148,Affordable
+Flavor Town,Lucknow,Aliganj,Fast Food,Delivery,Yes,No,4.0,220,547,0.7313,Affordable
+The Curry Leaf,Lucknow,Hazratganj,"Street Food, Beverages, Rajasthani",Delivery,Yes,No,3.6,511,552,0.6522,Affordable
+Shree Tiffin Box,Lucknow,Aliganj,Gujarati,Food Court,No,No,3.2,626,300,1.0667,Budget
+Dhaba Express,Lucknow,Gomti Nagar,"Continental, Chinese, Fast Food",Dessert Parlour,No,No,3.7,21,538,0.6877,Affordable
+The Masala Twist,Lucknow,Hazratganj,South Indian,Cafe,Yes,No,4.7,813,1159,0.4055,Premium
+The Chaat Junction,Lucknow,Hazratganj,"Biryani, Italian",Casual Dining,Yes,No,4.7,296,609,0.7718,Mid-Range
+Royal Chaat Junction,Lucknow,Hazratganj,Chinese,Quick Bites,No,No,4.3,511,455,0.9451,Affordable
+Royal Food Hub,Lucknow,Aliganj,Chinese,Cafe,Yes,No,3.3,1003,842,0.3919,Mid-Range
+The Momo Point,Lucknow,Gomti Nagar,"Street Food, Gujarati",Casual Dining,Yes,Yes,4.2,530,592,0.7095,Affordable
+Aroma Restaurant,Lucknow,Aliganj,South Indian,Bakery,Yes,Yes,3.2,493,520,0.6154,Affordable
+Shree Urban Kitchen,Lucknow,Aliganj,"Beverages, Bengali",Cafe,Yes,No,3.9,648,755,0.5166,Mid-Range
+Cafe Food Hub,Lucknow,Gomti Nagar,"Bengali, Chinese",Fine Dining,Yes,No,4.2,1521,2969,0.1415,Luxury
+Hotel Grill House,Lucknow,Aliganj,"Desserts, Thai, Pizza",Cafe,No,No,4.7,1469,610,0.7705,Mid-Range
+Shree Biryani House,Lucknow,Gomti Nagar,"Fast Food, Mexican, North Indian",Quick Bites,Yes,No,4.4,242,478,0.9205,Affordable
+Cafe Flavor Town,Lucknow,Hazratganj,"Seafood, Punjabi, Cafe",Food Court,Yes,No,3.3,118,484,0.6818,Affordable
+Hotel Curry Leaf,Lucknow,Hazratganj,"Fast Food, Gujarati, Biryani",Quick Bites,No,No,3.1,425,486,0.6379,Affordable
+Kebab King,Lucknow,Aliganj,Street Food,Quick Bites,Yes,Yes,4.1,78,136,3.0147,Budget
+Royal Momo Point,Lucknow,Hazratganj,Cafe,Fine Dining,Yes,No,4.0,1468,3255,0.1229,Luxury
+Flavor Town,Lucknow,Aliganj,Gujarati,Bakery,Yes,Yes,3.9,402,540,0.7222,Affordable
+Hotel Dhaba Express,Lucknow,Gomti Nagar,"Gujarati, North Indian, Seafood",Food Court,Yes,No,4.3,268,343,1.2536,Affordable
+Biryani House,Lucknow,Hazratganj,Cafe,Food Court,No,Yes,3.1,730,497,0.6237,Affordable
+The Saffron,Lucknow,Aliganj,"North Indian, Punjabi, Rajasthani",Cafe,Yes,Yes,3.6,844,978,0.3681,Mid-Range
+Cafe Taste of India,Lucknow,Hazratganj,"Punjabi, Gujarati, Pizza",Casual Dining,No,Yes,3.4,1281,697,0.4878,Mid-Range
+Urban Kitchen,Lucknow,Aliganj,"Continental, North Indian",Bakery,Yes,No,3.8,395,190,2.0,Budget
+Royal Momo Point,Lucknow,Hazratganj,Rajasthani,Bakery,No,No,2.7,152,184,1.4674,Budget
+Noodle Box,Lucknow,Aliganj,"Beverages, Bengali",Bakery,Yes,No,3.9,566,425,0.9176,Affordable
+Cafe Biryani House,Lucknow,Hazratganj,Chinese,Fine Dining,Yes,No,4.5,1021,3444,0.1307,Luxury
+Cafe Momo Point,Lucknow,Gomti Nagar,Mexican,Cafe,Yes,Yes,4.2,814,959,0.438,Mid-Range
+Hotel Grill House,Lucknow,Aliganj,"South Indian, Continental, Mughlai",Casual Dining,Yes,Yes,4.3,811,411,1.0462,Affordable
+Shree Chaat Junction,Lucknow,Gomti Nagar,"Punjabi, North Indian, Street Food",Dessert Parlour,No,Yes,4.3,501,540,0.7963,Affordable
+New Pizza Palace,Lucknow,Hazratganj,Pizza,Delivery,Yes,No,3.6,82,511,0.7045,Affordable
+Food Hub,Lucknow,Gomti Nagar,"Chinese, Mexican, Pizza",Bakery,Yes,No,4.2,240,285,1.4737,Budget
+Cafe Chaat Junction,Lucknow,Aliganj,Mughlai,Fine Dining,No,No,4.2,1912,3983,0.1054,Luxury
+Cafe Cloud Kitchen,Lucknow,Aliganj,"Pizza, Continental, Punjabi",Fine Dining,Yes,No,4.3,1054,1626,0.2645,Premium
+Chaat Junction,Lucknow,Aliganj,"Italian, Seafood",Quick Bites,Yes,No,4.5,320,274,1.6423,Budget
+Shree The Hungry Tiger,Lucknow,Aliganj,"Mexican, Thai",Bakery,No,No,3.8,150,393,0.9669,Affordable
+Curry Leaf,Lucknow,Gomti Nagar,"Italian, Cafe",Casual Dining,No,No,3.5,540,731,0.4788,Mid-Range
+Flavor Town,Lucknow,Aliganj,"Italian, Bengali",Fine Dining,No,Yes,4.5,1842,2070,0.2174,Luxury
+Dosa Corner,Kochi,Kakkanad,Rajasthani,Food Court,Yes,Yes,3.9,308,548,0.7117,Affordable
+Biryani House,Kochi,Edappally,"Continental, Seafood",Bakery,Yes,Yes,3.6,359,375,0.96,Affordable
+Royal Noodle Box,Kochi,Marine Drive,Chinese,Fine Dining,Yes,No,4.8,1327,3362,0.1428,Luxury
+Hotel Kebab King,Kochi,Marine Drive,Bengali,Dessert Parlour,Yes,No,2.7,406,323,0.8359,Affordable
+Royal Food Hub,Kochi,Marine Drive,Italian,Quick Bites,Yes,No,2.8,770,149,1.8792,Budget
+Burger Barn,Kochi,Marine Drive,"Cafe, Italian",Casual Dining,Yes,Yes,3.5,1218,1018,0.3438,Premium
+Royal Aroma Restaurant,Kochi,Kakkanad,"Mexican, Desserts, Continental",Quick Bites,Yes,No,3.8,641,377,1.008,Affordable
+Biryani House,Kochi,Marine Drive,"Fast Food, Cafe",Dessert Parlour,Yes,No,3.0,179,412,0.7282,Affordable
+Fusion Bites,Kochi,Edappally,"Street Food, Bengali, Seafood",Delivery,Yes,Yes,4.2,739,309,1.3592,Affordable
+Shree Fusion Bites,Kochi,Marine Drive,"Italian, Mughlai, Gujarati",Quick Bites,Yes,No,3.2,521,110,2.9091,Budget
+Saffron,Kochi,Marine Drive,Chinese,Food Court,Yes,No,3.3,423,503,0.6561,Affordable
+Shree Flavor Town,Kochi,Marine Drive,Seafood,Dessert Parlour,Yes,No,2.5,586,578,0.4325,Affordable
+Kebab King,Kochi,Edappally,"Beverages, Cafe, Seafood",Fine Dining,Yes,No,4.3,383,3237,0.1328,Luxury
+Food Hub,Kochi,Marine Drive,Pizza,Bakery,Yes,No,3.5,210,371,0.9434,Affordable
+Dosa Corner,Kochi,Marine Drive,"Pizza, Chinese, Thai",Casual Dining,Yes,Yes,4.6,355,863,0.533,Mid-Range
+Cafe Masala Twist,Kochi,Kakkanad,"Pizza, Punjabi",Fine Dining,Yes,No,4.5,1540,3845,0.117,Luxury
+Cafe Tiffin Box,Kochi,Marine Drive,"Pizza, Continental",Bakery,Yes,No,3.7,78,139,2.6619,Budget
+The Grill House,Kochi,Kakkanad,"Beverages, Pizza, Biryani",Bakery,Yes,Yes,4.1,185,266,1.5414,Budget
+Dhaba Express,Kochi,Marine Drive,"Biryani, Pizza",Quick Bites,Yes,Yes,2.8,633,541,0.5176,Affordable
+Dhaba Express,Kochi,Kakkanad,Fast Food,Bakery,No,Yes,3.7,78,121,3.0579,Budget
+Cloud Kitchen,Kochi,Edappally,"Seafood, Thai, Mexican",Bakery,No,No,3.4,542,431,0.7889,Affordable
+Hotel Fusion Bites,Kochi,Edappally,Punjabi,Fine Dining,No,Yes,3.8,1428,1800,0.2111,Premium
+Shree Momo Point,Kochi,Kakkanad,"Street Food, Beverages",Fine Dining,Yes,No,4.6,1091,2382,0.1931,Luxury
+Curry Leaf,Kochi,Edappally,"Street Food, Seafood, Continental",Cafe,Yes,No,4.6,1046,658,0.6991,Mid-Range
+Classic Dining,Kochi,Edappally,"South Indian, Continental",Cafe,No,No,4.6,816,702,0.6553,Mid-Range
+New Dosa Corner,Kochi,Marine Drive,"Street Food, Beverages, Punjabi",Casual Dining,Yes,Yes,4.7,188,890,0.5281,Mid-Range
+Royal Dhaba Express,Kochi,Edappally,Thai,Casual Dining,Yes,Yes,3.8,810,933,0.4073,Mid-Range
+New Aroma Restaurant,Kochi,Kakkanad,"Beverages, South Indian",Food Court,No,No,4.3,509,488,0.8811,Affordable
+Restaurant Taste of India,Kochi,Kakkanad,Seafood,Casual Dining,Yes,No,4.3,597,1050,0.4095,Premium
+Cafe Noodle Box,Kochi,Kakkanad,"Seafood, Continental",Fine Dining,Yes,No,4.8,1056,2296,0.2091,Luxury
+Cafe Urban Kitchen,Kochi,Edappally,North Indian,Dessert Parlour,No,Yes,2.6,504,472,0.5508,Affordable
+New Tiffin Box,Kochi,Kakkanad,Rajasthani,Casual Dining,No,No,4.3,1010,781,0.5506,Mid-Range
+Restaurant Burger Barn,Kochi,Marine Drive,"Desserts, Punjabi, Biryani",Food Court,No,No,3.7,295,449,0.8241,Affordable
+Biryani House,Kochi,Marine Drive,"Italian, Desserts",Fine Dining,No,No,4.9,305,3157,0.1552,Luxury
+Momo Point,Kochi,Edappally,Continental,Delivery,Yes,Yes,2.7,527,377,0.7162,Affordable
+Noodle Box,Kochi,Marine Drive,Continental,Dessert Parlour,Yes,No,4.4,331,133,3.3083,Budget
+Restaurant Masala Twist,Kochi,Marine Drive,"North Indian, Desserts",Fine Dining,No,Yes,4.1,1011,3514,0.1167,Luxury
+Hotel Flavor Town,Kochi,Kakkanad,"Pizza, Desserts",Cafe,Yes,No,3.4,67,484,0.7025,Affordable
+Urban Kitchen,Kochi,Kakkanad,North Indian,Cafe,Yes,Yes,3.6,1440,775,0.4645,Mid-Range
+Restaurant Dosa Corner,Kochi,Edappally,Pizza,Casual Dining,No,No,3.3,218,996,0.3313,Mid-Range
+Royal Saffron,Chandigarh,Sector 17,Italian,Bakery,Yes,No,3.6,637,525,0.6857,Affordable
+Grill House,Chandigarh,Sector 22,"Cafe, Continental",Casual Dining,No,Yes,4.5,383,1080,0.4167,Premium
+The Taste of India,Chandigarh,Sector 17,"Seafood, Bengali, Continental",Dessert Parlour,No,No,3.8,256,207,1.8357,Budget
+Shree Noodle Box,Chandigarh,Sector 22,Fast Food,Casual Dining,No,Yes,4.3,731,689,0.6241,Mid-Range
+Hotel Food Hub,Chandigarh,Sector 17,"Thai, Mexican, Street Food",Casual Dining,No,Yes,3.9,795,434,0.8986,Affordable
+Urban Kitchen,Chandigarh,Sector 22,"Pizza, Gujarati",Dessert Parlour,Yes,No,4.1,341,541,0.7579,Affordable
+New Fusion Bites,Chandigarh,Sector 22,Pizza,Cafe,No,No,3.8,353,742,0.5121,Mid-Range
+The Biryani House,Chandigarh,Sector 22,Pizza,Dessert Parlour,Yes,No,3.8,361,464,0.819,Affordable
+Royal Fusion Bites,Chandigarh,Sector 35,Biryani,Delivery,Yes,No,4.0,290,358,1.1173,Affordable
+Momo Point,Chandigarh,Sector 35,"South Indian, Rajasthani",Delivery,No,No,3.8,477,486,0.7819,Affordable
+The Burger Barn,Chandigarh,Sector 35,"Bengali, Rajasthani",Casual Dining,No,No,3.5,1260,722,0.4848,Mid-Range
+Hotel Saffron,Chandigarh,Sector 35,"Italian, North Indian",Dessert Parlour,Yes,Yes,4.4,254,330,1.3333,Affordable
+Royal Curry Leaf,Chandigarh,Sector 35,Punjabi,Fine Dining,No,No,4.6,1774,2754,0.167,Luxury
+Taste of India,Chandigarh,Sector 22,Continental,Dessert Parlour,No,No,4.0,511,190,2.1053,Budget
+Curry Leaf,Chandigarh,Sector 35,"North Indian, Fast Food",Delivery,Yes,No,3.0,309,436,0.6881,Affordable
+The Burger Barn,Chandigarh,Sector 17,"Fast Food, Street Food",Cafe,Yes,No,4.0,206,470,0.8511,Affordable
+Royal Saffron,Chandigarh,Sector 17,Fast Food,Dessert Parlour,No,No,3.5,557,527,0.6641,Affordable
+Hotel Taste of India,Chandigarh,Sector 17,Beverages,Food Court,Yes,No,3.8,752,228,1.6667,Budget
+Cloud Kitchen,Chandigarh,Sector 22,"Pizza, Punjabi",Cafe,No,No,3.9,1343,1175,0.3319,Premium
+Restaurant Urban Kitchen,Chandigarh,Sector 22,"Seafood, Mughlai, Pizza",Casual Dining,Yes,No,4.4,1478,1165,0.3777,Premium
+Classic Dining,Chandigarh,Sector 22,"Desserts, Beverages",Bakery,Yes,Yes,3.4,594,101,3.3663,Budget
+Shree Tiffin Box,Chandigarh,Sector 35,"North Indian, Desserts, Rajasthani",Fine Dining,Yes,No,4.5,1769,3799,0.1185,Luxury
+The Biryani House,Chandigarh,Sector 17,Cafe,Food Court,No,No,3.8,329,225,1.6889,Budget
+Noodle Box,Chandigarh,Sector 17,"Biryani, Italian, Seafood",Dessert Parlour,No,Yes,4.2,553,138,3.0435,Budget
+Hotel Saffron,Chandigarh,Sector 22,"Desserts, Pizza",Quick Bites,No,No,4.4,623,408,1.0784,Affordable
+New Taste of India,Chandigarh,Sector 35,Pizza,Food Court,Yes,No,2.7,293,125,2.16,Budget
+The Pizza Palace,Chandigarh,Sector 17,"Street Food, Fast Food, Seafood",Dessert Parlour,No,Yes,4.3,105,315,1.3651,Affordable
+Restaurant Taste of India,Chandigarh,Sector 22,"North Indian, Fast Food, Gujarati",Casual Dining,Yes,No,3.8,591,509,0.7466,Affordable
+New Burger Barn,Chandigarh,Sector 22,Mexican,Cafe,No,Yes,4.4,497,881,0.4994,Mid-Range
+Kebab King,Chandigarh,Sector 17,"Punjabi, Italian, Mughlai",Quick Bites,Yes,Yes,3.4,692,413,0.8232,Affordable
+Hotel Sweet Tooth,Chandigarh,Sector 35,"Bengali, Mexican, Street Food",Fine Dining,Yes,No,4.8,722,3221,0.149,Luxury
+Restaurant Aroma Restaurant,Chandigarh,Sector 17,"Italian, Biryani, Pizza",Delivery,No,No,4.4,145,227,1.9383,Budget
+Hotel The Hungry Tiger,Chandigarh,Sector 17,"Seafood, Biryani, Mughlai",Casual Dining,Yes,Yes,3.2,511,615,0.5203,Mid-Range
+Dhaba Express,Chandigarh,Sector 35,Biryani,Bakery,No,No,4.2,430,266,1.5789,Budget
+Food Hub,Chandigarh,Sector 22,"Biryani, Mughlai, Seafood",Delivery,Yes,No,4.2,258,439,0.9567,Affordable
+Pizza Palace,Indore,Palasia,"Rajasthani, Pizza",Quick Bites,Yes,No,2.6,546,334,0.7784,Affordable
+Restaurant Dhaba Express,Indore,Vijay Nagar,Bengali,Dessert Parlour,No,No,4.0,610,133,3.0075,Budget
+New Grill House,Indore,Vijay Nagar,"Seafood, Italian",Dessert Parlour,Yes,Yes,4.3,250,108,3.9815,Budget
+Royal Biryani House,Indore,Vijay Nagar,"Beverages, Punjabi",Casual Dining,Yes,Yes,4.5,511,928,0.4849,Mid-Range
+The Pizza Palace,Indore,Vijay Nagar,"Continental, Thai",Dessert Parlour,No,No,4.3,197,571,0.7531,Affordable
+Momo Point,Indore,Vijay Nagar,"Thai, Bengali, Desserts",Food Court,Yes,Yes,2.7,748,256,1.0547,Budget
+Shree Cloud Kitchen,Indore,Vijay Nagar,"Cafe, Mexican, Beverages",Fine Dining,Yes,No,3.8,865,2503,0.1518,Luxury
+Restaurant Dhaba Express,Indore,Palasia,"Continental, Bengali",Food Court,No,Yes,2.7,150,389,0.6941,Affordable
+Royal Noodle Box,Indore,Vijay Nagar,Thai,Casual Dining,Yes,Yes,4.3,809,623,0.6902,Mid-Range
+Restaurant Food Hub,Indore,Palasia,"Mexican, Rajasthani, Mughlai",Dessert Parlour,Yes,No,3.7,266,147,2.517,Budget
+Royal Saffron,Indore,Vijay Nagar,"Pizza, North Indian, Gujarati",Dessert Parlour,No,Yes,3.3,112,269,1.2268,Budget
+Cafe Burger Barn,Indore,Vijay Nagar,"Beverages, Cafe, Rajasthani",Fine Dining,Yes,Yes,4.6,243,3841,0.1198,Luxury
+Restaurant Kebab King,Indore,Palasia,Mughlai,Cafe,Yes,Yes,3.3,512,860,0.3837,Mid-Range
+Biryani House,Indore,Vijay Nagar,Chinese,Fine Dining,No,Yes,3.8,967,2201,0.1726,Luxury
+New Momo Point,Indore,Palasia,Chinese,Cafe,Yes,Yes,3.5,595,570,0.614,Affordable
+The Hungry Tiger,Indore,Palasia,Cafe,Bakery,Yes,No,4.4,186,317,1.388,Affordable
+The Burger Barn,Indore,Vijay Nagar,"North Indian, Mughlai, Seafood",Delivery,Yes,No,3.4,605,146,2.3288,Budget
+Royal Tiffin Box,Indore,Vijay Nagar,"Mexican, Biryani",Bakery,Yes,Yes,4.3,139,509,0.8448,Affordable
+Shree Curry Leaf,Indore,Vijay Nagar,"Thai, Chinese, Desserts",Delivery,Yes,Yes,3.0,149,381,0.7874,Affordable
+Cafe Urban Kitchen,Indore,Palasia,"Chinese, Punjabi, Biryani",Delivery,Yes,Yes,3.9,92,379,1.029,Affordable
+Hotel The Hungry Tiger,Indore,Vijay Nagar,South Indian,Food Court,No,No,4.1,34,453,0.9051,Affordable
+Royal Spice Garden,Indore,Vijay Nagar,Mughlai,Casual Dining,Yes,No,3.9,1376,951,0.4101,Mid-Range
+Cafe Fusion Bites,Indore,Palasia,"Seafood, Fast Food",Food Court,No,No,3.1,277,249,1.245,Budget
+New Noodle Box,Indore,Palasia,"Punjabi, Chinese",Dessert Parlour,Yes,No,3.1,53,418,0.7416,Affordable
+New Saffron,Indore,Vijay Nagar,Cafe,Quick Bites,Yes,No,4.3,363,293,1.4676,Budget
+Dosa Corner,Indore,Palasia,"Mexican, Fast Food",Fine Dining,Yes,Yes,4.1,858,2433,0.1685,Luxury
+The Cloud Kitchen,Indore,Vijay Nagar,"South Indian, Gujarati, Cafe",Quick Bites,Yes,Yes,3.7,581,414,0.8937,Affordable
+New Grill House,Indore,Vijay Nagar,South Indian,Cafe,Yes,Yes,3.4,567,801,0.4245,Mid-Range
+New Classic Dining,Indore,Vijay Nagar,"Italian, Pizza, Thai",Dessert Parlour,No,No,4.4,208,364,1.2088,Affordable
+Noodle Box,Indore,Palasia,"Continental, Biryani",Fine Dining,No,Yes,4.2,1686,2708,0.1551,Luxury
+Taste of India,Indore,Palasia,Continental,Cafe,No,No,3.4,1132,1139,0.2985,Premium
+The Hungry Tiger,Indore,Vijay Nagar,"Street Food, Seafood",Quick Bites,Yes,No,3.2,53,248,1.2903,Budget
+New Grill House,Indore,Vijay Nagar,North Indian,Dessert Parlour,No,No,3.1,296,505,0.6139,Affordable
+Royal Flavor Town,Indore,Vijay Nagar,"Fast Food, Beverages, Continental",Delivery,Yes,No,2.9,349,241,1.2033,Budget
+Curry Leaf,Indore,Palasia,Street Food,Food Court,No,Yes,4.2,219,222,1.8919,Budget
+Hotel Tiffin Box,Bhopal,MP Nagar,"Fast Food, Seafood, Continental",Food Court,No,No,2.7,624,464,0.5819,Affordable
+The Noodle Box,Bhopal,MP Nagar,Mexican,Delivery,Yes,No,3.5,424,168,2.0833,Budget
+Cloud Kitchen,Bhopal,MP Nagar,Cafe,Casual Dining,No,No,4.6,245,798,0.5764,Mid-Range
+Cafe Fusion Bites,Bhopal,MP Nagar,Mughlai,Quick Bites,No,No,2.6,352,154,1.6883,Budget
+Spice Garden,Bhopal,MP Nagar,"Seafood, Desserts, Gujarati",Delivery,Yes,No,4.0,620,521,0.7678,Affordable
+Royal Masala Twist,Bhopal,MP Nagar,"Cafe, Beverages",Fine Dining,Yes,Yes,4.1,1855,1790,0.2291,Premium
+Cafe Aroma Restaurant,Bhopal,MP Nagar,Continental,Dessert Parlour,Yes,No,4.2,152,400,1.05,Affordable
+Pizza Palace,Bhopal,Arera Colony,"Cafe, Punjabi, Biryani",Delivery,Yes,No,3.2,88,314,1.0191,Affordable
+Hotel Aroma Restaurant,Bhopal,MP Nagar,"North Indian, Desserts",Quick Bites,Yes,No,3.8,771,594,0.6397,Affordable
+Hotel Cloud Kitchen,Bhopal,MP Nagar,South Indian,Fine Dining,No,No,3.9,939,2332,0.1672,Luxury
+Food Hub,Bhopal,Arera Colony,Rajasthani,Fine Dining,Yes,No,4.0,1772,2218,0.1803,Luxury
+New Saffron,Bhopal,Arera Colony,"Mexican, Fast Food",Cafe,Yes,No,3.8,1369,974,0.3901,Mid-Range
+New Aroma Restaurant,Bhopal,MP Nagar,Continental,Quick Bites,Yes,No,4.1,208,329,1.2462,Affordable
+The Fusion Bites,Bhopal,MP Nagar,Mughlai,Fine Dining,Yes,No,4.6,409,1718,0.2678,Premium
+Royal Flavor Town,Bhopal,Arera Colony,"Mexican, Chinese, Street Food",Food Court,Yes,Yes,2.5,271,331,0.7553,Affordable
+Restaurant Pizza Palace,Bhopal,Arera Colony,"Street Food, Thai, Rajasthani",Fine Dining,Yes,No,4.0,1386,2999,0.1334,Luxury
+Restaurant Masala Twist,Bhopal,MP Nagar,"North Indian, Punjabi",Casual Dining,No,No,4.4,408,599,0.7346,Affordable
+Hotel Dhaba Express,Bhopal,Arera Colony,"Mexican, Thai",Fine Dining,No,Yes,4.5,1342,1594,0.2823,Premium
+Royal Kebab King,Bhopal,MP Nagar,"Rajasthani, Pizza, Mughlai",Quick Bites,Yes,No,3.9,631,366,1.0656,Affordable
+Royal Fusion Bites,Bhopal,Arera Colony,"Thai, North Indian, Street Food",Cafe,No,No,4.6,291,1079,0.4263,Premium
+Taste of India,Bhopal,Arera Colony,Thai,Food Court,No,No,3.3,377,490,0.6735,Affordable
+Cafe Cloud Kitchen,Bhopal,MP Nagar,"Bengali, Chinese",Fine Dining,No,Yes,4.4,401,3244,0.1356,Luxury
+New Saffron,Bhopal,MP Nagar,"Desserts, Fast Food, Italian",Food Court,No,No,3.3,256,176,1.875,Budget
+Taste of India,Bhopal,MP Nagar,Gujarati,Quick Bites,No,Yes,3.8,454,363,1.0468,Affordable
+New Food Hub,Bhopal,Arera Colony,"Punjabi, Mughlai",Casual Dining,Yes,No,3.8,102,742,0.5121,Mid-Range
+Royal Dhaba Express,Bhopal,Arera Colony,"Cafe, Chinese",Casual Dining,No,No,3.9,412,1192,0.3272,Premium
+Cafe Food Hub,Bhopal,Arera Colony,Beverages,Cafe,Yes,Yes,3.2,952,907,0.3528,Mid-Range
+Food Hub,Bhopal,MP Nagar,"Seafood, Bengali, Biryani",Cafe,Yes,No,4.0,1057,494,0.8097,Affordable
+Cafe The Hungry Tiger,Bhopal,Arera Colony,"North Indian, Seafood",Casual Dining,No,No,3.6,456,599,0.601,Affordable
+Cafe Urban Kitchen,Bhopal,MP Nagar,Beverages,Cafe,No,No,3.8,1000,481,0.79,Affordable
