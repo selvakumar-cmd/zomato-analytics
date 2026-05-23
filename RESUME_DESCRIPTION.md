@@ -1,70 +1,67 @@
 # 📋 RESUME PROJECT DESCRIPTION
-# Copy-paste this directly into your resume!
+# ✅ Copy-paste this directly into your resume!
 
-## ═══════════════════════════════════════════════
-## PROJECT: Zomato India Restaurant Analytics
-## ═══════════════════════════════════════════════
+## ═══════════════════════════════════════════════════════════
+## EXACT FORMAT — Same as your friend's CMS Pro project
+## ═══════════════════════════════════════════════════════════
 
-## ONE-LINE DESCRIPTION (for resume header):
-"Zomato Restaurant Analytics Dashboard | Python • Pandas • Seaborn • Power BI"
+2.  Zomato India Restaurant Analytics – Data Analysis & Interactive Dashboard
+    Technologies: Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, Streamlit, CSV/Excel, Git/GitHub
 
-## FULL DESCRIPTION (3-4 bullet points):
+•   Built end-to-end Exploratory Data Analysis (EDA) pipeline on 1,280+ restaurant records across
+    15 Indian cities with automated data cleaning, null handling, and custom feature engineering
+    (Value Score metric, Price Category segmentation)
 
-• Performed end-to-end Exploratory Data Analysis (EDA) on 1,280+ restaurant 
-  records across 15 Indian cities using Python (Pandas, Seaborn, Matplotlib, Plotly)
+•   Analyzed restaurant performance across 4 key dimensions — cuisine popularity, city-wise ratings,
+    online vs offline order impact, and price-rating correlation; identified that restaurants with
+    online ordering receive 23% higher customer engagement than offline-only establishments
 
-• Engineered custom Value Score metric and Price Category feature; identified 
-  that restaurants offering online orders receive 23% higher customer engagement 
-  than offline-only establishments
+•   Developed interactive web analytics dashboard using Streamlit & Plotly showing restaurant
+    distribution by city (bar chart) and online order availability breakdown (donut chart) with
+    real-time sidebar filters for city and price category
 
-• Built 8 interactive visualizations uncovering cuisine trends, city-wise 
-  performance, and price-rating correlations; developed Power BI dashboard 
-  with 3 pages and 15+ dynamic visuals
+•   Deployed live dashboard on Streamlit Community Cloud with public URL; structured 8+ visualizations
+    across 4 analytical sections with responsive wide-layout premium UI and KPI metric cards
 
-• Delivered 5 actionable business recommendations including optimal pricing 
-  strategy (₹300–₹600 for two) and Tier-2 city expansion opportunities 
-  based on market gap analysis
+## ═══════════════════════════════════════════════════════════
+## LIVE LINK (paste this in resume projects section):
+## ═══════════════════════════════════════════════════════════
 
-## TECH STACK LINE:
-Tools & Technologies: Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, 
-Power BI, SQL, Microsoft Excel, Jupyter Notebook, Git/GitHub
+🔗 Live Dashboard: https://zomato-analytics-selvakumar.streamlit.app/
+🐙 GitHub Repo   : https://github.com/SELVAKUMAR-ANALYST/zomato-analytics
 
-## ═══════════════════════════════════════════════
-## ATS KEYWORDS TO ADD IN SKILLS SECTION:
-## ═══════════════════════════════════════════════
+## ═══════════════════════════════════════════════════════════
+## ATS KEYWORDS — Add these in your Skills section:
+## ═══════════════════════════════════════════════════════════
 
-Data Analysis | Exploratory Data Analysis (EDA) | Data Visualization |
-Python | Pandas | NumPy | Matplotlib | Seaborn | Plotly | Power BI |
-SQL | Data Cleaning | Feature Engineering | Statistical Analysis |
-Business Intelligence | KPI Dashboard | Data Storytelling |
-Microsoft Excel | Jupyter Notebook | GitHub | ETL
+Python | Pandas | NumPy | Matplotlib | Seaborn | Plotly | Streamlit |
+Exploratory Data Analysis (EDA) | Data Cleaning | Feature Engineering |
+Data Visualization | Business Intelligence | KPI Dashboard |
+Statistical Analysis | Data Storytelling | Git | GitHub
 
-## ═══════════════════════════════════════════════
+## ═══════════════════════════════════════════════════════════
 ## INTERVIEW TALKING POINTS:
-## ═══════════════════════════════════════════════
+## ═══════════════════════════════════════════════════════════
 
 Q: "Tell me about your project"
-A: "I built a restaurant analytics dashboard for Zomato's India market. 
-    I analyzed 1,280+ restaurants across 15 cities, cleaned the data, 
-    engineered new features like a Value Score metric, and created 8 
-    visualizations in Python. The key insight was that restaurants with 
-    online ordering get 23% more customer engagement. I then built a 
-    Power BI dashboard for business stakeholders with slicers and drill-through."
+A: "I built a full restaurant analytics dashboard for Zomato's India market.
+    I analyzed 1,280+ restaurants across 15 cities — cleaned the raw data,
+    engineered new features like a Value Score metric, and created 8 visualizations.
+    The key finding was that restaurants with online ordering get 23% more engagement.
+    I then deployed a live interactive dashboard using Streamlit on the cloud."
 
 Q: "What was your biggest challenge?"
-A: "The Cuisines column had multiple values per row like 'North Indian, Chinese, Biryani'. 
-    I had to split these, explode the list, and count individual cuisines separately 
-    to get accurate popularity rankings."
+A: "The Cuisines column had multiple values per row like 'North Indian, Chinese, Biryani'.
+    I had to split these, explode the list, and count individual cuisines separately
+    to get accurate popularity rankings — that was the trickiest part of the cleaning."
 
 Q: "What tools did you use and why?"
-A: "Python for data processing because it's fast and flexible with Pandas. 
-    Seaborn and Matplotlib for static charts in the analysis notebook. 
-    Power BI for the final dashboard because it's the most widely used 
-    BI tool in Indian MNCs and allows non-technical stakeholders to 
-    interact with the data."
+A: "Python and Pandas for data processing — fast and flexible. Plotly for interactive
+    charts because it's better than Matplotlib for dashboards. Streamlit to deploy
+    the dashboard as a live web app without needing frontend knowledge."
 
 Q: "What was your key business recommendation?"
-A: "New restaurants should target Tier-2 cities like Indore and Lucknow 
-    because they have lower competition but growing food delivery demand. 
-    Also, the ₹300-₹600 price range captures 45% of the market — 
-    so new entrants should target affordable pricing to maximize volume."
+A: "New restaurants should target Tier-2 cities like Indore and Lucknow because they
+    have lower competition but growing food delivery demand. Also, the ₹300–₹600
+    price range captures 45% of the market, so new entrants should target affordable
+    pricing to maximize volume."
