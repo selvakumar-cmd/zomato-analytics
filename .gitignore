@@ -2,3 +2,8 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .env
+
+# Private files — do not push to GitHub
+RESUME_DESCRIPTION.md
+POWERBI_GUIDE.md
+*.personal.*
