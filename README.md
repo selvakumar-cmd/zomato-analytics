@@ -2,8 +2,17 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-green?style=for-the-badge&logo=pandas)
-![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow?style=for-the-badge&logo=powerbi)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B?style=for-the-badge&logo=streamlit)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?style=for-the-badge&logo=plotly)
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+## 🚀 Live Demo
+
+> **👉 [Click here to view the Live Interactive Dashboard](https://zomato-analytics-selvakumar.streamlit.app/)**
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://zomato-analytics-selvakumar.streamlit.app/)
+
+---
 
 ## 📌 Project Overview
 
@@ -57,10 +66,11 @@ A comprehensive **Exploratory Data Analysis (EDA)** of 1,280+ restaurants across
 ## 🛠️ Tech Stack
 
 ```
-Language  : Python 3.8+
-Libraries : Pandas, NumPy, Matplotlib, Seaborn, Plotly
-Dashboard : Microsoft Power BI
-IDE       : Jupyter Notebook / VS Code
+Language   : Python 3.8+
+Libraries  : Pandas, NumPy, Matplotlib, Seaborn, Plotly
+Dashboard  : Streamlit (Live Web App)
+IDE        : Jupyter Notebook / VS Code
+Deployment : Streamlit Community Cloud
 ```
 
 ---
@@ -71,7 +81,7 @@ IDE       : Jupyter Notebook / VS Code
 Zomato_Analytics_Project/
 │
 ├── 📓 zomato_analysis.py       ← Main EDA script
-├── 📊 Zomato_Dashboard.pbix    ← Power BI Dashboard
+├── 🌐 app.py                   ← Streamlit Interactive Dashboard
 ├── 📄 README.md                ← Project documentation
 ├── 📄 requirements.txt         ← Python dependencies
 │
@@ -92,12 +102,12 @@ Zomato_Analytics_Project/
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ How to Run Locally
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/yourusername/zomato-analytics.git
-cd zomato-analytics
+git clone https://github.com/selvakumar/zomato-analytics.git
+cd Zomato_Analytics_Project
 ```
 
 ### Step 2: Install Dependencies
@@ -105,14 +115,16 @@ cd zomato-analytics
 pip install -r requirements.txt
 ```
 
-### Step 3: Run the Analysis
+### Step 3: Run the Analysis Script
 ```bash
 python zomato_analysis.py
 ```
 
-### Step 4: View Power BI Dashboard
-- Open `Zomato_Dashboard.pbix` in Power BI Desktop
-- Refresh data source → point to `dataset/zomato_cleaned.csv`
+### Step 4: Launch the Interactive Dashboard
+```bash
+streamlit run app.py
+```
+Then open your browser at `http://localhost:8501` 🚀
 
 ---
 
@@ -143,9 +155,9 @@ python zomato_analysis.py
 
 ## 🔗 Connect
 
+- **Live App**: [https://zomato-analytics-selvakumar.streamlit.app/](https://zomato-analytics-selvakumar.streamlit.app/)
 - **LinkedIn**: [Your LinkedIn Profile]
 - **GitHub**: [Your GitHub Profile]
-- **Tableau Public**: [Your Dashboard Link]
 
 ---
 
