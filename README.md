@@ -156,8 +156,8 @@ Then open your browser at `http://localhost:8501` 🚀
 ## 🔗 Connect
 
 - **Live App**: [https://zomato-analytics-selvakumar.streamlit.app/](https://zomato-analytics-selvakumar.streamlit.app/)
-- **LinkedIn**: [Your LinkedIn Profile]
-- **GitHub**: [Your GitHub Profile]
+- **LinkedIn**: [https://www.linkedin.com/in/contact-selvakumar]
+
 
 ---
 
