@@ -6,4 +6,5 @@ __pycache__/
 # Private files — do not push to GitHub
 RESUME_DESCRIPTION.md
 POWERBI_GUIDE.md
+PORTFOLIO_PROMPT.md
 *.personal.*
