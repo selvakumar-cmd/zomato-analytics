@@ -7,48 +7,42 @@ random.seed(42)
 np.random.seed(42)
 
 cities = {
-    'Bangalore': 180, 'Mumbai': 160, 'Delhi': 150, 'Hyderabad': 120,
-    'Chennai': 110, 'Pune': 100, 'Kolkata': 90, 'Ahmedabad': 70,
-    'Jaipur': 60, 'Surat': 50, 'Lucknow': 50, 'Kochi': 40,
-    'Chandigarh': 35, 'Indore': 35, 'Bhopal': 30
+    'Chennai': 300, 'Coimbatore': 200, 'Madurai': 150, 'Trichy': 120,
+    'Salem': 100, 'Tiruppur': 80, 'Vellore': 70, 'Thanjavur': 60,
+    'Tirunelveli': 60, 'Tuticorin': 40, 'Kanyakumari': 40, 'Erode': 40
 }
 
 cuisines = [
-    'North Indian', 'South Indian', 'Chinese', 'Fast Food', 'Biryani',
-    'Pizza', 'Mughlai', 'Continental', 'Italian', 'Street Food',
-    'Desserts', 'Beverages', 'Seafood', 'Bengali', 'Rajasthani',
-    'Gujarati', 'Punjabi', 'Thai', 'Mexican', 'Cafe'
+    'South Indian', 'Chettinad', 'Biryani', 'Chinese', 'Fast Food', 
+    'North Indian', 'Tandoori', 'Seafood', 'Desserts', 'Beverages', 
+    'Street Food', 'Mughlai', 'Bakery', 'Cafe', 'Arabian', 'Kothu Parotta'
 ]
 
 restaurant_types = ['Quick Bites', 'Casual Dining', 'Cafe', 'Delivery',
                     'Dessert Parlour', 'Food Court', 'Fine Dining', 'Bakery']
 
 areas = {
-    'Bangalore': ['Koramangala', 'Indiranagar', 'Whitefield', 'HSR Layout', 'BTM Layout', 'Jayanagar', 'MG Road'],
-    'Mumbai': ['Bandra', 'Andheri', 'Juhu', 'Powai', 'Colaba', 'Dadar', 'Borivali'],
-    'Delhi': ['Connaught Place', 'Lajpat Nagar', 'Karol Bagh', 'Saket', 'Dwarka', 'Rohini'],
-    'Hyderabad': ['Banjara Hills', 'Jubilee Hills', 'Hitech City', 'Gachibowli', 'Secunderabad'],
-    'Chennai': ['Anna Nagar', 'T Nagar', 'Velachery', 'Adyar', 'Nungambakkam', 'OMR'],
-    'Pune': ['Koregaon Park', 'Baner', 'Hinjewadi', 'Kothrud', 'Viman Nagar'],
-    'Kolkata': ['Park Street', 'Salt Lake', 'New Town', 'Gariahat', 'Behala'],
-    'Ahmedabad': ['SG Highway', 'CG Road', 'Navrangpura', 'Satellite'],
-    'Jaipur': ['MI Road', 'Vaishali Nagar', 'C Scheme', 'Malviya Nagar'],
-    'Surat': ['Adajan', 'Vesu', 'Athwa', 'Katargam'],
-    'Lucknow': ['Hazratganj', 'Gomti Nagar', 'Aliganj'],
-    'Kochi': ['Marine Drive', 'Edappally', 'Kakkanad'],
-    'Chandigarh': ['Sector 17', 'Sector 22', 'Sector 35'],
-    'Indore': ['Vijay Nagar', 'Palasia', 'Bhawarkua'],
-    'Bhopal': ['MP Nagar', 'Arera Colony', 'New Market']
+    'Chennai': ['Anna Nagar', 'T Nagar', 'Velachery', 'Adyar', 'Nungambakkam', 'OMR', 'Mylapore', 'Tambaram'],
+    'Coimbatore': ['RS Puram', 'Gandhipuram', 'Peelamedu', 'Saibaba Colony', 'Saravanampatti', 'Race Course'],
+    'Madurai': ['KK Nagar', 'Simmakkal', 'Goripalayam', 'Anna Nagar', 'Mattuthavani', 'Aarapalayam'],
+    'Trichy': ['Thillai Nagar', 'Cantonment', 'Srirangam', 'KK Nagar', 'Chatram'],
+    'Salem': ['New Bus Stand', 'Four Roads', 'Fairlands', 'Hasthampatti', 'Meyyanur'],
+    'Tiruppur': ['Avinashi Road', 'Khaderpet', 'Palladam Road', 'Dharapuram Road'],
+    'Vellore': ['Sathuvachari', 'Katpadi', 'Gandhi Nagar', 'Bagayam'],
+    'Thanjavur': ['Medical College Road', 'Old Bus Stand', 'Mariamman Kovil', 'South Rampart'],
+    'Tirunelveli': ['Palayamkottai', 'Vannarpettai', 'Junction', 'Town'],
+    'Tuticorin': ['Cruz Puram', 'WGC Road', 'Millerpuram', 'Chidambara Nagar'],
+    'Kanyakumari': ['Nagercoil Town', 'Beach Road', 'Kanyakumari Main'],
+    'Erode': ['Perundurai Road', 'Sathy Road', 'Bus Stand Area']
 }
 
-prefixes = ['The', 'Hotel', 'Cafe', 'Restaurant', '', '', '', 'Shree', 'New', 'Royal']
+prefixes = ['Sri', 'Hotel', 'A2B', 'Anjappar', 'Thalappakatti', 'Junior Kuppanna', 'Salem RR', 'Karaikudi', 'Madurai Kannappar', 'Sangeetha', 'Ambur Star', '']
 names = [
-    'Spice Garden', 'Food Hub', 'Taste of India', 'Biryani House', 'Pizza Palace',
-    'Dosa Corner', 'Curry Leaf', 'Burger Barn', 'Saffron', 'Masala Twist',
-    'The Hungry Tiger', 'Food Street', 'Kebab King', 'Sweet Tooth', 'Noodle Box',
-    'Dhaba Express', 'Chaat Junction', 'Grill House', 'Tiffin Box', 'Momo Point',
-    'Fusion Bites', 'Classic Dining', 'Urban Kitchen', 'Flavor Town', 'Spicy Treat',
-    'Crave Kitchen', 'The Food Lab', 'Aroma Restaurant', 'Taste Buds', 'Cloud Kitchen'
+    'Saravana Bhavan', 'Ananda Bhavan', 'Aryaas', 'Veg Restaurant', 'Biryani Hotel',
+    'Chettinad Mess', 'Vilasam', 'Unavagam', 'Canteen', 'Grand Restaurant',
+    'Spicy Kitchen', 'Tiffin Room', 'Kalyan Mess', 'Star Biryani', 'Nair Mess',
+    'Salem Mess', 'Bhavan', 'Dosa Club', 'Cafe Coffee', 'Momo House',
+    'Aroma', 'Urban Dhaba', 'Biryani Bucket', 'Bun Parotta Corner', 'Jigarthanda Hub'
 ]
 
 rows = []

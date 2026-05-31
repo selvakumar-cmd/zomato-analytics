@@ -17,7 +17,7 @@ def get_base64_image(image_path):
 
 # ── Page Config ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="Zomato India Analytics | Selvakumar",
+    page_title="Zomato Tamil Nadu Analytics | Selvakumar",
     page_icon="🍽️",
     layout="wide",
     initial_sidebar_state="collapsed"
@@ -553,12 +553,12 @@ st.markdown(f"""
 <div class="hero">
     <div class="hero-layout">
         <div class="hero-content">
-            <div class="hero-eyebrow"><span class="hero-dot"></span> Data Analytics Portfolio</div>
-            <h1>Zomato India<br><span>Restaurant Analytics</span></h1>
+            <div class="hero-eyebrow"><span class="hero-dot"></span> Tamil Nadu Food Analytics</div>
+            <h1>Zomato Tamil Nadu<br><span>Restaurant Analytics</span></h1>
             <div class="hero-desc">
-                Comprehensive exploratory data analysis on 1,280+ restaurants across
-                15 major Indian cities — uncovering trends in pricing, customer engagement,
-                cuisine popularity & market opportunities.
+                Comprehensive exploratory data analysis on 1,260+ restaurants across
+                12 major cities in Tamil Nadu — uncovering trends in pricing, customer engagement,
+                cuisine popularity & local market opportunities.
             </div>
             <div class="hero-pills">
                 <span class="pill">Python</span>
@@ -819,12 +819,12 @@ with tab4:
     st.markdown('<div class="sec-title"><span class="sec-dot"></span>Key Business Findings</div>', unsafe_allow_html=True)
 
     insights = [
-        ("🏙️ Bangalore Dominates", "180+ restaurants — highest competition. New entrants face maximum barrier to entry here."),
-        ("📱 Online = +23% Engagement", "Restaurants with online ordering get 23% more votes. Digital presence is non-negotiable in 2026."),
-        ("💰 Budget Sweet Spot", "45% of market is ₹200–₹500 range. Mid-range (₹500–₹800) is underserved — massive opportunity gap."),
-        ("⭐ Fine Dining Premium", "Luxury restaurants average 0.4 higher rating. Customers equate higher price with better experience."),
-        ("🌆 Tier-2 Gold Rush", "Indore, Lucknow, Bhopal show low competition + growing demand. Best cities for new launches."),
-        ("🍛 North Indian + Chinese", "This combo dominates all 15 cities. Must-have for any new restaurant's core menu."),
+        ("🏙️ Chennai Market Saturation", "300+ restaurants — highest competition. New entrants face maximum barrier to entry here."),
+        ("📱 Online Order Traction", "Restaurants with online ordering get +25% higher customer engagement and vote volumes in TN."),
+        ("💰 Mid-Range Gold Sweetspot", "40% of market is affordable/mid-range (₹300–₹600). Premium segment is growing rapidly in Coimbatore."),
+        ("⭐ Fine Dining Premium", "Fine dining restaurants average 0.5 higher ratings. Tamil Nadu customers highly value premium hospitality."),
+        ("🌆 Tier-2 Growth Opportunities", "Madurai, Trichy, and Salem show low competition + high value scores. Best cities for local food startups."),
+        ("🍛 South Indian & Chettinad Dominance", "This culinary combination dominates all 12 cities, followed closely by Fast Food & Biryani."),
     ]
 
     ins_html = ""
