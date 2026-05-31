@@ -4,6 +4,16 @@ import plotly.express as px
 import plotly.graph_objects as go
 import plotly.figure_factory as ff
 import numpy as np
+import base64
+import os
+
+# ── Helper for Image Base64 ───────────────────────────────────
+def get_base64_image(image_path):
+    if os.path.exists(image_path):
+        with open(image_path, "rb") as img_file:
+            return base64.b64encode(img_file.read()).decode()
+    return ""
+
 
 # ── Page Config ──────────────────────────────────────────────
 st.set_page_config(
@@ -412,11 +422,46 @@ section[data-testid="stSidebar"] {
     text-transform: uppercase;
 }
 
+/* ── Hero Split Layout ── */
+.hero-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.2rem;
+}
+.hero-content {
+    flex: 1.4;
+    position: relative;
+    z-index: 2;
+}
+.hero-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+}
+.hero-img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 16px;
+    border: 2px solid rgba(226,55,68,0.25);
+    box-shadow: 0 10px 30px rgba(226,55,68,0.2), 0 0 40px rgba(226,55,68,0.1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-img:hover {
+    transform: scale(1.03) rotate(1deg);
+    border-color: rgba(226,55,68,0.5);
+    box-shadow: 0 15px 40px rgba(226,55,68,0.35), 0 0 50px rgba(226,55,68,0.2);
+}
+
 /* ═══ RESPONSIVE ═══ */
 @media (max-width: 992px) {
     .kpi-grid { grid-template-columns: repeat(3, 1fr); }
     .hero h1 { font-size: 2rem; }
     .hero { padding: 2rem 1.5rem; }
+    .hero-img { max-width: 260px; }
 }
 @media (max-width: 768px) {
     .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
@@ -433,6 +478,19 @@ section[data-testid="stSidebar"] {
     .ins { padding: 0.9rem 1rem; }
     .ins-title { font-size: 0.82rem; }
     .stTabs [data-baseweb="tab"] { font-size: 0.7rem; padding: 7px 12px; }
+    
+    /* Hero layout stack on mobile */
+    .hero-layout {
+        flex-direction: column;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    .hero-img {
+        max-width: 220px;
+    }
+    .hero-pills {
+        justify-content: center;
+    }
 }
 @media (max-width: 480px) {
     .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
@@ -443,6 +501,9 @@ section[data-testid="stSidebar"] {
     .kpi-num { font-size: 1.1rem; }
     .kpi-text { font-size: 0.5rem; letter-spacing: 0.8px; }
     .pill { font-size: 0.58rem; padding: 3px 8px; }
+    .hero-img {
+        max-width: 180px;
+    }
 }
 </style>
 """, unsafe_allow_html=True)
@@ -485,26 +546,33 @@ if online_filter != "All":
     df_f = df_f[df_f['Online_Order'] == online_filter]
 
 # ── Hero Section ──────────────────────────────────────────────
-st.markdown("""
+img_base64 = get_base64_image("hermione_analyst.jpg")
+
+st.markdown(f"""
 <div class="hero-wrap">
 <div class="hero">
-    <div class="hero-content">
-        <div class="hero-eyebrow"><span class="hero-dot"></span> Data Analytics Portfolio</div>
-        <h1>Zomato India<br><span>Restaurant Analytics</span></h1>
-        <div class="hero-desc">
-            Comprehensive exploratory data analysis on 1,280+ restaurants across
-            15 major Indian cities — uncovering trends in pricing, customer engagement,
-            cuisine popularity & market opportunities.
+    <div class="hero-layout">
+        <div class="hero-content">
+            <div class="hero-eyebrow"><span class="hero-dot"></span> Data Analytics Portfolio</div>
+            <h1>Zomato India<br><span>Restaurant Analytics</span></h1>
+            <div class="hero-desc">
+                Comprehensive exploratory data analysis on 1,280+ restaurants across
+                15 major Indian cities — uncovering trends in pricing, customer engagement,
+                cuisine popularity & market opportunities.
+            </div>
+            <div class="hero-pills">
+                <span class="pill">Python</span>
+                <span class="pill">Pandas</span>
+                <span class="pill">Plotly</span>
+                <span class="pill">SQL</span>
+                <span class="pill">Streamlit</span>
+                <span class="pill">EDA</span>
+                <span class="pill">Data Viz</span>
+                <span class="pill">Statistics</span>
+            </div>
         </div>
-        <div class="hero-pills">
-            <span class="pill">Python</span>
-            <span class="pill">Pandas</span>
-            <span class="pill">Plotly</span>
-            <span class="pill">SQL</span>
-            <span class="pill">Streamlit</span>
-            <span class="pill">EDA</span>
-            <span class="pill">Data Viz</span>
-            <span class="pill">Statistics</span>
+        <div class="hero-image-container">
+            <img src="data:image/jpeg;base64,{img_base64}" class="hero-img" alt="Hermione Granger Data Scientist">
         </div>
     </div>
 </div>
