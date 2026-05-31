@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import plotly.figure_factory as ff
+import numpy as np
 
 # ── Page Config ──────────────────────────────────────────────
 st.set_page_config(
@@ -11,351 +13,434 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# ── Premium CSS — Fully Responsive + Mobile First ────────────
+# ══════════════════════════════════════════════════════════════
+# GOD LEVEL CSS — Premium Dark + Glassmorphism + Animations
+# ══════════════════════════════════════════════════════════════
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
-/* ── Global Reset ── */
+/* ── Reset ── */
 html, body, [class*="css"] {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
-/* ── Dark Background ── */
-.stApp {
-    background: #0a0a0f;
-    color: #e8e8f0;
-}
+/* ── Hide defaults ── */
+#MainMenu, header, footer, .stDeployButton { display: none !important; }
 
-/* Hide Streamlit default elements for cleaner look */
-#MainMenu {visibility: hidden;}
-header {visibility: hidden;}
-footer {visibility: hidden;}
-.stDeployButton {display: none;}
+/* ── Animated Background ── */
+.stApp {
+    background: #06060c;
+    color: #e8e8f0;
+    position: relative;
+}
+.stApp::before {
+    content: '';
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background:
+        radial-gradient(ellipse at 20% 50%, rgba(226,55,68,0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(120,40,200,0.04) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 80%, rgba(226,55,68,0.03) 0%, transparent 50%);
+    animation: bg-shift 20s ease-in-out infinite alternate;
+    pointer-events: none;
+    z-index: 0;
+}
+@keyframes bg-shift {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    100% { transform: translate(-3%, -3%) rotate(2deg); }
+}
 
 /* ── Sidebar ── */
 section[data-testid="stSidebar"] {
-    background: linear-gradient(180deg, #0f0f1a 0%, #141428 100%);
-    border-right: 1px solid rgba(226,55,68,0.15);
-}
-section[data-testid="stSidebar"] .stMarkdown h2 {
-    color: #E23744;
-    font-size: 1.1rem;
+    background: linear-gradient(180deg, #08080f 0%, #0d0d1a 100%);
+    border-right: 1px solid rgba(226,55,68,0.08);
+    backdrop-filter: blur(20px);
 }
 
-/* ── Hero Section ── */
+/* ── HERO — Animated Gradient Border ── */
+.hero-wrap {
+    padding: 2px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #E23744, #ff6b6b, #E23744, #880e4f);
+    background-size: 300% 300%;
+    animation: gradient-border 6s ease infinite;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 60px rgba(226,55,68,0.15), 0 0 120px rgba(226,55,68,0.05);
+}
+@keyframes gradient-border {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
 .hero {
-    background: linear-gradient(135deg, #E23744 0%, #b71c1c 40%, #880e4f 100%);
+    background: linear-gradient(135deg, #0c0c16 0%, #121220 100%);
     border-radius: 20px;
-    padding: 2.5rem 2rem;
-    margin-bottom: 1.8rem;
+    padding: 2.8rem 2.2rem;
     position: relative;
     overflow: hidden;
-    box-shadow: 0 12px 40px rgba(226,55,68,0.25);
 }
 .hero::before {
     content: '';
     position: absolute;
-    top: -50%;
-    right: -20%;
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+    top: -80px;
+    right: -80px;
+    width: 350px;
+    height: 350px;
+    background: radial-gradient(circle, rgba(226,55,68,0.12) 0%, transparent 70%);
     border-radius: 50%;
+    animation: float 8s ease-in-out infinite;
 }
 .hero::after {
     content: '';
     position: absolute;
-    bottom: -30%;
-    left: -10%;
-    width: 300px;
-    height: 300px;
-    background: radial-gradient(circle, rgba(0,0,0,0.15) 0%, transparent 70%);
+    bottom: -60px;
+    left: -40px;
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(120,40,200,0.08) 0%, transparent 70%);
     border-radius: 50%;
+    animation: float 10s ease-in-out infinite reverse;
 }
-.hero-content { position: relative; z-index: 1; }
+@keyframes float {
+    0%, 100% { transform: translate(0, 0); }
+    50% { transform: translate(-15px, -20px); }
+}
+.hero-content { position: relative; z-index: 2; }
 .hero-eyebrow {
-    font-size: 0.72rem;
-    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.68rem;
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
-    color: rgba(255,255,255,0.7);
-    margin-bottom: 0.6rem;
+    letter-spacing: 3px;
+    color: #E23744;
+    margin-bottom: 0.8rem;
+    background: rgba(226,55,68,0.08);
+    padding: 5px 14px;
+    border-radius: 50px;
+    border: 1px solid rgba(226,55,68,0.15);
+}
+.hero-dot {
+    width: 6px; height: 6px;
+    background: #E23744;
+    border-radius: 50%;
+    animation: pulse-glow 2s infinite;
+}
+@keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(226,55,68,0.6); }
+    50% { box-shadow: 0 0 0 6px rgba(226,55,68,0); }
 }
 .hero h1 {
-    font-size: 2.2rem;
-    font-weight: 800;
+    font-size: 2.6rem;
+    font-weight: 900;
     color: white;
     margin: 0;
-    line-height: 1.15;
-    letter-spacing: -0.5px;
+    line-height: 1.1;
+    letter-spacing: -1px;
+    background: linear-gradient(135deg, #ffffff 0%, #cccccc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.hero h1 span {
+    background: linear-gradient(135deg, #E23744 0%, #ff6b6b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .hero-desc {
-    font-size: 0.92rem;
-    color: rgba(255,255,255,0.82);
-    margin-top: 0.7rem;
-    line-height: 1.55;
-    max-width: 650px;
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.55);
+    margin-top: 0.8rem;
+    line-height: 1.6;
+    max-width: 600px;
+    font-weight: 400;
 }
 .hero-pills {
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 1.2rem;
+    gap: 7px;
+    margin-top: 1.4rem;
 }
 .pill {
-    background: rgba(255,255,255,0.13);
+    background: rgba(226,55,68,0.08);
     backdrop-filter: blur(10px);
-    color: white;
-    padding: 5px 14px;
+    color: rgba(255,255,255,0.75);
+    padding: 6px 14px;
     border-radius: 50px;
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     font-weight: 600;
-    border: 1px solid rgba(255,255,255,0.18);
+    border: 1px solid rgba(226,55,68,0.12);
+    transition: all 0.3s;
     letter-spacing: 0.3px;
 }
+.pill:hover {
+    background: rgba(226,55,68,0.18);
+    border-color: rgba(226,55,68,0.35);
+    color: white;
+    transform: translateY(-2px);
+}
 
-/* ── KPI Grid ── */
+/* ── KPI Grid — Glass Cards ── */
 .kpi-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 14px;
-    margin-bottom: 2rem;
+    margin-bottom: 2.2rem;
 }
 .kpi {
-    background: linear-gradient(145deg, #12121f 0%, #1a1a30 100%);
-    border: 1px solid rgba(226,55,68,0.12);
-    border-radius: 16px;
-    padding: 1.3rem 1rem;
+    background: rgba(14,14,26,0.7);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(226,55,68,0.08);
+    border-radius: 18px;
+    padding: 1.4rem 1rem;
     text-align: center;
     position: relative;
     overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
-}
-.kpi:hover {
-    transform: translateY(-4px);
-    border-color: rgba(226,55,68,0.35);
-    box-shadow: 0 12px 35px rgba(226,55,68,0.12);
+    transition: all 0.4s cubic-bezier(0.4,0,0.2,1);
 }
 .kpi::before {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 0; left: 0; right: 0;
     height: 3px;
-    background: linear-gradient(90deg, #E23744, #ff6b6b);
+    background: linear-gradient(90deg, transparent, #E23744, transparent);
     opacity: 0;
-    transition: opacity 0.3s;
+    transition: opacity 0.4s;
+}
+.kpi:hover {
+    transform: translateY(-6px);
+    border-color: rgba(226,55,68,0.25);
+    box-shadow: 0 20px 50px rgba(226,55,68,0.1), 0 0 30px rgba(226,55,68,0.05);
 }
 .kpi:hover::before { opacity: 1; }
-.kpi-emoji { font-size: 1.6rem; margin-bottom: 0.4rem; }
+.kpi-emoji {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    filter: drop-shadow(0 2px 8px rgba(226,55,68,0.2));
+}
 .kpi-num {
-    font-size: 1.65rem;
+    font-size: 1.75rem;
     font-weight: 800;
-    color: #E23744;
+    background: linear-gradient(135deg, #E23744 0%, #ff6b6b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     line-height: 1.1;
 }
 .kpi-text {
-    font-size: 0.68rem;
-    color: #777;
+    font-size: 0.62rem;
+    color: rgba(255,255,255,0.35);
     text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
-    margin-top: 0.35rem;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-top: 0.4rem;
 }
 
-/* ── Section Title ── */
+/* ── Section Title — Animated ── */
 .sec-title {
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     font-weight: 700;
     color: #E23744;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-bottom: 1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid rgba(226,55,68,0.2);
+    letter-spacing: 2px;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid rgba(226,55,68,0.12);
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
 }
-.sec-title-dot {
-    width: 8px;
-    height: 8px;
+.sec-dot {
+    width: 8px; height: 8px;
     border-radius: 50%;
     background: #E23744;
     display: inline-block;
-    animation: pulse-dot 2s infinite;
-}
-@keyframes pulse-dot {
-    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(226,55,68,0.4); }
-    50% { opacity: 0.8; box-shadow: 0 0 0 6px rgba(226,55,68,0); }
+    animation: pulse-glow 2s infinite;
+    box-shadow: 0 0 10px rgba(226,55,68,0.4);
 }
 
-/* ── Insight Cards ── */
-.insight-row {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-    margin-bottom: 1rem;
-}
+/* ── Insight Cards — Glass ── */
 .ins {
-    background: linear-gradient(135deg, #12121f 0%, #181830 100%);
-    border-left: 4px solid #E23744;
+    background: rgba(14,14,26,0.6);
+    backdrop-filter: blur(12px);
+    border-left: 3px solid #E23744;
     border-radius: 0 14px 14px 0;
-    padding: 1rem 1.2rem;
-    transition: all 0.25s ease;
+    padding: 1.1rem 1.3rem;
+    margin-bottom: 10px;
+    transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
     position: relative;
-    overflow: hidden;
 }
 .ins:hover {
     border-left-color: #ff6b6b;
-    background: linear-gradient(135deg, #161628 0%, #1e1e38 100%);
-    transform: translateX(4px);
+    transform: translateX(6px);
+    background: rgba(20,20,38,0.8);
+    box-shadow: -4px 0 20px rgba(226,55,68,0.08);
+}
+.ins-num {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgba(226,55,68,0.07);
+    line-height: 1;
 }
 .ins-title {
     font-weight: 700;
     color: #f0f0f5;
     font-size: 0.88rem;
-    letter-spacing: -0.2px;
 }
 .ins-desc {
-    color: #888;
+    color: rgba(255,255,255,0.45);
     font-size: 0.78rem;
-    margin-top: 3px;
-    line-height: 1.45;
+    margin-top: 4px;
+    line-height: 1.5;
 }
 
-/* ── Tabs ── */
+/* ── Tabs — Premium ── */
 .stTabs [data-baseweb="tab-list"] {
-    background: #0f0f1a;
-    border-radius: 12px;
-    padding: 4px;
-    gap: 4px;
-    border: 1px solid rgba(226,55,68,0.1);
+    background: rgba(10,10,18,0.8);
+    border-radius: 14px;
+    padding: 5px;
+    gap: 5px;
+    border: 1px solid rgba(226,55,68,0.08);
     overflow-x: auto;
+    backdrop-filter: blur(10px);
 }
 .stTabs [data-baseweb="tab"] {
-    color: #666;
+    color: rgba(255,255,255,0.35);
     font-weight: 600;
-    border-radius: 8px;
-    font-size: 0.82rem;
-    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 10px 18px;
     white-space: nowrap;
+    transition: all 0.3s;
+}
+.stTabs [data-baseweb="tab"]:hover {
+    color: rgba(255,255,255,0.6);
+    background: rgba(226,55,68,0.05);
 }
 .stTabs [aria-selected="true"] {
-    background: linear-gradient(135deg, #E23744, #b71c1c) !important;
+    background: linear-gradient(135deg, #E23744, #c0392b) !important;
     color: white !important;
-    box-shadow: 0 4px 15px rgba(226,55,68,0.3);
+    box-shadow: 0 6px 20px rgba(226,55,68,0.3);
 }
 
-/* ── Data Table Styling ── */
-.stDataFrame {
-    border-radius: 12px;
-    overflow: hidden;
+/* ── Download Button ── */
+.stDownloadButton > button {
+    background: linear-gradient(135deg, #E23744, #c0392b) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 12px !important;
+    padding: 0.6rem 1.5rem !important;
+    font-weight: 600 !important;
+    font-size: 0.85rem !important;
+    transition: all 0.3s !important;
+    box-shadow: 0 4px 15px rgba(226,55,68,0.25) !important;
+}
+.stDownloadButton > button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 25px rgba(226,55,68,0.35) !important;
 }
 
 /* ── Footer ── */
 .app-footer {
     text-align: center;
-    padding: 2rem 1rem 1rem;
+    padding: 2.5rem 1rem 1.5rem;
     margin-top: 3rem;
-    border-top: 1px solid rgba(226,55,68,0.1);
+    border-top: 1px solid rgba(226,55,68,0.08);
+    position: relative;
+}
+.app-footer::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 20%;
+    right: 20%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #E23744, transparent);
 }
 .footer-brand {
-    font-size: 0.95rem;
-    font-weight: 700;
-    color: #E23744;
-    letter-spacing: -0.3px;
+    font-size: 1.1rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #E23744, #ff6b6b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 .footer-sub {
     font-size: 0.72rem;
-    color: #555;
-    margin-top: 0.3rem;
-    letter-spacing: 0.5px;
+    color: rgba(255,255,255,0.3);
+    margin-top: 0.4rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .footer-links {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 0.8rem;
+    gap: 24px;
+    margin-top: 1rem;
 }
 .footer-links a {
-    color: #888;
+    color: rgba(255,255,255,0.4);
     font-size: 0.75rem;
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s;
+    font-weight: 600;
+    transition: all 0.3s;
+    padding-bottom: 2px;
     border-bottom: 1px solid transparent;
 }
 .footer-links a:hover {
     color: #E23744;
-    border-bottom: 1px solid #E23744;
+    border-bottom-color: #E23744;
+}
+.footer-tech {
+    font-size: 0.6rem;
+    color: rgba(255,255,255,0.15);
+    margin-top: 1rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-/* ═══════════════════════════════════════════════════
-   RESPONSIVE — MOBILE FIRST
-   ═══════════════════════════════════════════════════ */
-
-/* Tablets & Small Desktops */
+/* ═══ RESPONSIVE ═══ */
 @media (max-width: 992px) {
-    .kpi-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .hero h1 { font-size: 1.8rem; }
+    .kpi-grid { grid-template-columns: repeat(3, 1fr); }
+    .hero h1 { font-size: 2rem; }
     .hero { padding: 2rem 1.5rem; }
 }
-
-/* Mobile */
 @media (max-width: 768px) {
-    .kpi-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .hero {
-        padding: 1.5rem 1.2rem;
-        border-radius: 14px;
-    }
-    .hero h1 {
-        font-size: 1.45rem;
-        line-height: 1.2;
-    }
-    .hero-desc {
-        font-size: 0.82rem;
-    }
-    .hero-eyebrow {
-        font-size: 0.65rem;
-    }
-    .pill {
-        font-size: 0.65rem;
-        padding: 4px 10px;
-    }
-    .kpi { padding: 1rem 0.8rem; border-radius: 12px; }
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .hero { padding: 1.5rem 1.2rem; }
+    .hero h1 { font-size: 1.5rem; letter-spacing: -0.5px; }
+    .hero-desc { font-size: 0.82rem; }
+    .hero-eyebrow { font-size: 0.58rem; letter-spacing: 2px; }
+    .pill { font-size: 0.62rem; padding: 4px 10px; }
+    .kpi { padding: 1rem 0.7rem; border-radius: 14px; }
     .kpi-num { font-size: 1.35rem; }
-    .kpi-emoji { font-size: 1.3rem; }
-    .kpi-text { font-size: 0.6rem; }
-    .sec-title { font-size: 0.75rem; }
-    .ins { padding: 0.8rem 1rem; }
+    .kpi-emoji { font-size: 1.2rem; }
+    .kpi-text { font-size: 0.55rem; }
+    .sec-title { font-size: 0.7rem; letter-spacing: 1.5px; }
+    .ins { padding: 0.9rem 1rem; }
     .ins-title { font-size: 0.82rem; }
-    .ins-desc { font-size: 0.72rem; }
-    .stTabs [data-baseweb="tab"] {
-        font-size: 0.72rem;
-        padding: 6px 10px;
-    }
+    .stTabs [data-baseweb="tab"] { font-size: 0.7rem; padding: 7px 12px; }
 }
-
-/* Small Mobile */
 @media (max-width: 480px) {
-    .kpi-grid {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
-    }
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
     .hero h1 { font-size: 1.25rem; }
-    .hero { padding: 1.2rem 1rem; margin-bottom: 1rem; }
-    .hero-desc { font-size: 0.78rem; }
-    .kpi { padding: 0.9rem 0.6rem; }
-    .kpi-num { font-size: 1.15rem; }
-    .kpi-text { font-size: 0.55rem; letter-spacing: 0.5px; }
+    .hero { padding: 1.2rem 1rem; }
+    .hero-wrap { margin-bottom: 1.2rem; }
+    .kpi { padding: 0.8rem 0.5rem; }
+    .kpi-num { font-size: 1.1rem; }
+    .kpi-text { font-size: 0.5rem; letter-spacing: 0.8px; }
+    .pill { font-size: 0.58rem; padding: 3px 8px; }
 }
 </style>
 """, unsafe_allow_html=True)
@@ -369,42 +454,23 @@ df = load_data()
 
 # ── Sidebar ───────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🍽️ Zomato Analytics")
-    st.caption("Filter & explore the data")
+    st.markdown("## 🍽️ Filters")
+    st.caption("Customize the dashboard view")
     st.markdown("---")
 
     all_cities = sorted(df['City'].unique().tolist())
-    selected_cities = st.multiselect(
-        "🏙️ Select Cities",
-        all_cities,
-        default=all_cities
-    )
+    selected_cities = st.multiselect("🏙️ Cities", all_cities, default=all_cities)
 
     all_prices = sorted(df['Price_Category'].unique().tolist())
-    selected_price = st.multiselect(
-        "💰 Price Category",
-        all_prices,
-        default=all_prices
-    )
+    selected_price = st.multiselect("💰 Price Segment", all_prices, default=all_prices)
 
-    rating_min = st.slider(
-        "⭐ Minimum Rating",
-        float(df['Rating'].min()),
-        float(df['Rating'].max()),
-        2.5, step=0.1
-    )
+    rating_min = st.slider("⭐ Min Rating", float(df['Rating'].min()), float(df['Rating'].max()), 2.5, step=0.1)
 
-    online_filter = st.radio(
-        "📱 Online Order",
-        ["All", "Yes", "No"],
-        horizontal=True
-    )
+    online_filter = st.radio("📱 Online Order", ["All", "Yes", "No"], horizontal=True)
 
     st.markdown("---")
-    st.markdown(f"**📊 Dataset:** `{len(df):,}` restaurants")
-    st.markdown(f"**🏙️ Cities:** `{df['City'].nunique()}`")
-    st.markdown("---")
-    st.markdown("🔗 [GitHub](https://github.com/SELVAKUMAR-ANALYST/zomato-analytics)")
+    st.caption(f"📊 {len(df):,} restaurants · {df['City'].nunique()} cities")
+    st.markdown("[🔗 GitHub Repo](https://github.com/SELVAKUMAR-ANALYST/zomato-analytics)")
 
 # ── Apply Filters ─────────────────────────────────────────────
 df_f = df.copy()
@@ -418,14 +484,15 @@ if online_filter != "All":
 
 # ── Hero Section ──────────────────────────────────────────────
 st.markdown("""
+<div class="hero-wrap">
 <div class="hero">
     <div class="hero-content">
-        <div class="hero-eyebrow">📊 Data Analytics Portfolio Project</div>
-        <h1>Zomato India<br>Restaurant Analytics</h1>
+        <div class="hero-eyebrow"><span class="hero-dot"></span> Data Analytics Portfolio</div>
+        <h1>Zomato India<br><span>Restaurant Analytics</span></h1>
         <div class="hero-desc">
-            Comprehensive EDA on 1,280+ restaurants across 15 major Indian cities.
-            Uncovering hidden trends in cuisine popularity, pricing strategies
-            & customer engagement patterns.
+            Comprehensive exploratory data analysis on 1,280+ restaurants across
+            15 major Indian cities — uncovering trends in pricing, customer engagement,
+            cuisine popularity & market opportunities.
         </div>
         <div class="hero-pills">
             <span class="pill">Python</span>
@@ -435,12 +502,14 @@ st.markdown("""
             <span class="pill">Streamlit</span>
             <span class="pill">EDA</span>
             <span class="pill">Data Viz</span>
+            <span class="pill">Statistics</span>
         </div>
     </div>
 </div>
+</div>
 """, unsafe_allow_html=True)
 
-# ── KPI Cards (HTML grid for perfect mobile response) ─────────
+# ── KPI Cards ─────────────────────────────────────────────────
 total = len(df_f)
 avg_rating = round(df_f['Rating'].mean(), 2) if total > 0 else 0
 online_pct = round((df_f['Online_Order'] == 'Yes').mean() * 100, 1) if total > 0 else 0
@@ -449,52 +518,35 @@ total_votes = f"{int(df_f['Votes'].sum()):,}" if total > 0 else "0"
 
 st.markdown(f"""
 <div class="kpi-grid">
-    <div class="kpi">
-        <div class="kpi-emoji">🏪</div>
-        <div class="kpi-num">{total:,}</div>
-        <div class="kpi-text">Restaurants</div>
-    </div>
-    <div class="kpi">
-        <div class="kpi-emoji">⭐</div>
-        <div class="kpi-num">{avg_rating}</div>
-        <div class="kpi-text">Avg Rating</div>
-    </div>
-    <div class="kpi">
-        <div class="kpi-emoji">📱</div>
-        <div class="kpi-num">{online_pct}%</div>
-        <div class="kpi-text">Online Orders</div>
-    </div>
-    <div class="kpi">
-        <div class="kpi-emoji">💰</div>
-        <div class="kpi-num">₹{avg_cost}</div>
-        <div class="kpi-text">Avg Cost / 2</div>
-    </div>
-    <div class="kpi">
-        <div class="kpi-emoji">👍</div>
-        <div class="kpi-num">{total_votes}</div>
-        <div class="kpi-text">Total Votes</div>
-    </div>
+    <div class="kpi"><div class="kpi-emoji">🏪</div><div class="kpi-num">{total:,}</div><div class="kpi-text">Restaurants</div></div>
+    <div class="kpi"><div class="kpi-emoji">⭐</div><div class="kpi-num">{avg_rating}</div><div class="kpi-text">Avg Rating</div></div>
+    <div class="kpi"><div class="kpi-emoji">📱</div><div class="kpi-num">{online_pct}%</div><div class="kpi-text">Online Orders</div></div>
+    <div class="kpi"><div class="kpi-emoji">💰</div><div class="kpi-num">₹{avg_cost}</div><div class="kpi-text">Avg Cost / 2</div></div>
+    <div class="kpi"><div class="kpi-emoji">👍</div><div class="kpi-num">{total_votes}</div><div class="kpi-text">Total Votes</div></div>
 </div>
 """, unsafe_allow_html=True)
 
-# ── Plotly Theme Helper ───────────────────────────────────────
+# ── Chart Theme Helper ────────────────────────────────────────
 def style_fig(fig, height=380):
     fig.update_layout(
         paper_bgcolor='rgba(0,0,0,0)',
         plot_bgcolor='rgba(0,0,0,0)',
-        font=dict(family='Inter', color='#aaa', size=12),
+        font=dict(family='Inter', color='#666', size=11),
         margin=dict(l=10, r=10, t=30, b=10),
         height=height,
         coloraxis_showscale=False,
-        xaxis=dict(gridcolor='rgba(255,255,255,0.04)', showline=False),
-        yaxis=dict(gridcolor='rgba(255,255,255,0.04)', showline=False),
+        xaxis=dict(gridcolor='rgba(255,255,255,0.03)', showline=False, zeroline=False),
+        yaxis=dict(gridcolor='rgba(255,255,255,0.03)', showline=False, zeroline=False),
     )
     return fig
 
+ZOMATO_REDS = [[0, '#1a0a0c'], [0.3, '#4a1520'], [0.6, '#E23744'], [1, '#ff8a80']]
+
 # ── Tabs ──────────────────────────────────────────────────────
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "📊 Overview",
     "🏙️ City Deep-Dive",
+    "🍛 Cuisine Analysis",
     "💡 Insights & Impact",
     "🏆 Top Performers"
 ])
@@ -508,63 +560,55 @@ with tab1:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Restaurant Count by City</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Restaurant Count by City</div>', unsafe_allow_html=True)
         city_data = df_f['City'].value_counts().reset_index()
         city_data.columns = ['City', 'Count']
-        fig = px.bar(city_data, x='City', y='Count',
-                     color='Count',
-                     color_continuous_scale=[[0, '#3d1216'], [0.5, '#E23744'], [1, '#ff8a80']],
-                     template='plotly_dark')
+        fig = px.bar(city_data, x='City', y='Count', color='Count',
+                     color_continuous_scale=ZOMATO_REDS, template='plotly_dark')
         fig.update_traces(marker_line_width=0, marker_cornerradius=6)
         st.plotly_chart(style_fig(fig), use_container_width=True)
 
     with col2:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Rating Distribution</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Rating Distribution</div>', unsafe_allow_html=True)
         fig = px.histogram(df_f, x='Rating', nbins=30,
-                           color_discrete_sequence=['#E23744'],
-                           template='plotly_dark')
+                           color_discrete_sequence=['#E23744'], template='plotly_dark')
         fig.update_traces(marker_line_width=0, marker_cornerradius=4)
         st.plotly_chart(style_fig(fig), use_container_width=True)
 
     col3, col4 = st.columns(2)
 
     with col3:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Online vs Offline Orders</div>', unsafe_allow_html=True)
-        fig = px.pie(df_f, names='Online_Order',
-                     color='Online_Order',
-                     color_discrete_map={'Yes': '#E23744', 'No': '#252545'},
-                     hole=0.55, template='plotly_dark')
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Online vs Offline</div>', unsafe_allow_html=True)
+        fig = px.pie(df_f, names='Online_Order', color='Online_Order',
+                     color_discrete_map={'Yes': '#E23744', 'No': '#1a1a30'},
+                     hole=0.6, template='plotly_dark')
         fig.update_traces(
-            textfont_size=13, textfont_color='white',
-            textposition='inside', textinfo='label+percent',
-            marker=dict(line=dict(color='#0a0a0f', width=2))
+            textfont=dict(size=13, color='white'), textposition='inside',
+            textinfo='label+percent',
+            marker=dict(line=dict(color='#06060c', width=3))
         )
-        st.plotly_chart(style_fig(fig, 360), use_container_width=True)
+        st.plotly_chart(style_fig(fig, 350), use_container_width=True)
 
     with col4:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Price vs Rating Bubble</div>', unsafe_allow_html=True)
-        fig = px.scatter(df_f, x='Cost_For_Two', y='Rating',
-                         size='Votes', color='Rating',
-                         color_continuous_scale='RdYlGn',
-                         hover_name='Restaurant_Name',
-                         hover_data=['City'],
-                         template='plotly_dark',
-                         opacity=0.75)
-        st.plotly_chart(style_fig(fig, 360), use_container_width=True)
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Price vs Rating Bubble</div>', unsafe_allow_html=True)
+        fig = px.scatter(df_f, x='Cost_For_Two', y='Rating', size='Votes',
+                         color='Rating', color_continuous_scale='RdYlGn',
+                         hover_name='Restaurant_Name', hover_data=['City'],
+                         template='plotly_dark', opacity=0.7)
+        st.plotly_chart(style_fig(fig, 350), use_container_width=True)
 
-    # Price Category Treemap
-    st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Price Category Market Share</div>', unsafe_allow_html=True)
+    # Treemap
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>Price Category Market Share</div>', unsafe_allow_html=True)
     price_tree = df_f.groupby('Price_Category').size().reset_index(name='Count')
     fig = px.treemap(price_tree, path=['Price_Category'], values='Count',
-                     color='Count',
-                     color_continuous_scale=[[0, '#1a1a2e'], [0.5, '#E23744'], [1, '#ff6b6b']],
+                     color='Count', color_continuous_scale=ZOMATO_REDS,
                      template='plotly_dark')
     fig.update_traces(
         textfont=dict(size=16, color='white', family='Inter'),
         marker=dict(cornerradius=8),
-        hovertemplate='<b>%{label}</b><br>Restaurants: %{value}<extra></extra>'
+        hovertemplate='<b>%{label}</b><br>Count: %{value}<extra></extra>'
     )
-    st.plotly_chart(style_fig(fig, 300), use_container_width=True)
+    st.plotly_chart(style_fig(fig, 280), use_container_width=True)
 
 # ══════════════════════════════════════════════════════════════
 # TAB 2 — CITY DEEP-DIVE
@@ -583,180 +627,258 @@ with tab2:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>City Rating Ranking</div>', unsafe_allow_html=True)
-        sorted_cities = city_stats.sort_values('Avg_Rating')
-        fig = px.bar(sorted_cities, x='Avg_Rating', y='City', orientation='h',
-                     color='Avg_Rating',
-                     color_continuous_scale='RdYlGn',
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>City Rating Ranking</div>', unsafe_allow_html=True)
+        s = city_stats.sort_values('Avg_Rating')
+        fig = px.bar(s, x='Avg_Rating', y='City', orientation='h',
+                     color='Avg_Rating', color_continuous_scale='RdYlGn',
                      template='plotly_dark',
-                     text=sorted_cities['Avg_Rating'].apply(lambda x: f'{x:.2f}'))
+                     text=s['Avg_Rating'].apply(lambda x: f'{x:.2f}'))
         fig.update_traces(textposition='outside', textfont_size=11, marker_cornerradius=6)
-        h = max(350, len(sorted_cities) * 32)
+        h = max(380, len(s) * 34)
         st.plotly_chart(style_fig(fig, h), use_container_width=True)
 
     with col2:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>City Cost Comparison</div>', unsafe_allow_html=True)
-        sorted_cost = city_stats.sort_values('Avg_Cost')
-        fig = px.bar(sorted_cost, x='Avg_Cost', y='City', orientation='h',
-                     color='Avg_Cost',
-                     color_continuous_scale=[[0, '#252545'], [0.5, '#E23744'], [1, '#ff8a80']],
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>City Cost Comparison</div>', unsafe_allow_html=True)
+        s = city_stats.sort_values('Avg_Cost')
+        fig = px.bar(s, x='Avg_Cost', y='City', orientation='h',
+                     color='Avg_Cost', color_continuous_scale=ZOMATO_REDS,
                      template='plotly_dark',
-                     text=sorted_cost['Avg_Cost'].apply(lambda x: f'₹{x:.0f}'))
+                     text=s['Avg_Cost'].apply(lambda x: f'₹{x:.0f}'))
         fig.update_traces(textposition='outside', textfont_size=11, marker_cornerradius=6)
         st.plotly_chart(style_fig(fig, h), use_container_width=True)
 
-    # Online order adoption by city
-    st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Online Order Adoption by City</div>', unsafe_allow_html=True)
-    online_city = city_stats.sort_values('Online_Pct', ascending=True)
-    fig = px.bar(online_city, x='Online_Pct', y='City', orientation='h',
+    # Online adoption
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>Online Order Adoption %</div>', unsafe_allow_html=True)
+    s = city_stats.sort_values('Online_Pct', ascending=True)
+    fig = px.bar(s, x='Online_Pct', y='City', orientation='h',
                  color='Online_Pct',
-                 color_continuous_scale=[[0, '#252545'], [0.5, '#E23744'], [1, '#2ecc71']],
+                 color_continuous_scale=[[0, '#1a1a30'], [0.5, '#E23744'], [1, '#2ecc71']],
                  template='plotly_dark',
-                 text=online_city['Online_Pct'].apply(lambda x: f'{x}%'))
+                 text=s['Online_Pct'].apply(lambda x: f'{x}%'))
     fig.update_traces(textposition='outside', textfont_size=11, marker_cornerradius=6)
-    st.plotly_chart(style_fig(fig, max(350, len(online_city) * 32)), use_container_width=True)
+    st.plotly_chart(style_fig(fig, h), use_container_width=True)
 
-    # City KPI Table
-    st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>City-wise Performance Summary</div>', unsafe_allow_html=True)
-    display_stats = city_stats.sort_values('Restaurants', ascending=False)
-    display_stats.columns = ['City', 'Restaurants', 'Avg Rating', 'Avg Cost (₹)', 'Total Votes', 'Online %']
-    st.dataframe(display_stats, use_container_width=True, hide_index=True)
+    # Table
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>Performance Summary</div>', unsafe_allow_html=True)
+    d = city_stats.sort_values('Restaurants', ascending=False).copy()
+    d.columns = ['City', 'Restaurants', 'Avg Rating', 'Avg Cost (₹)', 'Total Votes', 'Online %']
+    st.dataframe(d, use_container_width=True, hide_index=True)
 
 # ══════════════════════════════════════════════════════════════
-# TAB 3 — INSIGHTS & IMPACT
+# TAB 3 — CUISINE ANALYSIS (NEW!)
 # ══════════════════════════════════════════════════════════════
 with tab3:
     st.markdown('<br>', unsafe_allow_html=True)
 
-    # Key insights
-    st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Key Business Findings</div>', unsafe_allow_html=True)
+    # Parse cuisines
+    @st.cache_data
+    def get_cuisine_data(data):
+        cuisines_split = data['Cuisines'].dropna().str.split(',').explode().str.strip()
+        cuisine_counts = cuisines_split.value_counts().head(15).reset_index()
+        cuisine_counts.columns = ['Cuisine', 'Count']
+        return cuisine_counts, cuisines_split
 
-    insights = [
-        ("🏙️ Bangalore Dominates", "With 180+ restaurants, it's the most competitive market. New entrants face highest barrier to entry."),
-        ("📱 Online = +23% Engagement", "Restaurants offering online ordering receive 23% more customer votes on average — digital presence is non-negotiable."),
-        ("💰 Budget Sweet Spot", "45% of restaurants fall in ₹200–₹500 range. The mid-range (₹500–₹800) segment is underserved — big opportunity gap."),
-        ("⭐ Fine Dining Premium", "Luxury restaurants average 0.4 higher rating than budget ones. Customers equate higher price with better experience."),
-        ("🌆 Tier-2 Gold Rush", "Cities like Indore, Lucknow & Bhopal show lower competition but growing demand. Best cities for new restaurant launches."),
-        ("🍛 North Indian + Chinese", "This cuisine combo dominates all 15 cities. Any new restaurant must include these as core offerings."),
-    ]
-
-    insights_html = '<div class="insight-row">'
-    for title, desc in insights:
-        insights_html += f"""
-        <div class="ins">
-            <div class="ins-title">{title}</div>
-            <div class="ins-desc">{desc}</div>
-        </div>"""
-    insights_html += '</div>'
-    st.markdown(insights_html, unsafe_allow_html=True)
+    cuisine_counts, all_cuisines = get_cuisine_data(df_f)
 
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Price Category Analysis</div>', unsafe_allow_html=True)
-        price_stats = df_f.groupby('Price_Category').agg(
-            Count=('Restaurant_Name', 'count'),
-            Avg_Rating=('Rating', 'mean')
-        ).reset_index().round(2)
-        fig = px.bar(price_stats, x='Price_Category', y='Count',
-                     color='Avg_Rating', color_continuous_scale='RdYlGn',
-                     text='Count', template='plotly_dark')
-        fig.update_traces(textposition='outside', textfont_size=12, marker_cornerradius=6)
-        st.plotly_chart(style_fig(fig), use_container_width=True)
-
-    with col2:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Online Order Impact</div>', unsafe_allow_html=True)
-        online_stats = df_f.groupby('Online_Order').agg(
-            Avg_Rating=('Rating', 'mean'),
-            Avg_Votes=('Votes', 'mean'),
-            Avg_Cost=('Cost_For_Two', 'mean')
-        ).reset_index().round(1)
-
-        fig = go.Figure()
-        fig.add_trace(go.Bar(
-            x=online_stats['Online_Order'],
-            y=online_stats['Avg_Votes'],
-            name='Avg Votes',
-            marker_color=['#E23744', '#353560'],
-            text=online_stats['Avg_Votes'].apply(lambda x: f'{x:.0f}'),
-            textposition='outside',
-            marker_cornerradius=6,
-        ))
-        fig.update_layout(template='plotly_dark', showlegend=False)
-        st.plotly_chart(style_fig(fig), use_container_width=True)
-
-    # Restaurant Type Analysis
-    if 'Restaurant_Type' in df_f.columns:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Restaurant Type Distribution</div>', unsafe_allow_html=True)
-        type_data = df_f['Restaurant_Type'].value_counts().head(8).reset_index()
-        type_data.columns = ['Type', 'Count']
-        fig = px.bar(type_data, x='Count', y='Type', orientation='h',
-                     color='Count',
-                     color_continuous_scale=[[0, '#252545'], [0.5, '#E23744'], [1, '#ff8a80']],
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Top 15 Most Popular Cuisines</div>', unsafe_allow_html=True)
+        fig = px.bar(cuisine_counts, x='Count', y='Cuisine', orientation='h',
+                     color='Count', color_continuous_scale=ZOMATO_REDS,
                      template='plotly_dark',
                      text='Count')
-        fig.update_traces(textposition='outside', textfont_size=12, marker_cornerradius=6)
-        st.plotly_chart(style_fig(fig, 350), use_container_width=True)
+        fig.update_traces(textposition='outside', textfont_size=11, marker_cornerradius=6)
+        fig.update_layout(yaxis={'categoryorder': 'total ascending'})
+        st.plotly_chart(style_fig(fig, 480), use_container_width=True)
+
+    with col2:
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Cuisine Market Share</div>', unsafe_allow_html=True)
+        top8 = cuisine_counts.head(8)
+        fig = px.pie(top8, names='Cuisine', values='Count', hole=0.5,
+                     color_discrete_sequence=px.colors.sequential.Reds_r,
+                     template='plotly_dark')
+        fig.update_traces(
+            textfont=dict(size=11, color='white'), textposition='inside',
+            textinfo='label+percent',
+            marker=dict(line=dict(color='#06060c', width=2))
+        )
+        st.plotly_chart(style_fig(fig, 480), use_container_width=True)
+
+    # Cuisine by city heatmap
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>Top Cuisines × City Heatmap</div>', unsafe_allow_html=True)
+    top_cuisines_list = cuisine_counts.head(8)['Cuisine'].tolist()
+    cuisine_expanded = df_f.dropna(subset=['Cuisines']).copy()
+    cuisine_expanded['Cuisine_List'] = cuisine_expanded['Cuisines'].str.split(',')
+    cuisine_expanded = cuisine_expanded.explode('Cuisine_List')
+    cuisine_expanded['Cuisine_List'] = cuisine_expanded['Cuisine_List'].str.strip()
+    cuisine_city = cuisine_expanded[cuisine_expanded['Cuisine_List'].isin(top_cuisines_list)]
+    heatmap_data = cuisine_city.groupby(['City', 'Cuisine_List']).size().reset_index(name='Count')
+    heatmap_pivot = heatmap_data.pivot_table(index='City', columns='Cuisine_List', values='Count', fill_value=0)
+
+    fig = px.imshow(heatmap_pivot,
+                    color_continuous_scale=ZOMATO_REDS,
+                    template='plotly_dark',
+                    aspect='auto',
+                    labels=dict(color='Restaurants'))
+    fig.update_layout(
+        xaxis_title='', yaxis_title='',
+        xaxis=dict(side='top', tickangle=-30),
+    )
+    st.plotly_chart(style_fig(fig, max(350, len(heatmap_pivot) * 30)), use_container_width=True)
+
+    # Correlation Heatmap
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>📊 Correlation Heatmap</div>', unsafe_allow_html=True)
+    numeric_cols = ['Rating', 'Votes', 'Cost_For_Two', 'Value_Score']
+    corr_matrix = df_f[numeric_cols].corr().round(2)
+    fig = px.imshow(corr_matrix,
+                    text_auto=True,
+                    color_continuous_scale=[[0, '#1a1a30'], [0.5, '#4a1520'], [1, '#E23744']],
+                    template='plotly_dark',
+                    aspect='auto')
+    fig.update_layout(xaxis_title='', yaxis_title='')
+    fig.update_traces(textfont=dict(size=14, color='white'))
+    st.plotly_chart(style_fig(fig, 380), use_container_width=True)
 
 # ══════════════════════════════════════════════════════════════
-# TAB 4 — TOP PERFORMERS
+# TAB 4 — INSIGHTS & IMPACT
 # ══════════════════════════════════════════════════════════════
 with tab4:
+    st.markdown('<br>', unsafe_allow_html=True)
+
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>Key Business Findings</div>', unsafe_allow_html=True)
+
+    insights = [
+        ("🏙️ Bangalore Dominates", "180+ restaurants — highest competition. New entrants face maximum barrier to entry here."),
+        ("📱 Online = +23% Engagement", "Restaurants with online ordering get 23% more votes. Digital presence is non-negotiable in 2026."),
+        ("💰 Budget Sweet Spot", "45% of market is ₹200–₹500 range. Mid-range (₹500–₹800) is underserved — massive opportunity gap."),
+        ("⭐ Fine Dining Premium", "Luxury restaurants average 0.4 higher rating. Customers equate higher price with better experience."),
+        ("🌆 Tier-2 Gold Rush", "Indore, Lucknow, Bhopal show low competition + growing demand. Best cities for new launches."),
+        ("🍛 North Indian + Chinese", "This combo dominates all 15 cities. Must-have for any new restaurant's core menu."),
+    ]
+
+    ins_html = ""
+    for i, (title, desc) in enumerate(insights, 1):
+        ins_html += f"""<div class="ins"><div class="ins-num">0{i}</div><div class="ins-title">{title}</div><div class="ins-desc">{desc}</div></div>"""
+    st.markdown(ins_html, unsafe_allow_html=True)
+
     st.markdown('<br>', unsafe_allow_html=True)
 
     col1, col2 = st.columns(2)
 
     with col1:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Top 10 Highest Rated</div>', unsafe_allow_html=True)
-        top_rated = df_f[df_f['Votes'] >= 50].nlargest(10, 'Rating')[
-            ['Restaurant_Name', 'City', 'Rating', 'Cost_For_Two', 'Votes']
-        ].reset_index(drop=True)
-        top_rated.index += 1
-        st.dataframe(top_rated, use_container_width=True)
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Price Category Analysis</div>', unsafe_allow_html=True)
+        ps = df_f.groupby('Price_Category').agg(
+            Count=('Restaurant_Name', 'count'),
+            Avg_Rating=('Rating', 'mean')
+        ).reset_index().round(2)
+        fig = px.bar(ps, x='Price_Category', y='Count', color='Avg_Rating',
+                     color_continuous_scale='RdYlGn', text='Count', template='plotly_dark')
+        fig.update_traces(textposition='outside', textfont_size=12, marker_cornerradius=6)
+        st.plotly_chart(style_fig(fig), use_container_width=True)
 
     with col2:
-        st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Top 10 Value-for-Money</div>', unsafe_allow_html=True)
-        top_value = df_f[df_f['Votes'] > 50].nlargest(10, 'Value_Score')[
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Online Order Impact</div>', unsafe_allow_html=True)
+        os_data = df_f.groupby('Online_Order').agg(
+            Avg_Votes=('Votes', 'mean'),
+            Avg_Rating=('Rating', 'mean')
+        ).reset_index().round(1)
+        fig = go.Figure()
+        fig.add_trace(go.Bar(
+            x=os_data['Online_Order'], y=os_data['Avg_Votes'], name='Avg Votes',
+            marker_color=['#E23744', '#1a1a30'],
+            text=os_data['Avg_Votes'].apply(lambda x: f'{x:.0f}'),
+            textposition='outside', marker_cornerradius=6))
+        fig.update_layout(template='plotly_dark', showlegend=False)
+        st.plotly_chart(style_fig(fig), use_container_width=True)
+
+    # Restaurant Type
+    if 'Restaurant_Type' in df_f.columns:
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Restaurant Type Distribution</div>', unsafe_allow_html=True)
+        td = df_f['Restaurant_Type'].value_counts().head(8).reset_index()
+        td.columns = ['Type', 'Count']
+        fig = px.bar(td, x='Count', y='Type', orientation='h', color='Count',
+                     color_continuous_scale=ZOMATO_REDS, template='plotly_dark', text='Count')
+        fig.update_traces(textposition='outside', textfont_size=11, marker_cornerradius=6)
+        st.plotly_chart(style_fig(fig, 340), use_container_width=True)
+
+# ══════════════════════════════════════════════════════════════
+# TAB 5 — TOP PERFORMERS
+# ══════════════════════════════════════════════════════════════
+with tab5:
+    st.markdown('<br>', unsafe_allow_html=True)
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Top 10 Highest Rated</div>', unsafe_allow_html=True)
+        tr = df_f[df_f['Votes'] >= 50].nlargest(10, 'Rating')[
+            ['Restaurant_Name', 'City', 'Rating', 'Cost_For_Two', 'Votes']
+        ].reset_index(drop=True)
+        tr.index += 1
+        st.dataframe(tr, use_container_width=True)
+
+    with col2:
+        st.markdown('<div class="sec-title"><span class="sec-dot"></span>Top 10 Value-for-Money</div>', unsafe_allow_html=True)
+        tv = df_f[df_f['Votes'] > 50].nlargest(10, 'Value_Score')[
             ['Restaurant_Name', 'City', 'Rating', 'Cost_For_Two', 'Value_Score']
         ].reset_index(drop=True)
-        top_value.index += 1
-        st.dataframe(top_value, use_container_width=True)
+        tv.index += 1
+        st.dataframe(tv, use_container_width=True)
 
-    # Most Voted — Visual Chart
-    st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>Most Popular — By Customer Votes</div>', unsafe_allow_html=True)
-    top_votes = df_f.nlargest(10, 'Votes')
-    fig = px.bar(top_votes, x='Votes', y='Restaurant_Name', orientation='h',
+    # Most Voted Chart
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>Most Popular by Votes</div>', unsafe_allow_html=True)
+    top_v = df_f.nlargest(10, 'Votes')
+    fig = px.bar(top_v, x='Votes', y='Restaurant_Name', orientation='h',
                  color='Rating', color_continuous_scale='RdYlGn',
-                 hover_data=['City', 'Cost_For_Two', 'Online_Order'],
-                 template='plotly_dark',
-                 text=top_votes['Votes'].apply(lambda x: f'{x:,}'))
+                 hover_data=['City', 'Cost_For_Two'], template='plotly_dark',
+                 text=top_v['Votes'].apply(lambda x: f'{x:,}'))
     fig.update_traces(textposition='outside', textfont_size=11, marker_cornerradius=6)
     fig.update_layout(yaxis={'categoryorder': 'total ascending'})
     st.plotly_chart(style_fig(fig, 420), use_container_width=True)
 
-    # Search Restaurant
-    st.markdown('<div class="sec-title"><span class="sec-title-dot"></span>🔍 Search a Restaurant</div>', unsafe_allow_html=True)
-    search = st.text_input("Type restaurant name to search...", label_visibility="collapsed", placeholder="Search restaurants...")
+    # Search
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>🔍 Search Restaurant</div>', unsafe_allow_html=True)
+    search = st.text_input("Search...", label_visibility="collapsed", placeholder="Type restaurant name...")
     if search:
-        results = df_f[df_f['Restaurant_Name'].str.contains(search, case=False, na=False)]
-        if len(results) > 0:
-            st.dataframe(results[['Restaurant_Name', 'City', 'Area', 'Rating', 'Cost_For_Two', 'Online_Order', 'Votes']],
+        res = df_f[df_f['Restaurant_Name'].str.contains(search, case=False, na=False)]
+        if len(res) > 0:
+            st.dataframe(res[['Restaurant_Name', 'City', 'Area', 'Rating', 'Cost_For_Two', 'Online_Order', 'Votes']],
                         use_container_width=True, hide_index=True)
         else:
-            st.warning("No restaurants found. Try a different search term.")
+            st.warning("No restaurants found.")
+
+    # Download CSV
+    st.markdown('<br>', unsafe_allow_html=True)
+    st.markdown('<div class="sec-title"><span class="sec-dot"></span>📥 Export Data</div>', unsafe_allow_html=True)
+    col_dl1, col_dl2, col_dl3 = st.columns(3)
+    with col_dl1:
+        csv_filtered = df_f.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 Download Filtered Data (CSV)",
+            data=csv_filtered,
+            file_name="zomato_filtered_data.csv",
+            mime="text/csv"
+        )
+    with col_dl2:
+        csv_full = df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 Download Full Dataset (CSV)",
+            data=csv_full,
+            file_name="zomato_full_data.csv",
+            mime="text/csv"
+        )
 
 # ── Footer ────────────────────────────────────────────────────
 st.markdown("""
 <div class="app-footer">
     <div class="footer-brand">🍽️ Zomato India Analytics</div>
-    <div class="footer-sub">Built by SELVAKUMAR · Data Analyst Portfolio Project</div>
+    <div class="footer-sub">Built by Selvakumar · Data Analyst Portfolio Project</div>
     <div class="footer-links">
         <a href="https://github.com/SELVAKUMAR-ANALYST/zomato-analytics" target="_blank">GitHub</a>
         <a href="#">LinkedIn</a>
-        <a href="mailto:">Contact</a>
+        <a href="#">Resume</a>
     </div>
-    <div style="font-size:0.65rem; color:#333; margin-top:0.8rem;">
-        Python · Pandas · Plotly · SQL · Streamlit · EDA · Data Visualization
-    </div>
+    <div class="footer-tech">Python · Pandas · NumPy · Plotly · SQL · Streamlit · EDA · Data Visualization</div>
 </div>
 """, unsafe_allow_html=True)
