@@ -27,13 +27,15 @@ html, body, [class*="css"] {
 }
 
 /* ── Hide defaults ── */
-#MainMenu, header, footer, .stDeployButton { display: none !important; }
+#MainMenu { visibility: hidden; }
+header { visibility: hidden; }
+footer { visibility: hidden; }
+.stDeployButton { display: none !important; }
 
 /* ── Animated Background ── */
 .stApp {
     background: #06060c;
     color: #e8e8f0;
-    position: relative;
 }
 .stApp::before {
     content: '';
@@ -48,7 +50,7 @@ html, body, [class*="css"] {
         radial-gradient(ellipse at 50% 80%, rgba(226,55,68,0.03) 0%, transparent 50%);
     animation: bg-shift 20s ease-in-out infinite alternate;
     pointer-events: none;
-    z-index: 0;
+    z-index: -1;
 }
 @keyframes bg-shift {
     0% { transform: translate(0, 0) rotate(0deg); }
